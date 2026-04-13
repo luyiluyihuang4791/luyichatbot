@@ -1,0 +1,68 @@
+﻿
+> Scholarships.php.html:99:                  <td align="left" class="wword"><a 
+href="Offices/Offices.php" class="seo2">Administration</a><a href="#" class="seo2"></a></td>
+  Scholarships.php.html:100:                </tr>
+  Scholarships.php.html:101:                <tr>
+  Scholarships.php.html:102:                  <td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+  Scholarships.php.html:103:                </tr>
+> Scholarships.php.html:115:                        <td align="left" class="wword"><a 
+href="Scholarships.php" class="seo2">Scholarships</a></td>
+  Scholarships.php.html:116:                      </tr>
+  Scholarships.php.html:117:                      <tr>
+  Scholarships.php.html:118:                        <td height="1" colspan="2" bgcolor="#b9a38c" 
+></td>
+  Scholarships.php.html:119:                      </tr>
+> Scholarships.php.html:122:                        <td align="left" bgcolor="#EFFFB0" 
+class="wword02"><img src="image/icon04.gif" width="4" height="7" /><span class="wword"> <a 
+href="Scholarships.php" class="seo6">Scholarships</a></span></td>
+  Scholarships.php.html:123:                      </tr>
+  Scholarships.php.html:124:                    <tr>
+  Scholarships.php.html:125:                        <td height="1" colspan="2" 
+background="image/li_icon.gif"></td>
+  Scholarships.php.html:126:                    </tr>
+> Scholarships.php.html:129:                        <td align="left" class="wword02"><img 
+src="image/icon04.gif" width="4" height="7" /><span class="wword"> <a href="nternational.php" 
+class="seo6">nternational Programs </a></span></td>
+  Scholarships.php.html:130:                      </tr>
+  Scholarships.php.html:131:                      <tr>
+  Scholarships.php.html:132:                        <td height="1" colspan="2" 
+background="image/li_icon.gif"></td>
+  Scholarships.php.html:133:                      </tr>
+> Scholarships.php.html:139:                  <td align="left" class="wword"><a 
+href="Exchange_Program.php" class="seo2">Exchange Program</a></td>
+  Scholarships.php.html:140:                </tr>
+  Scholarships.php.html:141:                <tr>
+  Scholarships.php.html:142:                 <td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+  Scholarships.php.html:143:                </tr>
+> Scholarships.php.html:170:            <td align="left"><a href="index.php" title="Home" 
+class="seo3">Home</a> <span class="wword03">&gt;</span> <a href="Scholarships.php" 
+title="Introduction" class="seo3">Scholarships</a> <span class="wword03">&gt;</span> <a 
+href="Scholarships.php" title="Overview" class="seo3">Scholarships</a></td>
+  Scholarships.php.html:171:          </tr>
+  Scholarships.php.html:172:          <tr>
+  Scholarships.php.html:173:            <td align="right"><table width="80" border="0" 
+cellspacing="0" cellpadding="0">
+  Scholarships.php.html:174:              <tr>
+> Scholarships.php.html:183:            <td align="left"><img src="image/icon02.gif" width="24" 
+height="21" /><span class="wword04">Scholarships </span></td>
+  Scholarships.php.html:184:          </tr>
+  Scholarships.php.html:185:          <tr>
+  Scholarships.php.html:186:            <td align="left"><ul>
+  Scholarships.php.html:187:              <li><a 
+> Scholarships.php.html:188:        href="Offices/Offices_3.php" title="International Affairs 
+Center" class="seo3">International 
+  Scholarships.php.html:189:                Affairs Center</a></li>
+  Scholarships.php.html:190:              <li><a 
+> Scholarships.php.html:191:        href="Offices/Offices_5.php" title="Office of Academic Affairs" 
+class="seo3">Office 
+  Scholarships.php.html:192:                of Academic Affairs</a></li>
+  Scholarships.php.html:193:              <li><a 
+> Scholarships.php.html:194:        href="Offices/Offices_9.php" title="Student Affairs Office" 
+class="seo3">Student 
+> Scholarships.php.html:195:                Affairs Office</a></li>
+  Scholarships.php.html:196:            </ul>
+  Scholarships.php.html:197:            </td>
+  Scholarships.php.html:198:          </tr>
+  Scholarships.php.html:199:
+
+

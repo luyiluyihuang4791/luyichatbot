@@ -1,0 +1,640 @@
+<?php 
+header("Content-Type:text/html; charset=utf-8"); 
+?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Welcome to Ling Tung University</title>
+<link href="CSS/Eng_Ltu.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+body {
+	background-color: #A6B588;
+}
+-->
+</style>
+<script src="Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+</head>
+
+<body>
+ 
+<div align="center">
+<table width="820" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td align="center"><table width="780" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><table width="780" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td rowspan="2" align="left"><a href="http://www.ltu.edu.tw/" target="_blank"><img src="image/logo.jpg" width="215" height="76" border="0" /></a></td>
+            <td align="right"><table width="250" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td><a 
+  href="index.php" title="Home" class="seo"><img src="image/icon03.gif" width="12" height="9" border="0" />Home</a></td>
+                  <td><a 
+  href="http://www.ltu.edu.tw/Eng_Ltu" title="Home" class="seo"><img src="image/icon03.gif" width="12" height="9" border="0" /></a><a 
+  href="mailto:ltc226@teamail.ltu.edu.tw" title="Contact" class="seo">Contact</a></td>
+                  <td><a 
+  href="http://www.ltu.edu.tw/Eng_Ltu" title="Home" class="seo"><img src="image/icon03.gif" width="12" height="9" border="0" /></a><a 
+  href="SiteMap.php" title="Site Map" class="seo">Site Map</a></td>
+                  <td><a 
+  href="http://www.ltu.edu.tw/Eng_Ltu" title="Home" class="seo"><img src="image/icon03.gif" width="12" height="9" border="0" /></a><a href="http://www.ltu.edu.tw/" title="Chinese" class="seo">Chinese</a></td>
+                </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td align="right"><table border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+            
+            <td valign="bottom"><form  method="get" name="searchform" action="http://www.google.com/search" target="_blank">
+                           <input type="hidden" name="sitesearch" value="english.ltu.edu.tw"/>
+                          <img alt="Search" src="image/search_icon.gif" /><input alt="search" type="text"  name="as_q" size="20" />
+                            <input type="submit" class="btn" value="Go"/> 
+                            </form></td>
+          </tr>
+            </table></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td height="5" bgcolor="#AE8560"></td>
+      </tr>
+      <tr>
+        <td height="2" bgcolor="#FFFFFF"></td>
+      </tr>
+      <tr>
+        <td><script type="text/javascript">
+AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0','width','780','height','150','src','image/flashtop','quality','high','pluginspage','http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash','movie','image/flashtop' ); //end AC code
+</script><noscript><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="780" height="150">
+          <param name="movie" value="image/flashtop.swf" />
+          <param name="quality" value="high" />
+          <embed src="image/flashtop.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="780" height="150"></embed>
+        </object></noscript></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td align="center"><table width="780" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="180" valign="top" class="li"><table width="175" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+                  <td align="left" class="wword"><a href="Overview.php" class="seo2">Introduction</a></td>
+                </tr>
+                <tr>
+                  <td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+                </tr>
+                <tr>
+                  <td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+                  <td align="left" class="wword"><a href="Departments/Departments.php" class="seo2">Academics</a></td>
+                </tr>
+                <tr>
+                  <td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+                </tr>
+                 <tr>
+                  <td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+                  <td align="left" class="wword"><a href="Offices/Offices.php" class="seo2">Administration</a><a href="#" class="seo2"></a></td>
+                </tr>
+                <tr>
+                  <td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+                </tr>
+                 <tr>
+                  <td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+                  <td align="left" class="wword"><a href="Applicants.php" class="seo2">Admission </a></td>
+                </tr>
+                <tr>
+                  <td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+                </tr>
+                  <tr>
+                  <td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+                  <td align="left" class="wword"><a href="Scholarships.php" class="seo2">Scholarships</a><a href="Applicants.php" class="seo2"></a></td>
+                </tr>
+                <tr>
+                  <td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+                </tr>
+                   <tr>
+                  <td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+                  <td align="left" background="Exchange_Program.php" class="wword"><a href="Exchange_Program.php" class="seo2">Exchange Program</a><a href="Scholarships.php" class="seo2"></a></td>
+                </tr>
+                <tr>
+                  <td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+                </tr>
+                   <tr>
+                  <td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+                  <td align="left" class="wword"><a href="Academic_Projects.php" class="seo2">Academic Projects </a></td>
+                </tr>
+                <tr>
+                  <td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+                </tr>
+                <tr>
+                  <td colspan="2"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+                        <td align="left" class="wword"><a href="Sister_School.php" class="seo2">Sister School</a><a href="Academic_Projects.php" class="seo2"></a></td>
+                      </tr>
+                      <tr>
+                        <td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+                      </tr>
+                      <tr>
+                        <td bgcolor="#EFFFB0">&nbsp;</td>
+                        <td align="left" bgcolor="#EFFFB0" class="wword02"><img src="image/icon04.gif" width="4" height="7" /><span class="wword"> <a href="Sister_School.php" class="seo6">Sister School</a></span></td>
+                      </tr>
+                    <tr>
+                        <td height="1" colspan="2" background="image/li_icon.gif"></td>
+                    </tr>
+                      
+
+                  </table></td>
+                </tr>
+
+            </table></td>
+          </tr>
+          <tr>
+            <td align="left">&nbsp;</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+        </table></td>
+        <td valign="top" style="padding-left:20px"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td align="left"><a href="index.php" title="Home" class="seo3">Home</a> <span class="wword03">&gt;</span> <a href="Sister_School.php" title="Introduction" class="seo3">Sister School</a> <span class="wword03">&gt;</span> <a href="Sister_School.php" title="Overview" class="seo3">Sister School</a></td>
+          </tr>
+          <tr>
+            <td align="right"><table width="80" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="20" valign="middle"><a 
+      href="javascript:history.back();" title="Previous" class="seo3"><img src="image/Previous_icon.gif" width="16" height="12" border="0" /></a></td>
+                <td width="50"><a 
+      href="javascript:history.back();" title="Previous" class="seo3">Previous</a></td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td align="left"><img src="image/icon02.gif" width="24" height="21" /><span class="wword04">Statistics</span></td>
+          </tr>
+          <tr>
+            <td align="left"><table width="100%" border="0" cellpadding="5" cellspacing="1" bgcolor="#A4CC00" class="seo3">
+              <tbody>
+                <tr>
+                  <td colspan="4" bgcolor="#EFFFB0" class="wword03">中國大陸</td>
+                </tr>
+                <tr>
+                  <td bgcolor="#FFFFFF" class="seo3"><a
+                  href="http://www.suda.edu.cn/" target="_blank" class="seo3">蘇州大學<br />
+                     Soochow University, P.R.O.C.</a></td>
+                  <td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.swufe.edu.cn/version3/edit_v3/default.asp" target="_blank" class="seo3">西南財經大學 <br />
+                      South   Western University of Finance and Economics, P.R.O.C.</a></p>                    </td>
+                  <td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.jnu.edu.cn/" target="_blank" class="seo3">廣州暨南大學<br />
+                  Jiana University, P.R.O.C.</a></p></td>
+                  <td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.bfpx.com/index.asp" target="_blank" class="seo3">北京服裝學院<br />
+             Beijing Institute of Clothing Technology, P.R.O.C</a> </p></td>
+                </tr>
+                  <tr>
+                  <td bgcolor="#FFFFFF" class="seo3"><a
+                  href="http://www.gdufs.edu.cn/" target="_blank" class="seo3">廣東外語外貿大學<br />
+Guandong University of Foreign Studies, P.R.O.C</a></td>
+                  <td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.lingnancollege.com.cn/" target="_blank" class="seo3">嶺南職業技術學院
+                        <br />
+                        Guangdong Lingnan Institute of Technology, P.R.O.C</a></p>                    </td>
+                  <td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.lyun.edu.cn/" target="_blank" class="seo3">龍岩學院<br />
+Longyan University,P.R.O.C</a></p></td>
+                  <td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.sxufe.edu.cn/" target="_blank" class="seo3">山西財經大學<br />
+Shanxi University of Finance & Economics</a> </p></td>
+                </tr>
+                  <tr>
+                  <td bgcolor="#FFFFFF" class="seo3"><a
+                  href="http://www.sspu.cn" target="_blank" class="seo3">上海第二工業大學<br />
+Shanghai Second Polytechnic Univerity, P.R.O.C</a></td>
+                  <td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.gdcjxx.com/" target="_blank" class="seo3">廣東財經職業技術學校<br />
+Finance and Economics Vocational School</a></p></td>
+                  <td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.ustb.edu.cn/" target="_blank" class="seo3">北京科技大學
+                        <br />
+                        University of Science & Technology Beijingl</a></p></td>
+                  <td bgcolor="#FFFFFF" class="style2"><p><a href="http://218.28.84.54:8081/" target="_blank" class="seo3">濮陽職業技術學院
+                        <br />
+                        Pu Yang zhiye Ji Shu Xue Yuan</a> </p></td>
+                </tr>
+                <tr>
+                  <td width="25%" bgcolor="#FFFFFF" class="style2"><p><a href="http://www.zzhxxy.com/" target="_blank" class="seo3">鄭州華信學院<br />
+Zheng Zhou Hua Xin Xue Yuan</a></p></td>
+                  <td width="25%" bgcolor="#FFFFFF" class="style2"><p><a href="http://www.weihaiedu.cn/Index.html" target="_blank" class="seo3">威海市教育學會<br />
+Weihai City Education Institution, P.R.O.C</a><br />
+                  </p></td>
+                  <td width="25%" bgcolor="#FFFFFF" class="style2"><p><a href="http://ysxy.suda.edu.cn/" target="_blank" class="seo3">蘇州大學藝術學院<br />
+Soochow University</a></p></td>
+                  <td width="25%" bgcolor="#FFFFFF" class="style2"><p><a href="http://www.xjtu.edu.cn/" target="_blank" class="seo3">西安交通大學<br />
+Xian Jiaotong University, P.R.O.C.</a></p></td>
+                </tr>
+                <tr>
+                  <td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.bjanimation.com/web/index.asp" target="_blank" class="seo3">北京電影學院動畫學院
+                        <br />
+                        Animation School of Beijing Film Academy, P.R.O.C.</a></p></td>
+                  <td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.buu.edu.cn/" target="_blank" class="seo3">北京聯合大學<br />
+                    Beijing Union University, P.R.O.C.</a></p></td>
+                  <td bgcolor="#FFFFFF" class="style2"><span class="main"><a href="http://www.bjfu.edu.cn/" target="_blank" class="seo3">北京林業大學信息學院
+                        <br />
+                        School of Information Science and Technology,Beijing Forestry University</a></span></td>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.lnc.edu.cn/" target="_blank" class="seo3">嶺南職業技術學院
+Guangdong Lingnan Institute of Technology</a></td>
+                </tr>
+               <tr>
+                  <td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.qtc.edu.cn/" target="_blank" class="seo3">青島職業技術學院<br />
+                    Qingdao Technical College</a></p></td>
+                  <td bgcolor="#FFFFFF" class="style2"><p><a href="http://202.107.243.69/" target="_blank" class="seo3">湖州職業技術學院<br />
+                    Huzhou Vocational & Technical College </a></p></td>
+                  <td bgcolor="#FFFFFF" class="style2"><span class="main"><a href="http://www.bsccnu.net.cn/" target="_blank" class="seo3">華中師範大學漢口分校<br />
+Hankou Branch of Central China Normal University</a></span></td>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.gzgs.org.cn/index~~.asp" target="_blank" class="seo3">廣州工商職業技術學院 
+                      <br />
+                      Guangzhou Vocational &Technical Institute of Industry &Commerce</a></td>
+                </tr>
+                 <tr>
+                  <td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.hzu.edu.cn/" target="_blank" class="seo3">惠州學院<br />
+Huizhou University</a></p></td>
+                  <td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.cncnc.edu.cn/" target="_blank" class="seo3">長春師範學院<br />
+Changchun Normal University</a></p></td>
+                  <td bgcolor="#FFFFFF" class="style2"><span class="main"><a href="http://www.5aaa.com/" target="_blank" class="seo3">北京科技職業學院<br />
+University for Science& Technology Beijing</a></span></td>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.kmac.org.cn/" target="_blank" class="seo3">昆明藝術職業學院
+                      <br />
+                      Kunming Professional College of Arts</a></td>
+                </tr>
+                 <tr>
+                  <td bgcolor="#FFFFFF" class="style2"><p><a href="http://ahbvc.cn/" target="_blank" class="seo3">安徽工商職業學院<br />
+Anhui Business Vocational College</a></p></td>
+                  <td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.einsun.cn/" target="_blank" class="seo3">雲南愛因森軟件職業學院<br />
+                        Yunnan Einsun Software College</a></p></td>
+                  <td bgcolor="#FFFFFF" class="style2"><span class="main"><a href="http://www.gcu.edu.cn/" target="_blank" class="seo3">華南理工大學廣州學院<br />
+Guangzhou Auto College South China University of Technology</a></span></td>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.taru.edu.cn/" target="_blank" class="seo3">塔里木大學<br />
+Tarim University</a></td>
+                </tr>
+                 <tr>
+                  <td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.cztgi.edu.cn/templet/default/index.jsp" target="_blank" class="seo3">常州紡職服裝職業技術學院<br />
+                    Changzhou Textile Garment Institute</a></p></td>
+                  <td bgcolor="#FFFFFF" class="style2"><p><a href="http://218.5.241.16/" target="_blank" class="seo3">三明學院
+                        <br />
+                        Sanming University</a></p></td>
+                  <td bgcolor="#FFFFFF" class="style2"><span class="main"><a href="http://www.ndsy.cn/" target="_blank" class="seo3">寧德師範學院<br />
+Ningde Normal University</a></span></td>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.xmht.com/" target="_blank" class="seo3">廈門華天涉外職業技術學院
+                      <br />
+                      Xiamen Huatian International Vocation Institute</a></td>
+                </tr>
+                <tr>
+                  <td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.hqu.edu.cn/" target="_blank" class="seo3">華僑大學<br />
+Huaqiao University</a></p></td>
+                  <td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.zqtbu.com/" target="_blank" class="seo3">肇慶工商職業技術學院
+                        <br />
+                        Zhaoqing Business And Technology College</a></p></td>
+                  <td bgcolor="#FFFFFF" class="style2"><span class="main"><a href="http://www.cueb.edu.cn/" target="_blank" class="seo3">首都經濟貿易大學
+                        <br />
+                        Capital University of Economics and Business, P.R.O.C.</a></span></td>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.nankai.edu.cn/" target="_blank" class="seo3">南開大學<br />
+                    Nankai University, P.R.O.C.</a></td>
+                </tr>
+                <tr>
+                  <td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.ahu.edu.cn/" target="_blank" class="seo3">安徽大學
+                        <br />
+                        ANHUI University, P.R.O.C.</a></p></td>
+                  <td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.bigc.edu.cn/" target="_blank" class="seo3">北京印刷學院<br />
+Beijing Institute of Graphic Communication</a></p></td>
+                  <td bgcolor="#FFFFFF" class="style2"><span class="main"><a href="http://www.szpt.edu.cn/" target="_blank" class="seo3">深圳職業技術學院
+                        <br />
+                        Shenzhen Polytechnic, P.R.O.C.</a></span></td>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.henu.edu.cn/" target="_blank" class="seo3">河南大學<br />
+Henan University</a></td>
+                </tr>
+                <tr>
+                  <td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.zjhyxy.net/" target="_blank" class="seo3">橫店影視職業學院<br />
+Hengdian College of Film Television</a></p></td>
+                  <td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.fjhzjy.com/" target="_blank" class="seo3">福建中華職業技術學校
+                        <br />
+                        Fujian vocational and technical schools</a></p></td>
+                  <td bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                  <td bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="4" bgcolor="#EFFFB0" class="wword03">美國</td>
+                </tr>
+                <tr>
+                  <td width="25%" bgcolor="#FFFFFF" class="style2"><a href="http://www.psu.edu/" target="_blank" class="seo3">美國賓州大學教育學院<br />
+                    College of 
+                    Education, the Pennsylvania State University, U.S.A.</a></td>
+                  <td width="25%" bgcolor="#FFFFFF" class="style2"><a href="http://www.ccu.edu/" target="_blank" class="seo3">科羅拉多基督教大學<br />
+                    Colorado Christian 
+                    University, U.S.A</a></td>
+                  <td width="25%" bgcolor="#FFFFFF" class="style2"><a href="http://www.npu.edu/" target="_blank" class="seo3">西北理工大學<br />
+                    Northwestern 
+                    Polytechnic University, U.S.A</a></td>
+                  <td width="25%" bgcolor="#FFFFFF" class="style2"><a href="http://www.ciula.edu/" target="_blank" class="seo3">加州國際管理大學<br />
+  California 
+                    International Business Universit</a>y</td>
+                </tr>
+                <tr>
+                  <td width="25%" bgcolor="#FFFFFF" class="style2"><a href="http://www.medaille.fotech.edu.tw/01_intro.htm" target="_blank" class="seo3">麥戴爾大學<br />
+Medaille College</a></td>
+                  <td width="25%" bgcolor="#FFFFFF" class="style2"><a href="http://www.stu.edu/" target="_blank" class="seo3">美國聖多瑪斯大學<br />
+St. Thomas University, Florida, U.S.A.</a></td>
+                  <td width="25%" bgcolor="#FFFFFF" class="style2"><a href="http://www.unr.edu/" target="_blank" class="seo3">內華達大學雷諾分校<br />University of Nevada, Reno, Nevada, U.S.A.</a></td>
+                  <td width="25%" bgcolor="#FFFFFF" class="style2"><a href="http://www.utm.edu/" target="_blank" class="seo3">美國田納西大學馬丁分校<br />The University of Tennessee at Martin, U.S.A.</a></td>
+                </tr>
+                <tr>
+                  <td width="25%" bgcolor="#FFFFFF" class="style2"><a href="http://www.metrostate.edu/" target="_blank" class="seo3">美國曼徹州立大學
+                      <br />
+                      Metropolitan State University, St. Paul, Minnesota, U.S.A.</a></td>
+                  <td width="25%" bgcolor="#FFFFFF" class="style2"><a href="http://umflint.edu/" target="_blank" class="seo3">密西根大學 弗林特校區<br />
+University of Michigan-FILNT</a></td>
+                  <td width="25%" bgcolor="#FFFFFF" class="style2"><a href="http://www.umsl.edu/" target="_blank" class="seo3">密蘇里大學聖路易分校<br />
+University of Missouri-St.Louis</a></td>
+                  <td width="25%" bgcolor="#FFFFFF" class="style2"><a href="http://www.okcu.edu/" target="_blank" class="seo3">奧克拉荷馬市大學
+Oklahoma City University, U.S.A.</a></td>
+                </tr>
+                  <tr>
+                  <td width="25%" bgcolor="#FFFFFF" class="style2"><a href="http://www.thomasmore.edu/" target="_blank" class="seo3">肯塔基州湯瑪斯摩爾大學<br />Thomas More College, U.S.A</a></td>
+                  <td width="25%" bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                  <td width="25%" bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                  <td width="25%" bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="4" bgcolor="#EFFFB0" class="wword03">阿根廷</td>
+                </tr>
+                <tr>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.unlp.edu.ar/" target="_blank" class="seo3">阿根廷國立拉普拉塔大學<br />Universidad Nacional de La Plata , Argentina</a></td>
+                  <td bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                  <td bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                  <td bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="4" bgcolor="#EFFFB0" class="wword03">智利</td>
+                </tr>
+                <tr>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.santotomas.cl/" target="_blank" class="seo3">智利聖多瑪斯大學<br />
+                    Universidad Santo Tomas, Chile</a></td>
+                  <td bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                  <td bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                  <td bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                </tr>
+                 <td colspan="4" bgcolor="#EFFFB0" class="wword03">日本</td>
+                </tr>
+                <tr>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.sapporo-u.ac.jp/" target="_blank" class="seo3">札幌大學<br />
+                    Sapporo University,Japan</a></td>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.kyori.ac.jp/" target="_blank" class="seo3">京都理容美容學校<br />
+                    Kyoto Barber &amp; Beauty College</a></td>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.bunka.ac.jp/" target="_blank" class="seo3">学校法人 文化学園 
+EDUCATIONAL FOUNDATION BUNKA GAKUEN</a></td>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.shohoku.ac.jp/" target="_blank" class="seo3">湘北大學<br />
+                    Shohoku College, Japan</a></td>
+                </tr>
+                <tr>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.st.thomas.ac.jp/english/index.html" target="_blank" class="seo3">英知大學<br />
+                    Saint Thomas University of Osaka</a></td>
+                  <td bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                  <td bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                  <td bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="4" bgcolor="#EFFFB0" class="wword03">韓國</td>
+                </tr>
+                <tr>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.smu.ac.kr/" target="_blank" class="seo3">韓國祥明大學<br />
+                    Sangmyung University, Korea</a></td>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://english.donga.ac.kr/" target="_blank" class="seo3">東亞大學東北亞國際大學院<br />
+                    Graduate School of Northeast 
+                    Asian Studies,Dong-A University</a></td>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.ysc.ac.kr/" target="_blank" class="seo3">韓國龍仁松潭大學
+                      <br />
+                      Yong in Songdam Gollege</a></td>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://cms.gntech.ac.kr/user/gntech/index.action" target="_blank" class="seo3">晉州實業大學
+                      <br />
+                      Jinju University, Korea </a></td>
+                </tr>
+                  <tr>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://english.kookmin.ac.kr/" target="_blank" class="seo3">國民大學<br />
+Kookmin University, Korea</a></td>
+                  <td bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                  <td bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                  <td bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                </tr>
+                 <tr class="style3">
+                  <td colspan="4" bgcolor="#EFFFB0" class="wword03">俄羅斯</td>
+                </tr>
+                <tr>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://intstudy.mai.ru/" target="_blank" class="seo3">莫斯科航空大學<br />
+                    Moscow State Aviation Institute (MAI), Russia</a></td>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.mirea.ru/" target="_blank" class="seo3">莫斯科無線電電機暨自動化大學
+                      <br />
+                      Moscow State Institute of Radioengineerin, Electronic and Automation(MAI), Russia </a><a href="http://www.hubt.edu.vn/en/?truyvan=gioithieul" target="_blank"></a></td>
+                  <td bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                  <td bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                </tr>
+                <tr class="style3">
+                  <td colspan="4" bgcolor="#EFFFB0" class="wword03">越南</td>
+                </tr>
+                <tr>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.vnu.edu.vn/" target="_blank" class="seo3">國立越南師範大學
+                      <br />
+                      Vietnam National University, Hanoi</a></td>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://hubt.edu.vn/" target="_blank" class="seo3">河內商業暨科技大學
+                      <br />
+                      Hanoi University of Business and Technology</a><a href="http://www.hubt.edu.vn/en/?truyvan=gioithieul" target="_blank"></a></td>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.neu.edu.vn/" target="_blank" class="seo3">越南國民經濟大學<br />
+                    National Economics University, Vietnam</a></td>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.hueuni.edu.vn/" target="_blank" class="seo3">順化經濟大學<br />
+                    College of Economics, Hue University, Vietnam</a></td>
+                </tr>
+                <tr>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.hueuni.edu.vn/" target="_blank" class="seo3">順化經濟大學<br />
+                    College of Economics, Hue 
+                    University, Vietnam</a></td>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.vnu.edu.vn/" title="越南人文社會大學(開啟新視窗)" target="_blank" class="seo3" tabindex="102">越南人文社會大學<br />
+                    Hanoi National University, College of Social Sciences   And Humanities, Vietnam</a><a href="http://www.vnu.edu.vn/" target="_blank"></a></td>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://en.hcmuaf.edu.vn/" title="越南人文社會大學(開啟新視窗)" target="_blank" class="seo3" tabindex="102">越南農林大學<br />
+                    Nong Lam University Hochiminh City, Vietnam</a><a href="http://www.vnu.edu.vn/" target="_blank"></a></td>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.hcmut.edu.vn/en/" title="越南人文社會大學(開啟新視窗)" target="_blank" class="seo3" tabindex="102">工業部胡志明市工業大學<br />
+                    Minister of Industry Hochiminh University of Industry, Vietnam</a><a href="http://www.vnu.edu.vn/" target="_blank"></a></td>
+                </tr>
+                  <tr>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.ctim.edu.vn/" target="_blank" class="seo3">胡志明市工藝及企業管理高等學院<br />
+                    The College of Technology &Industrial Management (CTIM), Vietnam</a></td>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.vnu.edu.vn/" target="_blank"></a><a href="http://www.htc.edu.vn/rss/index.php?" title="河內旅遊學院Hanoi Tourism College, Vietnam(開啟新視窗)" target="_blank" class="seo3" tabindex="102">河內旅遊學院<br />
+                    Hanoi   Tourism College, Vietnam</a></td>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://halongact.edu.vn/" title="下龍文化藝術及旅遊學院Ha Long College of Culture-Arts and Tourism,Vietnam(開啟新視窗)" target="_blank" class="seo3" tabindex="102">下龍文化藝術及旅遊學院<br />
+                    Ha   Long College of Culture-Arts and Tourism,Vietnam</a></td>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.niem.edu.vn/" title="越南教育管理學院National Institute of Education Management (NIEM), Vietnam(開啟新視窗)" target="_blank" class="seo3" tabindex="102">越南教育管理學院<br />
+                    National   Institute of Education Management (NIEM), Vietnam</a></td>
+                </tr>
+                <tr class="style3">
+                  <td colspan="4" bgcolor="#EFFFB0" class="wword03">馬來西亞</td>
+                </tr>
+                <tr>
+                  <td bgcolor="#FFFFFF" class="style2"><a class="seo3" 
+                  href="http://www.toa.edu.my/index.php" 
+                  target="_blank">馬來西亞第一學院<br />
+The One Academy of Communication Design</a></td>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.e-asiaworld.com/index.php?module=ContentExpress&amp;func=display&amp;ceid=78&amp;theme=home" target="_blank" class="seo3">亞洲國際教育語言學院<br />
+Asia Educational Academy (AEA)</a></td>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.tarc.edu.my/" target="_blank" class="seo3">拉曼學院<br />
+                    Tunku Abdul Rahman College</a></td>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.sc.edu.my/" target="_blank" class="seo3">南方學院<br />
+                    Southern College</a></td>
+                </tr>
+                <tr>
+                  <td bgcolor="#FFFFFF" class="style2"><a class="seo3" 
+                  href="http://inhouse.edu.my/" 
+                  target="_blank">英豪多媒體傳播學院
+                      <br />
+                      In-House Multimedia College</a></td>
+                  <td bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                  <td bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                  <td bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                </tr>
+                 <tr class="style3">
+                  <td colspan="4" bgcolor="#EFFFB0" class="wword03">菲律賓</td>
+                </tr>
+                <tr>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.holyspirit.edu.ph/" target="_blank" class="seo3">菲律賓聖神學院<br />
+                    College of the Holy Spirit</a></td>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.swu.edu.ph/index.php" target="_blank" class="seo3">菲律賓西南大學<br />
+                    Southwestern University</a></td>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.ust.edu.ph/" title="菲律賓聖多瑪斯大學University of Santo Tomas, Philippines(開啟新視窗)" target="_blank" class="seo3" tabindex="102">菲律賓聖多瑪斯大學<br />
+                    University of Santo   Tomas, Philippines</a></td>
+                  <td bgcolor="#FFFFFF" 
+class="style2">&nbsp;</td>
+                </tr>
+                 <tr class="style3">
+                  <td colspan="4" bgcolor="#EFFFB0" class="wword03">新加坡</td>
+                </tr>
+                <tr>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.smu.edu.sg/home/new/" target="_blank" class="seo3">新加坡管理大學 沉基文金融經濟研究所
+                      <br />
+                      Singapore Management University</a></td>
+                  <td bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                  <td bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                  <td bgcolor="#FFFFFF" 
+class="style2">&nbsp;</td>
+                </tr>
+                 <tr class="style3">
+                  <td colspan="4" bgcolor="#EFFFB0" class="wword03">非洲</td>
+                </tr>
+                <tr>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.univ-koudougou.bf/" target="_blank" class="seo3">古都古大學<br />
+                    UNIVERSIT'E DE KOUDOUGOU , Burkina 
+                    Faso</a></td>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.unigambia.gm/" target="_blank" class="seo3">甘比亞大學<br />
+                    University of The Gambia , Republic 
+                    of the Gambia</a></td>
+                  <td bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                  <td bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                </tr>
+                <tr class="style3">
+                  <td colspan="4" bgcolor="#EFFFB0" class="wword03">英國</td>
+                </tr>
+                
+                <tr>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.mmu.ac.uk/" target="_blank" class="seo3">英國地蒙佛大學設計學院<br />
+                    Faculty of Art and Design, De 
+                    Montfort University,UK</a></td>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.dmu.ac.uk/faculties/art_and_design/" target="_blank" class="seo3">英國曼徹斯特都會大學<br />
+                    Manchester Metropolitan 
+                    University,United Kingdom</a></td>
+                  <td bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                  <td bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                </tr>
+                 <tr class="style3">
+                  <td colspan="4" bgcolor="#EFFFB0" class="wword03">瑞士</td>
+                </tr>
+                
+                <tr>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.bhms.ch/" target="_blank" class="seo3">瑞士BHMS商業及飯店管理大學
+                      <br />
+                      Business & Hotel Management School
+</a></td>
+                  <td bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                  <td bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                  <td bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                </tr>
+                 <tr class="style3">
+                  <td colspan="4" bgcolor="#EFFFB0" class="wword03">匈牙利</td>
+                </tr>
+                
+                <tr>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.en.itk.ppke.hu/education/" target="_blank" class="seo3">巴斯瑪尼彼得天主教大學<br />P'azmary P'eter Catholic University Budapest, Hungary
+</a></td>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.avkf.hu/" title="亞伯威尼斯天主教大學Apor Vilmos Catholic College, Hungary(開啟新視窗)" target="_blank" class="seo3" tabindex="102">亞伯威尼斯天主教大學<br />
+                    Apor Vilmos Catholic   College, Hungary</a><a href="http://www.en.itk.ppke.hu/education/" target="_blank" class="seo3"></a></td>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.mie.hu/en" title="工業藝術大學Hungarian University of Craft and Design, Hungary(開啟新視窗)" target="_blank" class="seo3" tabindex="102">工業藝術大學<br />
+                    Hungarian   University of Craft and Design, Hungary</a><a href="http://www.en.itk.ppke.hu/education/" target="_blank" class="seo3"></a></td>
+                  <td bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                </tr>
+                 <tr class="style3">
+                  <td colspan="4" bgcolor="#EFFFB0" class="wword03">德國</td>
+                </tr>
+                <tr>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.en.itk.ppke.hu/education/" target="_blank" class="seo3">維斯瑪大學<br />
+                    Hochschule Wismar University</a></td>
+                  <td bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                  <td bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                  <td bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                </tr>
+                <tr class="style3">
+                  <td colspan="4" bgcolor="#EFFFB0" class="wword03">紐西蘭</td>
+                </tr>
+                <tr>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.ais.ac.nz/" target="_blank" class="seo3">紐西蘭奧克蘭商學院<br />
+                    Auckland Institute of Studies, 
+                    New Zealand</a></td>
+                  <td bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                  <td bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                  <td bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                </tr>
+               <tr class="style3">
+                  <td colspan="4" bgcolor="#EFFFB0" class="wword03">澳洲</td>
+                </tr>
+                <tr>
+                  <td bgcolor="#FFFFFF" class="style2"><a href="http://www.bond.edu.au/" target="_blank" class="seo3">澳洲邦德大學<br />
+Bond University, Gold Coast, Australia</a></td>
+                  <td bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                  <td bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                  <td bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+                </tr>
+               
+              
+            </table>
+              <br />
+              <span class="wword03"><br />
+              <strong class="wword03">JULY 17, 2012</strong></span></td>
+          </tr>
+
+          <tr>
+            <td align="left">&nbsp;</td>
+          </tr>
+          <tr>
+            <td align="right"><a href="#top" class="seo3">TOP</a></td>
+          </tr>
+           <tr>
+            <td align="right" class="li04">&nbsp;</td>
+          </tr>
+          <tr>
+            <td align="left"><p class="wword03"><br />
+              Copyright <img src="image/c.gif" width="9" height="9" /> 2009 Ling Tung University<br />
+              1, Ling tung Rd., Taichung, 
+              Taiwan, R.O.C. Tel:886-4-2389-2088</p>
+             </td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+</div>
+</body>
+</html>

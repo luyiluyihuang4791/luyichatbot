@@ -1,0 +1,852 @@
+=== Applicants.php.html ===
+<td align="center"><table width="780" border="0" cellspacing="0" cellpadding="0">
+<td rowspan="2" align="left"><a href="http://www.ltu.edu.tw/" target="_blank"><img src="image/logo.jpg" width="215" height="76" border="0" /></a></td>
+<td align="right"><table width="250" border="0" cellpadding="0" cellspacing="0">
+<td align="right"><table border="0" cellspacing="0" cellpadding="0">
+<td valign="bottom"><form  method="get" name="searchform" action="http://www.google.com/search" target="_blank">
+<td height="5" bgcolor="#AE8560"></td>
+<td height="2" bgcolor="#FFFFFF"></td>
+<td align="center"><table width="780" border="0" cellspacing="0" cellpadding="0">
+<td width="180" valign="top" class="li"><table width="175" border="0" cellspacing="0" cellpadding="0">
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Overview.php" class="seo2">Introduction</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Departments/Departments.php" class="seo2">Academics</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Offices/Offices.php" class="seo2">Administration</a></td>
+<td height="1"colspan="2" bgcolor="#b9a38c" ></td>
+<td colspan="2" align="left"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<td width="15" align="right"> <img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Applicants.php" class="seo2"> <span> </span>Admission</a><a href="Overview.php" class="seo2"></a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td bgcolor="#EFFFB0">&nbsp;</td>
+<td align="left" bgcolor="#EFFFB0" class="wword02"><img src="image/icon04.gif" width="4" height="7" /><span class="wword"><a href="Applicants.php" class="seo6">International Applicants </a><a href="Overview.php" class="seo6"></a></span></td>
+<td height="1" colspan="2" background="image/li_icon.gif"></td>
+<td align="left" class="wword02"><img src="image/icon04.gif" width="4" height="7" /><span class="wword"><a href="Admission/Admission.php" class="seo6">International Admission </a><a href="Applicants.php" class="seo6"></a><a href="Overview.php" class="seo6"></a></span></td>
+<td height="1" colspan="2" background="image/li_icon.gif"></td>
+<td align="left" class="wword02"><img src="image/icon04.gif" width="4" height="7" /><a href="#" class="seo6">Mandarin Program </a></td>
+<td height="1" colspan="2" background="image/li_icon.gif"></td>
+<td align="left" class="wword02"><img src="image/icon04.gif" width="4" height="7" /><span class="wword"> <a href="#" class="seo6">Program Taught in English </a></span></td>
+<td height="1" colspan="2" background="image/li_icon.gif"></td>
+<td align="left" class="wword02"><img src="image/icon04.gif" width="4" height="7" /><a href="Fee_Info.php" class="seo6">Fee Info</a></td>
+<td height="1" colspan="2" background="image/li_icon.gif"></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Scholarships.php" class="seo2">Scholarships</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Exchange_Program.php" class="seo2">Exchange Program</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Academic_Projects.php" class="seo2">Academic Projects </a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Sister_School.php" class="seo2">Sister School</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td align="left">&nbsp;</td>
+<td valign="top" style="padding-left:20px"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<td align="left"><a href="index.php" title="Home" class="seo3">Home</a> <span class="wword03">&gt;</span> <a href="Applicants.php" title="Introduction" class="seo3">Admission</a> <span class="wword03">&gt;</span> <a href="Applicants.php" title="Overview" class="seo3">International Applicants</a></td>
+<td align="right"><table width="80" border="0" cellspacing="0" cellpadding="0">
+<td width="20" valign="middle"><a
+<td width="50"><a
+<td align="left"><img src="image/icon02.gif" width="24" height="21" /><span class="wword04">International Applicants</span></td>
+<td align="left"><ul>
+<p class="wword03">Estimated cost for 1 Year of Study :<br />
+<p class="wword03">*For undergraduate program: high school graduates;<br />
+<h5 class="wword03">Nov 6, 2009</h5></td>
+<td align="right"><a href="#top" class="seo3">TOP</a></td>
+<td align="right" class="li04">&nbsp;</td>
+<td align="left"><p class="wword03"><br />
+
+=== Admission_Admission.php.html ===
+<td align="center"><table width="780" border="0" cellspacing="0" cellpadding="0">
+<td rowspan="2" align="left"><a href="http://www.ltu.edu.tw/" target="_blank"><img src="../image/logo.jpg" width="215" height="76" border="0" /></a></td>
+<td align="right"><table width="250" border="0" cellpadding="0" cellspacing="0">
+<td align="right"><table border="0" cellspacing="0" cellpadding="0">
+<td valign="bottom"><form  method="get" name="searchform" action="http://www.google.com/search" target="_blank">
+<td height="5" bgcolor="#AE8560"></td>
+<td height="2" bgcolor="#FFFFFF"></td>
+<td align="center"><table width="780" border="0" cellspacing="0" cellpadding="0">
+<td width="180" valign="top" class="li"><table width="175" border="0" cellspacing="0" cellpadding="0">
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="../image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="../Overview.php" class="seo2">Introduction</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="../image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="../Departments/Departments.php" class="seo2">Academics</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="../image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="../Offices/Offices.php" class="seo2">Administration</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c"></td>
+<td colspan="2"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<td width="15"><img src="../image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="../Applicants.php" class="seo2">Admission </a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c"></td>
+<td align="left" class="wword02"><img src="../image/icon04.gif" width="4" height="7" /><span class="wword"> <a href="../Applicants.php" class="seo6">International Applicants </a></span></td>
+<td height="1" colspan="2" background="../image/li_icon.gif"></td>
+<td bgcolor="#EFFFB0">&nbsp;</td>
+<td align="left" bgcolor="#EFFFB0" class="wword02"><img src="../image/icon04.gif" width="4" height="7" /><span class="wword"> <a href="Admission.php" class="seo6">International Admission </a></span></td>
+<td height="1" colspan="2" background="../image/li_icon.gif"></td>
+<td align="left" class="wword02"><img src="../image/icon04.gif" width="4" height="7" /><span class="wword"> <a href="../Fee_Info.php" class="seo6">Fee Info</a></span></td>
+<td height="1" colspan="2" background="../image/li_icon.gif"></td>
+<td width="15"><img src="../image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="../Scholarships.php" class="seo2">Scholarships</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c"></td>
+<td width="15"><img src="../image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="../Exchange_Program.php" class="seo2">Exchange Program</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c"></td>
+<td width="15"><img src="../image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="../Academic_Projects.php" class="seo2">Academic Projects </a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c"></td>
+<td width="15"><img src="../image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="../Sister_School.php" class="seo2">Sister School</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td height="1" colspan="2" bgcolor="#b9a38c"></td>
+<td align="left">&nbsp;</td>
+<td valign="top" style="padding-left:20px"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<td align="left"><a href="../index.php" title="Home" class="seo3">Home</a> <span class="wword03">&gt;</span> <a href="../Applicants.php" title="Introduction" class="seo3">Admission</a> <span class="wword03">&gt;</span> <a href="Admission.php" title="Overview" class="seo3">International Admission</a></td>
+<td align="right"><table width="80" border="0" cellspacing="0" cellpadding="0">
+<td width="20" valign="middle"><a
+<td width="50"><a
+href="javascript:history.back();" title="Previous" class="seo3"></a></span><span class="wword03"></span>
+<td align="left"><img src="../image/icon02.gif" width="24" height="21" /><span class="wword04">International Admission</span></td>
+<td align="left"><table width="100%" border="0" cellpadding="1" cellspacing="1" bgcolor="#A4CC00" class="webformtable" summary="data table">
+<th width="8%" rowspan="2" bgcolor="#EFFFB0" class="wword06">EN</th>
+<th width="8%" rowspan="2" bgcolor="#EFFFB0" class="wword06">CH</th>
+<th width="30%" rowspan="2" bgcolor="#EFFFB0" class="wword06">Title</th>
+<th colspan="3" bgcolor="#EFFFB0" class="wword06">Degree</th>
+<th colspan="3" bgcolor="#EFFFB0" class="wword06">Non-degree</th>
+<th width="10%" bgcolor="#EFFFB0" class="wword06">Bachelor</th>
+<th width="10%" bgcolor="#EFFFB0" class="wword06">Master </th>
+<th width="5%" nowrap="nowrap" bgcolor="#EFFFB0" class="wword06">Ph, D.</th>
+<th width="10%" bgcolor="#EFFFB0" class="wword06">Bachelor</th>
+<th width="10%" bgcolor="#EFFFB0" class="wword06">Master </th>
+<th width="5%" nowrap="nowrap" bgcolor="#EFFFB0" class="wword06">Ph, D.</th>
+<td align="center" bgcolor="#FFFFFF">&nbsp;</td>
+<td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)"
+<td bgcolor="#FFFFFF"><a
+<td align="center" bgcolor="#FFFFFF">v</td>
+<td align="center" bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td align="center" bgcolor="#FFFFFF">&nbsp;</td>
+<td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)"
+<td bgcolor="#FFFFFF"><a
+<td align="center" bgcolor="#FFFFFF">v</td>
+<td align="center" bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td align="center" bgcolor="#FFFFFF">&nbsp;</td>
+<td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)"
+<td bgcolor="#FFFFFF"><a
+<td align="center" bgcolor="#FFFFFF">v</td>
+<td align="center" bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td align="center" bgcolor="#FFFFFF">&nbsp;</td>
+<td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)"
+<td bgcolor="#FFFFFF"><a
+<td align="center" bgcolor="#FFFFFF">v</td>
+<td align="center" bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td align="center" bgcolor="#FFFFFF">&nbsp;</td>
+
+=== Fee_Info.php.html ===
+<td align="center"><table width="780" border="0" cellspacing="0" cellpadding="0">
+<td rowspan="2" align="left"><a href="http://www.ltu.edu.tw/" target="_blank"><img src="image/logo.jpg" width="215" height="76" border="0" /></a></td>
+<td align="right"><table width="250" border="0" cellpadding="0" cellspacing="0">
+<td align="right"><table border="0" cellspacing="0" cellpadding="0">
+<td valign="bottom"><form  method="get" name="searchform" action="http://www.google.com/search" target="_blank">
+<td height="5" bgcolor="#AE8560"></td>
+<td height="2" bgcolor="#FFFFFF"></td>
+<td align="center"><table width="780" border="0" cellspacing="0" cellpadding="0">
+<td width="180" valign="top" class="li"><table width="175" border="0" cellspacing="0" cellpadding="0">
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Overview.php" class="seo2">Introduction</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Departments/Departments.php" class="seo2">Academics</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Offices/Offices.php" class="seo2">Administration</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c"></td>
+<td colspan="2"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Applicants.php" class="seo2">Admission </a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c"></td>
+<td align="left" class="wword02"><img src="image/icon04.gif" width="4" height="7" /><span class="wword"> <a href="Applicants.php" class="seo6">International Applicants </a></span></td>
+<td height="1" colspan="2" background="image/li_icon.gif"></td>
+<td align="left" class="wword02"><img src="image/icon04.gif" width="4" height="7" /><span class="wword"> <a href="Admission/Admission.php" class="seo6">International Admission </a></span></td>
+<td height="1" colspan="2" background="image/li_icon.gif"></td>
+<td align="left" class="wword02"><img src="image/icon04.gif" width="4" height="7" /><span class="wword"> <a href="#" class="seo6">Mandarin Program </a></span></td>
+<td height="1" colspan="2" background="image/li_icon.gif"></td>
+<td align="left" class="wword02"><img src="image/icon04.gif" width="4" height="7" /><span class="wword"> <a href="#" class="seo6">Program Taught in English </a></span></td>
+<td height="1" colspan="2" background="image/li_icon.gif"></td>
+<td bgcolor="#EFFFB0">&nbsp;</td>
+<td align="left" bgcolor="#EFFFB0" class="wword02"><img src="image/icon04.gif" width="4" height="7" /><span class="wword"> <a href="Fee_Info.php" class="seo6">Fee Info</a></span></td>
+<td height="1" colspan="2" background="image/li_icon.gif"></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Scholarships.php" class="seo2">Scholarships</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c"></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Exchange_Program.php" class="seo2">Exchange Program</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c"></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Academic_Projects.php" class="seo2">Academic Projects </a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c"></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Sister_School.php" class="seo2">Sister School</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c"></td>
+<td align="left">&nbsp;</td>
+<td valign="top" style="padding-left:20px"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<td align="left"><a href="index.php" title="Home" class="seo3">Home</a> <span class="wword03">&gt;</span> <a href="Offices/Offices.php" title="Introduction" class="seo3">Administration</a> <span class="wword03">&gt;</span> <a href="Fee_Info.php" title="Overview" class="seo3">Fee Info</a></td>
+<td align="right"><table width="80" border="0" cellspacing="0" cellpadding="0">
+<td width="20" valign="middle"><a
+<td width="50"><a
+<td align="left"><img src="image/icon02.gif" width="24" height="21" /><span class="wword04">Fee Info</span></td>
+<td align="left"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<th bgcolor="#EFFFB0" class="wword06">Item</th>
+<th bgcolor="#EFFFB0" class="wword06">Undergraduate</th>
+<th bgcolor="#EFFFB0" class="wword06">Graduate</th>
+<td bgcolor="#FFFFFF" class="wword03">Tuition &amp; Miscellaneous Fees</td>
+<td bgcolor="#FFFFFF" class="wword03">US $ 2700/yr ~ US $ 3000/yr</td>
+<td bgcolor="#FFFFFF" class="wword03">US $ 2700/yr ~ US $ 3000/yr</td>
+<td bgcolor="#FFFFFF" class="wword03">On-campus Accommodation</td>
+<td bgcolor="#FFFFFF" class="wword03">US $ 670/yr ~ US $ 700/yr</td>
+<td bgcolor="#FFFFFF" class="wword03">US $ 670/yr ~ US $ 700/yr</td>
+<td bgcolor="#FFFFFF" class="wword03">Remark</td>
+<td bgcolor="#FFFFFF" class="wword03">For detailed information, please contact General Affairs
+<td bgcolor="#FFFFFF" class="wword03">For detailed information, please contact General Affairs
+<td align="right"><a href="#top" class="seo3">TOP</a></td>
+<td align="right" class="li04">&nbsp;</td>
+<td align="left"><p class="wword03"><br />
+
+=== Scholarships.php.html ===
+<td align="center"><table width="780" border="0" cellspacing="0" cellpadding="0">
+<td rowspan="2" align="left"><a href="http://www.ltu.edu.tw/" target="_blank"><img src="image/logo.jpg" width="215" height="76" border="0" /></a></td>
+<td align="right"><table width="250" border="0" cellpadding="0" cellspacing="0">
+<td align="right"><table border="0" cellspacing="0" cellpadding="0">
+<td valign="bottom"><form  method="get" name="searchform" action="http://www.google.com/search" target="_blank">
+<td height="5" bgcolor="#AE8560"></td>
+<td height="2" bgcolor="#FFFFFF"></td>
+<td align="center"><table width="780" border="0" cellspacing="0" cellpadding="0">
+<td width="180" valign="top" class="li"><table width="175" border="0" cellspacing="0" cellpadding="0">
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Overview.php" class="seo2">Introduction</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Departments/Departments.php" class="seo2">Academics</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Offices/Offices.php" class="seo2">Administration</a><a href="#" class="seo2"></a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Applicants.php" class="seo2">Admission </a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td colspan="2"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Scholarships.php" class="seo2">Scholarships</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td bgcolor="#EFFFB0">&nbsp;</td>
+<td align="left" bgcolor="#EFFFB0" class="wword02"><img src="image/icon04.gif" width="4" height="7" /><span class="wword"> <a href="Scholarships.php" class="seo6">Scholarships</a></span></td>
+<td height="1" colspan="2" background="image/li_icon.gif"></td>
+<td align="left" class="wword02"><img src="image/icon04.gif" width="4" height="7" /><span class="wword"> <a href="nternational.php" class="seo6">nternational Programs </a></span></td>
+<td height="1" colspan="2" background="image/li_icon.gif"></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Exchange_Program.php" class="seo2">Exchange Program</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Academic_Projects.php" class="seo2">Academic Projects </a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Sister_School.php" class="seo2">Sister School</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td align="left">&nbsp;</td>
+<td valign="top" style="padding-left:20px"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<td align="left"><a href="index.php" title="Home" class="seo3">Home</a> <span class="wword03">&gt;</span> <a href="Scholarships.php" title="Introduction" class="seo3">Scholarships</a> <span class="wword03">&gt;</span> <a href="Scholarships.php" title="Overview" class="seo3">Scholarships</a></td>
+<td align="right"><table width="80" border="0" cellspacing="0" cellpadding="0">
+<td width="20" valign="middle"><a
+<td width="50"><a
+<td align="left"><img src="image/icon02.gif" width="24" height="21" /><span class="wword04">Scholarships </span></td>
+<td align="left"><ul>
+<td align="left">&nbsp;</td>
+<td align="right"><a href="#top" class="seo3">TOP</a></td>
+<td align="right" class="li04">&nbsp;</td>
+<td align="left"><p class="wword03"><br />
+
+=== nternational.php.html ===
+<td align="center"><table width="780" border="0" cellspacing="0" cellpadding="0">
+<td rowspan="2" align="left"><a href="http://www.ltu.edu.tw/" target="_blank"><img src="image/logo.jpg" width="215" height="76" border="0" /></a></td>
+<td align="right"><table width="250" border="0" cellpadding="0" cellspacing="0">
+<td align="right"><table border="0" cellspacing="0" cellpadding="0">
+<td valign="bottom"><form  method="get" name="searchform" action="http://www.google.com/search" target="_blank">
+<td height="5" bgcolor="#AE8560"></td>
+<td height="2" bgcolor="#FFFFFF"></td>
+<td align="center"><table width="780" border="0" cellspacing="0" cellpadding="0">
+<td width="180" valign="top" class="li"><table width="175" border="0" cellspacing="0" cellpadding="0">
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Overview.php" class="seo2">Introduction</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Departments/Departments.php" class="seo2">Academics</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Offices/Offices.php" class="seo2">Administration</a><a href="#" class="seo2"></a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Applicants.php" class="seo2">Admission </a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td colspan="2"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Scholarships.php" class="seo2">Scholarships</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td align="left" class="wword02"><img src="image/icon04.gif" width="4" height="7" /><span class="wword"> <a href="Scholarships.php" class="seo6">Scholarships</a></span></td>
+<td height="1" colspan="2" background="image/li_icon.gif"></td>
+<td bgcolor="#EFFFB0">&nbsp;</td>
+<td align="left" bgcolor="#EFFFB0" class="wword02"><img src="image/icon04.gif" width="4" height="7" /><span class="wword"> <a href="nternational.php" class="seo6">nternational Programs </a></span></td>
+<td height="1" colspan="2" background="image/li_icon.gif"></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Exchange_Program.php" class="seo2">Exchange Program</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Academic_Projects.php" class="seo2">Academic Projects </a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Sister_School.php" class="seo2">Sister School</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td align="left">&nbsp;</td>
+<td valign="top" style="padding-left:20px"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<td align="left"><a href="index.php" title="Home" class="seo3">Home</a> <span class="wword03">&gt;</span> <a href="Scholarships.php" title="Introduction" class="seo3">Scholarships</a> <span class="wword03">&gt;</span> <a href="nternational.php" title="Overview" class="seo3">International Programs</a></td>
+<td align="right"><table width="80" border="0" cellspacing="0" cellpadding="0">
+<td width="20" valign="middle"><a
+<td width="50"><a
+<td align="left"><img src="image/icon02.gif" width="24" height="21" /><span class="wword04">International Programs </span></td>
+<td align="left"><ul>
+<td align="left">&nbsp;</td>
+<td align="right"><a href="#top" class="seo3">TOP</a></td>
+<td align="right" class="li04">&nbsp;</td>
+<td align="left"><p class="wword03"><br />
+
+=== Exchange_Program.php.html ===
+<td align="center"><table width="780" border="0" cellspacing="0" cellpadding="0">
+<td rowspan="2" align="left"><a href="http://www.ltu.edu.tw/" target="_blank"><img src="image/logo.jpg" width="215" height="76" border="0" /></a></td>
+<td align="right"><table width="250" border="0" cellpadding="0" cellspacing="0">
+<td align="right"><table border="0" cellspacing="0" cellpadding="0">
+<td valign="bottom"><form  method="get" name="searchform" action="http://www.google.com/search" target="_blank">
+<td height="5" bgcolor="#AE8560"></td>
+<td height="2" bgcolor="#FFFFFF"></td>
+<td align="center"><table width="780" border="0" cellspacing="0" cellpadding="0">
+<td width="180" valign="top" class="li"><table width="175" border="0" cellspacing="0" cellpadding="0">
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Overview.php" class="seo2">Introduction</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Departments/Departments.php" class="seo2">Academics</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Offices/Offices.php" class="seo2">Administration</a><a href="#" class="seo2"></a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Applicants.php" class="seo2">Admission </a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Scholarships.php" class="seo2">Scholarships</a><a href="Applicants.php" class="seo2"></a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td colspan="2"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="#" class="seo2">Exchange Program</a><a href="Scholarships.php" class="seo2"></a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td bgcolor="#EFFFB0">&nbsp;</td>
+<td align="left" bgcolor="#EFFFB0" class="wword02"><img src="image/icon04.gif" width="4" height="7" /><span class="wword"> <a href="Exchange_Program.php" class="seo6">Exchange Students</a></span></td>
+<td height="1" colspan="2" background="image/li_icon.gif"></td>
+<td align="left" class="wword02"><img src="image/icon04.gif" width="4" height="7" /><span class="wword"> <a href="#" class="seo6">Exchange Scholars </a></span></td>
+<td height="1" colspan="2" background="image/li_icon.gif"></td>
+<td align="left" class="wword02"><img src="image/icon04.gif" width="4" height="7" /><span class="wword"> <a href="#" class="seo6">Statistics</a></span></td>
+<td height="1" colspan="2" background="image/li_icon.gif"></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Academic_Projects.php" class="seo2">Academic Projects </a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Sister_School.php" class="seo2">Sister School</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td align="left">&nbsp;</td>
+<td valign="top" style="padding-left:20px"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<td align="left"><a href="index.php" title="Home" class="seo3">Home</a> <span class="wword03">&gt;</span> <a href="Exchange_Program.php" title="Introduction" class="seo3">Exchange Program</a> <span class="wword03">&gt;</span> <a href="Exchange_Program.php" title="Overview" class="seo3">Exchange Students</a></td>
+<td align="right"><table width="80" border="0" cellspacing="0" cellpadding="0">
+<td width="20" valign="middle"><a
+<td width="50"><a
+<td align="left"><img src="image/icon02.gif" width="24" height="21" /><span class="wword04">Exchange Students</span></td>
+<td align="left"><ul>
+<p class="wword03">1.International students are defined as those who are neither citizens
+<h5 class="wword03">Nov 5, 2009</h5>              </td>
+<td align="left">&nbsp;</td>
+<td align="right"><a href="#top" class="seo3">TOP</a></td>
+<td align="right" class="li04">&nbsp;</td>
+<td align="left"><p class="wword03"><br />
+
+=== Academic_Projects.php.html ===
+<td align="center"><table width="780" border="0" cellspacing="0" cellpadding="0">
+<td rowspan="2" align="left"><a href="http://www.ltu.edu.tw/" target="_blank"><img src="image/logo.jpg" width="215" height="76" border="0" /></a></td>
+<td align="right"><table width="250" border="0" cellpadding="0" cellspacing="0">
+<td align="right"><table border="0" cellspacing="0" cellpadding="0">
+<td valign="bottom"><form  method="get" name="searchform" action="http://www.google.com/search" target="_blank">
+<td height="5" bgcolor="#AE8560"></td>
+<td height="2" bgcolor="#FFFFFF"></td>
+<td align="center"><table width="780" border="0" cellspacing="0" cellpadding="0">
+<td width="180" valign="top" class="li"><table width="175" border="0" cellspacing="0" cellpadding="0">
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Overview.php" class="seo2">Introduction</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Departments/Departments.php" class="seo2">Academics</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Offices/Offices.php" class="seo2">Administration</a><a href="#" class="seo2"></a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Applicants.php" class="seo2">Admission </a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Scholarships.php" class="seo2">Scholarships</a><a href="Applicants.php" class="seo2"></a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Exchange_Program.php" class="seo2">Exchange Program</a><a href="Scholarships.php" class="seo2"></a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td colspan="2"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Academic_Projects.php" class="seo2">Academic Projects </a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td bgcolor="#EFFFB0">&nbsp;</td>
+<td align="left" bgcolor="#EFFFB0" class="wword02"><img src="image/icon04.gif" width="4" height="7" /><span class="wword"> <a href="Academic_Projects.php" class="seo6">Research Programs</a></span></td>
+<td height="1" colspan="2" background="image/li_icon.gif"></td>
+<td align="left" class="wword02"><img src="image/icon04.gif" width="4" height="7" /><span class="wword"> <a href="#" class="seo6">Theses & Dissertations</a></span></td>
+<td height="1" colspan="2" background="image/li_icon.gif"></td>
+<td align="left" class="wword02"><img src="image/icon04.gif" width="4" height="7" /><span class="wword"> <a href="#" class="seo6">Statistics</a></span></td>
+<td height="1" colspan="2" background="image/li_icon.gif"></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Sister_School.php" class="seo2">Sister School</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td align="left">&nbsp;</td>
+<td valign="top" style="padding-left:20px"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<td align="left"><a href="index.php" title="Home" class="seo3">Home</a> <span class="wword03">&gt;</span> <a href="Academic_Projects.php" title="Introduction" class="seo3">Academic Projects</a> <span class="wword03">&gt;</span> <a href="Academic_Projects.php" title="Overview" class="seo3">Research Programs</a></td>
+<td align="right"><table width="80" border="0" cellspacing="0" cellpadding="0">
+<td width="20" valign="middle"><a
+<td width="50"><a
+<td align="left"><img src="image/icon02.gif" width="24" height="21" /><span class="wword04">Research Programs</span></td>
+<td align="left"><table width="100%" border="0" cellpadding="1" cellspacing="1" bgcolor="#A4CC00" class="webformtable" summary="Research Programs">
+<th width="10%" bgcolor="#EFFFB0" class="wword06">EN</th>
+<th width="10%" bgcolor="#EFFFB0" class="wword06">CH</th>
+<th width="80%" bgcolor="#EFFFB0" class="wword06">Laboratories</th>
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF"><a title="Chinese website(open new window)"
+<td bgcolor="#FFFFFF" class="seo3"><a
+href="Departments/Departments1_7.php" title="Department of Digital Content Design(B.Des.)" class="seo4"><strong>Department
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF" class="seo3"><a
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF" class="seo3"><a
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF" class="seo3"><a
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF" class="seo3"><a
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF" class="seo3"><a
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF" class="seo3"><a
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF" class="seo3"><a
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF" class="seo3"><a
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF" class="seo3"><a
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF" class="seo3"><a
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF" class="seo3"><a
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF" class="seo3"><a
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF" class="seo3"><a
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF">&nbsp;</td>
+<td bgcolor="#FFFFFF" class="seo3"><a
+<td align="left">&nbsp;</td>
+<td align="right"><a href="#top" class="seo3">TOP</a></td>
+
+=== Sister_School.php.html ===
+<td align="center"><table width="780" border="0" cellspacing="0" cellpadding="0">
+<td rowspan="2" align="left"><a href="http://www.ltu.edu.tw/" target="_blank"><img src="image/logo.jpg" width="215" height="76" border="0" /></a></td>
+<td align="right"><table width="250" border="0" cellpadding="0" cellspacing="0">
+<td align="right"><table border="0" cellspacing="0" cellpadding="0">
+<td valign="bottom"><form  method="get" name="searchform" action="http://www.google.com/search" target="_blank">
+<td height="5" bgcolor="#AE8560"></td>
+<td height="2" bgcolor="#FFFFFF"></td>
+<td align="center"><table width="780" border="0" cellspacing="0" cellpadding="0">
+<td width="180" valign="top" class="li"><table width="175" border="0" cellspacing="0" cellpadding="0">
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Overview.php" class="seo2">Introduction</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Departments/Departments.php" class="seo2">Academics</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Offices/Offices.php" class="seo2">Administration</a><a href="#" class="seo2"></a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Applicants.php" class="seo2">Admission </a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Scholarships.php" class="seo2">Scholarships</a><a href="Applicants.php" class="seo2"></a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" background="Exchange_Program.php" class="wword"><a href="Exchange_Program.php" class="seo2">Exchange Program</a><a href="Scholarships.php" class="seo2"></a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Academic_Projects.php" class="seo2">Academic Projects </a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td colspan="2"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Sister_School.php" class="seo2">Sister School</a><a href="Academic_Projects.php" class="seo2"></a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td bgcolor="#EFFFB0">&nbsp;</td>
+<td align="left" bgcolor="#EFFFB0" class="wword02"><img src="image/icon04.gif" width="4" height="7" /><span class="wword"> <a href="Sister_School.php" class="seo6">Sister School</a></span></td>
+<td height="1" colspan="2" background="image/li_icon.gif"></td>
+<td align="left">&nbsp;</td>
+<td valign="top" style="padding-left:20px"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<td align="left"><a href="index.php" title="Home" class="seo3">Home</a> <span class="wword03">&gt;</span> <a href="Sister_School.php" title="Introduction" class="seo3">Sister School</a> <span class="wword03">&gt;</span> <a href="Sister_School.php" title="Overview" class="seo3">Sister School</a></td>
+<td align="right"><table width="80" border="0" cellspacing="0" cellpadding="0">
+<td width="20" valign="middle"><a
+<td width="50"><a
+<td align="left"><img src="image/icon02.gif" width="24" height="21" /><span class="wword04">Statistics</span></td>
+<td align="left"><table width="100%" border="0" cellpadding="5" cellspacing="1" bgcolor="#A4CC00" class="seo3">
+<td colspan="4" bgcolor="#EFFFB0" class="wword03">????</td>
+<td bgcolor="#FFFFFF" class="seo3"><a
+<td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.swufe.edu.cn/version3/edit_v3/default.asp" target="_blank" class="seo3">?????? <br />
+<td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.jnu.edu.cn/" target="_blank" class="seo3">??????<br />
+<td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.bfpx.com/index.asp" target="_blank" class="seo3">??????<br />
+<td bgcolor="#FFFFFF" class="seo3"><a
+<td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.lingnancollege.com.cn/" target="_blank" class="seo3">????????
+<td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.lyun.edu.cn/" target="_blank" class="seo3">????<br />
+<td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.sxufe.edu.cn/" target="_blank" class="seo3">??????<br />
+<td bgcolor="#FFFFFF" class="seo3"><a
+<td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.gdcjxx.com/" target="_blank" class="seo3">??????????<br />
+<td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.ustb.edu.cn/" target="_blank" class="seo3">??????
+<td bgcolor="#FFFFFF" class="style2"><p><a href="http://218.28.84.54:8081/" target="_blank" class="seo3">????????
+<td width="25%" bgcolor="#FFFFFF" class="style2"><p><a href="http://www.zzhxxy.com/" target="_blank" class="seo3">??????<br />
+<td width="25%" bgcolor="#FFFFFF" class="style2"><p><a href="http://www.weihaiedu.cn/Index.html" target="_blank" class="seo3">???????<br />
+<td width="25%" bgcolor="#FFFFFF" class="style2"><p><a href="http://ysxy.suda.edu.cn/" target="_blank" class="seo3">????????<br />
+<td width="25%" bgcolor="#FFFFFF" class="style2"><p><a href="http://www.xjtu.edu.cn/" target="_blank" class="seo3">??????<br />
+<td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.bjanimation.com/web/index.asp" target="_blank" class="seo3">??????????
+<td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.buu.edu.cn/" target="_blank" class="seo3">??????<br />
+<td bgcolor="#FFFFFF" class="style2"><span class="main"><a href="http://www.bjfu.edu.cn/" target="_blank" class="seo3">??????????
+<td bgcolor="#FFFFFF" class="style2"><a href="http://www.lnc.edu.cn/" target="_blank" class="seo3">????????
+<td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.qtc.edu.cn/" target="_blank" class="seo3">????????<br />
+<td bgcolor="#FFFFFF" class="style2"><p><a href="http://202.107.243.69/" target="_blank" class="seo3">????????<br />
+<td bgcolor="#FFFFFF" class="style2"><span class="main"><a href="http://www.bsccnu.net.cn/" target="_blank" class="seo3">??????????<br />
+<td bgcolor="#FFFFFF" class="style2"><a href="http://www.gzgs.org.cn/index~~.asp" target="_blank" class="seo3">??????????
+<td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.hzu.edu.cn/" target="_blank" class="seo3">????<br />
+<td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.cncnc.edu.cn/" target="_blank" class="seo3">??????<br />
+<td bgcolor="#FFFFFF" class="style2"><span class="main"><a href="http://www.5aaa.com/" target="_blank" class="seo3">????????<br />
+<td bgcolor="#FFFFFF" class="style2"><a href="http://www.kmac.org.cn/" target="_blank" class="seo3">????????
+<td bgcolor="#FFFFFF" class="style2"><p><a href="http://ahbvc.cn/" target="_blank" class="seo3">????????<br />
+<td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.einsun.cn/" target="_blank" class="seo3">???????????<br />
+<td bgcolor="#FFFFFF" class="style2"><span class="main"><a href="http://www.gcu.edu.cn/" target="_blank" class="seo3">??????????<br />
+<td bgcolor="#FFFFFF" class="style2"><a href="http://www.taru.edu.cn/" target="_blank" class="seo3">?????<br />
+<td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.cztgi.edu.cn/templet/default/index.jsp" target="_blank" class="seo3">????????????<br />
+<td bgcolor="#FFFFFF" class="style2"><p><a href="http://218.5.241.16/" target="_blank" class="seo3">????
+<td bgcolor="#FFFFFF" class="style2"><span class="main"><a href="http://www.ndsy.cn/" target="_blank" class="seo3">??????<br />
+<td bgcolor="#FFFFFF" class="style2"><a href="http://www.xmht.com/" target="_blank" class="seo3">????????????
+<td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.hqu.edu.cn/" target="_blank" class="seo3">????<br />
+<td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.zqtbu.com/" target="_blank" class="seo3">??????????
+<td bgcolor="#FFFFFF" class="style2"><span class="main"><a href="http://www.cueb.edu.cn/" target="_blank" class="seo3">????????
+<td bgcolor="#FFFFFF" class="style2"><a href="http://www.nankai.edu.cn/" target="_blank" class="seo3">????<br />
+<td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.ahu.edu.cn/" target="_blank" class="seo3">????
+<td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.bigc.edu.cn/" target="_blank" class="seo3">??????<br />
+<td bgcolor="#FFFFFF" class="style2"><span class="main"><a href="http://www.szpt.edu.cn/" target="_blank" class="seo3">????????
+<td bgcolor="#FFFFFF" class="style2"><a href="http://www.henu.edu.cn/" target="_blank" class="seo3">????<br />
+<td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.zjhyxy.net/" target="_blank" class="seo3">????????<br />
+<td bgcolor="#FFFFFF" class="style2"><p><a href="http://www.fjhzjy.com/" target="_blank" class="seo3">??????????
+<td bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+<td bgcolor="#FFFFFF" class="style2">&nbsp;</td>
+<td colspan="4" bgcolor="#EFFFB0" class="wword03">??</td>
+<td width="25%" bgcolor="#FFFFFF" class="style2"><a href="http://www.psu.edu/" target="_blank" class="seo3">??????????<br />
+<td width="25%" bgcolor="#FFFFFF" class="style2"><a href="http://www.ccu.edu/" target="_blank" class="seo3">?????????<br />
+<td width="25%" bgcolor="#FFFFFF" class="style2"><a href="http://www.npu.edu/" target="_blank" class="seo3">??????<br />
+<td width="25%" bgcolor="#FFFFFF" class="style2"><a href="http://www.ciula.edu/" target="_blank" class="seo3">????????<br />
+<td width="25%" bgcolor="#FFFFFF" class="style2"><a href="http://www.medaille.fotech.edu.tw/01_intro.htm" target="_blank" class="seo3">?????<br />
+
+=== Overview.php.html ===
+<td align="center"><table width="780" border="0" cellspacing="0" cellpadding="0">
+<td rowspan="2" align="left"><a href="http://www.ltu.edu.tw/" target="_blank"><img src="image/logo.jpg" width="215" height="76" border="0" /></a></td>
+<td align="right"><table width="250" border="0" cellpadding="0" cellspacing="0">
+<td align="right"><table border="0" cellspacing="0" cellpadding="0">
+<td valign="bottom"><form  method="get" name="searchform" action="http://www.google.com/search" target="_blank">
+<td height="5" bgcolor="#AE8560"></td>
+<td height="2" bgcolor="#FFFFFF"></td>
+<td align="center"><table width="780" border="0" cellspacing="0" cellpadding="0">
+<td width="180" valign="top" class="li">
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Overview.php" class="seo2">Introduction</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td bgcolor="#EFFFB0">&nbsp;</td>
+<td align="left" bgcolor="#EFFFB0" class="wword02"><img src="image/icon04.gif" width="4" height="7" /><span class="wword"><a href="Overview.php" class="seo6"> Overview</a></span></td>
+<td height="1" colspan="2" background="image/li_icon.gif"></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Departments/Departments.php" class="seo2">Academics</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Offices/Offices.php" class="seo2">Administration</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Applicants.php" class="seo2">Admission</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Scholarships.php" class="seo2">Scholarships</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Exchange_Program.php" class="seo2">Exchange Program</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Academic_Projects.php" class="seo2">Academic Projects </a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Sister_School.php" class="seo2">Sister School</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td align="left">&nbsp;</td>
+<td valign="top" style="padding-left:20px"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<td align="left"><a href="index.php" title="Home" class="seo3">Home</a> <span class="wword03">&gt;</span> <a href="Overview.php" title="Introduction" class="seo3">Introduction</a> <span class="wword03">&gt;</span> <a href="Overview.php" title="Overview" class="seo3">Overview</a></td>
+<td align="right"><table width="80" border="0" cellspacing="0" cellpadding="0">
+<td width="20" valign="middle"><a
+<td width="50"><a
+<td align="left"><img src="image/icon02.gif" width="24" height="21" /><span class="wword04">Overview</span></td>
+<td align="left"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<td bgcolor="#EFFFB0" class="wword05">Contact Info</td>
+<td><span class="wword03">1, Ling tung Rd., Taichung, Taiwan, R.O.C.<br />
+title="English website(open new window)" target="_blank" class="seo4"><strong>English
+href="http://www.ltu.edu.tw/" title="Chinese website(open new window)" target="_blank" class="seo4"><strong>Chinese
+<td align="left" class="li04"></td>
+<td align="left"><p class="wword03"> The roots of Ling Tung University go back to the early 1960’s when the former congressman, Dr. Ya-ping Tsai, and his wife, Dr. Min Lee, located the school site at Nantun, Taichung. The University was then founded in 1963 as Ling Tung Junior College of Accounting, providing five-year programs in business areas for junior high school graduates. After 2005, Ling Tung University was promoted to a university, which provides four-year undergraduate programs. </p>
+<p class="wword03">Ling Tung University has four schools, offering 16 undergraduate programs, 11 graduate programs, and 11 two-year and five-year programs. Undergraduate programs are in the areas of business, finance, design, and information technology. Graduate programs focus on the fields of international business, finance and economics, management and visual communication. Five-year programs focus on training students with basic skills in the business field. Ling Tung also provides night programs and weekend programs for students pursuing lifelong learning.</p>
+<p class="wword03">In order to facilitate international academic exchange, Ling Tung University has established sister-relationships with colleges and universities in America, Korea, P.R.O.C., Japan, Chile, Vietnam, Australia and so on. Many graduates have gone to these partner universities to further their studies.</p>
+<p class="wword03">In National College Evaluations by the Ministry of Education, Ling Tung has outstanding achievements. For 10 consecutive years, since the 1991 school year, Ling Tung has been graded as “A+” among colleges providing business related programs. In 1995, nine undergraduate programs were graded “A+.” In 1999’s national evaluation, 11 undergraduate programs were evaluated as “A+.”</p>
+<p class="wword03">With these accomplishments, Ling Tung University has advanced by continuing its belief in providing high learning quality.</p>
+<span class="wword03"><strong>June 10, 2013</strong> </span></td>
+<td align="right"><a href="#top" class="seo3">TOP</a></td>
+<td align="right" class="li04">&nbsp;</td>
+<td align="left"><p class="wword03"><br />
+
+=== Departments_Departments.php.html ===
+<td align="center"><table width="780" border="0" cellspacing="0" cellpadding="0">
+<td rowspan="2" align="left"><a href="http://www.ltu.edu.tw/" target="_blank"><img src="../image/logo.jpg" width="215" height="76" border="0" /></a></td>
+<td align="right"><table width="250" border="0" cellpadding="0" cellspacing="0">
+<td align="right"><table border="0" cellspacing="0" cellpadding="0">
+<td valign="bottom"><form  method="get" name="searchform" action="http://www.google.com/search" target="_blank">
+<td height="5" bgcolor="#AE8560"></td>
+<td height="2" bgcolor="#FFFFFF"></td>
+<td align="center"><table width="780" border="0" cellspacing="0" cellpadding="0">
+<td width="180" valign="top" class="li"><table width="175" border="0" cellspacing="0" cellpadding="0">
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="../image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="../Overview.php" class="seo2">Introduction</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="../image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Departments.php" class="seo2">Academics</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td bgcolor="#EFFFB0">&nbsp;</td>
+<td align="left" bgcolor="#EFFFB0" class="wword02"><img src="../image/icon04.gif" width="4" height="7" /><span class="wword"><a href="Departments.php" class="seo6"> Departments</a></span></td>
+<td height="1" colspan="2" background="../image/li_icon.gif"></td>
+<td width="15"><img src="../image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="../Offices/Offices.php" class="seo2">Administration</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="../image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="../Applicants.php" class="seo2">Admission</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="../image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="../Scholarships.php" class="seo2">Scholarships</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="../image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="../Exchange_Program.php" class="seo2">Exchange Program</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="../image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="../Academic_Projects.php" class="seo2">Academic Projects </a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="../image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="../Sister_School.php" class="seo2">Sister School</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td align="left">&nbsp;</td>
+<td valign="top" style="padding-left:20px"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<td align="left"><a href="../index.php" title="Home" class="seo3">Home</a> <span class="wword03">&gt;</span> <a href="Departments.htm" title="Introduction" class="seo3">Academics</a> <span class="wword03">&gt;</span> <a href="Departments.htm" title="Overview" class="seo3">Departments</a></td>
+<td align="right"><table width="80" border="0" cellspacing="0" cellpadding="0">
+<td width="20" valign="middle"><a
+<td width="50"><a
+<td align="left"><img src="../image/icon02.gif" width="24" height="21" /><span class="wword04">Departments</span></td>
+<td align="left"><table width="100%" cellpadding="1" cellspacing="1" bgcolor="#A4CC00" class="webformtable" summary="Departments">
+<th width="10%" bgcolor="#EFFFB0" class="wword06">EN</th>
+<th bgcolor="#EFFFB0" class="wword06">CH</th>
+<th width="80%" bgcolor="#EFFFB0" class="wword05">Departments</th>
+<td align="center" bgcolor="#FFFFFF"><a href="image/1000/Fashion.pdf" target="new"><img border="0"
+<td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)"
+<td bgcolor="#FFFFFF" class="wword05"><strong class="fromwword">College of Fashion</strong></td>
+<td align="center" bgcolor="#FFFFFF"><a title="English website(open new window)"
+<td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)"
+<td bgcolor="#FFFFFF" class="wword05">Graduate
+<td align="center" bgcolor="#FFFFFF"><a title="English website(open new window)"
+<td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)"
+<td bgcolor="#FFFFFF" class="wword05">Department of Fashion Business and Merchandising</td>
+<td align="center" bgcolor="#FFFFFF"><a title="English website(open new window)"
+<td align="center" bgcolor="#FFFFFF"><a href="http://www.admin.ltu.edu.tw/Home/Index?gpid=173" target="new"><img border="0"
+<td bgcolor="#FFFFFF" class="wword05">Department of Fashion and Accessories Design</td>
+<td align="center" bgcolor="#FFFFFF"><a title="English website(open new window)"
+<td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)"
+<td bgcolor="#FFFFFF" class="wword05">Department
+<td align="center" bgcolor="#FFFFFF"><a href="image/1000/Design.pdf" target="new"><img border="0"
+<td width="10%" align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)"
+<td bgcolor="#FFFFFF" class="wword05"><strong class="fromwword">College
+<td align="center" bgcolor="#FFFFFF"><a href="../download/Graduate Institute of Digital Content Design.pdf" target="new"><img src="../image/en2.gif" width="15" height="17" border="0" /></a></td>
+<td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)"
+<td bgcolor="#FFFFFF" class="wword05">Graduate
+<td align="center" bgcolor="#FFFFFF"><a title="English website(open new window)"
+<td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)"
+<td bgcolor="#FFFFFF" class="wword05">Graduate
+<td align="center" bgcolor="#FFFFFF"><a href="../download/Departments0331/Department of Creative Product Design.pdf"><img src="../image/en2.gif" width="15" height="17" /></a></td>
+<td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)"
+<td bgcolor="#FFFFFF" class="wword05"><strong>Graduate Institute of  Creative Product Design</strong></td>
+<td align="center" bgcolor="#FFFFFF"><a title="English website(open new window)"
+<td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)"
+<td bgcolor="#FFFFFF" class="wword05">Department
+<td align="center" bgcolor="#FFFFFF"><a href="../download/Department of Digital Content Design.pdf" target="new"><img src="../image/en2.gif" width="15" height="17" border="0" /></a></td>
+<td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)"
+<td bgcolor="#FFFFFF" class="wword05">Department
+<td align="center" bgcolor="#FFFFFF"><a href="../download/Departments0331/Department of Creative Product Design.pdf"><img src="../image/en2.gif" width="15" height="17" /></a></td>
+<td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)"
+<td bgcolor="#FFFFFF" class="wword05"><strong>Department of Creative  Product Design</strong></td>
+<td align="center" bgcolor="#FFFFFF"><a title="English website(open new window)"
+<td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)"
+<td bgcolor="#FFFFFF" class="wword05"><strong class="fromwword">College
+<td align="center" bgcolor="#FFFFFF"><a title="English website(open new window)"
+<td align="center" bgcolor="#FFFFFF"><a href="http://www.teach.ltu.edu.tw/Home/Index?gpid=29"><img src="../image/ch2.gif" width="15" height="17" border="0" /></a></td>
+<td bgcolor="#FFFFFF" class="wword05">Graduate
+<td align="center" bgcolor="#FFFFFF"><a title="English website(open new window)"
+<td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)"
+<td bgcolor="#FFFFFF" class="wword05">Graduate
+Institute of Information Management <strong>and Applications</strong></td>
+<td align="center" bgcolor="#FFFFFF"><a title="English website(open new window)"
+<td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)"
+<td bgcolor="#FFFFFF" class="wword05">Department
+<td align="center" bgcolor="#FFFFFF"><a title="English website(open new window)"
+<td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)"
+
+=== Offices_Offices.php.html ===
+<td align="center"><table width="780" border="0" cellspacing="0" cellpadding="0">
+<td rowspan="2" align="left"><a href="http://www.ltu.edu.tw/" target="_blank"><img src="../image/logo.jpg" width="215" height="76" border="0" /></a></td>
+<td align="right"><table width="250" border="0" cellpadding="0" cellspacing="0">
+<td align="right"><table border="0" cellspacing="0" cellpadding="0">
+<td valign="bottom"><form  method="get" name="searchform" action="http://www.google.com/search" target="_blank">
+<td height="5" bgcolor="#AE8560"></td>
+<td height="2" bgcolor="#FFFFFF"></td>
+<td align="center"><table width="780" border="0" cellspacing="0" cellpadding="0">
+<td width="180" valign="top" class="li">
+<td width="15"><img src="../image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="../Overview.php" class="seo2">Introduction</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="../image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="../Departments/Departments.php" class="seo2">Academics</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td colspan="2"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<td width="15"><img src="../image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="Offices.php" class="seo2">Administration </a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td bgcolor="#EFFFB0">&nbsp;</td>
+<td align="left" bgcolor="#EFFFB0" class="wword02"><img src="../image/icon04.gif" width="4" height="7" /><span class="wword"> <a href="Offices.php" class="seo6">Offices </a></span></td>
+<td height="1" colspan="2" background="../image/li_icon.gif"></td>
+<td width="15"><img src="../image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="../Applicants.php" class="seo2">Admission</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="../image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="../Scholarships.php" class="seo2">Scholarships</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="../image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="../Exchange_Program.php" class="seo2">Exchange Program</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="../image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="../Academic_Projects.php" class="seo2">Academic Projects </a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td width="15"><img src="../image/icon.gif" width="10" height="9" /></td>
+<td align="left" class="wword"><a href="../Sister_School.php" class="seo2">Sister School</a></td>
+<td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+<td align="left">&nbsp;</td>
+<td valign="top" style="padding-left:20px"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<td align="left"><a href="../index.php" title="Home" class="seo3">Home</a> <span class="wword03">&gt;</span> <a href="../Overview.php" title="Introduction" class="seo3">Administration</a> <span class="wword03">&gt;</span> <a href="../Overview.php" title="Overview" class="seo3">Offices</a></td>
+<td align="right"><table width="80" border="0" cellspacing="0" cellpadding="0">
+<td width="20" valign="middle"><a
+<td width="50"><a
+<td align="left"><img src="../image/icon02.gif" width="24" height="21" /><span class="wword04">Offices</span></td>
+<td align="left"><!-- InstanceBeginEditable name="offices" -->
+<th width="10%" bgcolor="#EFFFB0" class="wword06">EN</th>
+<th width="10%" bgcolor="#EFFFB0" class="wword06">CH</th>
+<th width="80%" bgcolor="#EFFFB0" class="wword06">Administration</th>
+<td align="center" bgcolor="#FFFFFF" class="seo4"><a href="Continuing Education Office" target="new"><img src="../image/en1.gif" width="15" height="17" border="0" /></a></td>
+<td align="center" bgcolor="#FFFFFF" class="seo4"><a title="Chinese website(open new window)"
+<td bgcolor="#FFFFFF" class="seo4"><a
+href="Offices_1.php" title="Continuing Education Office" class="seo3"><strong>Continuing
+<td align="center" bgcolor="#FFFFFF" class="seo4"><a title="English website(open new window)"
+<td align="center" bgcolor="#FFFFFF" class="seo4"><a title="Chinese website(open new window)"
+<td bgcolor="#FFFFFF" class="seo4"><a
+href="Offices_2.php" title="General Affairs Office" class="seo3"><strong>General
+<td align="center" bgcolor="#FFFFFF" class="seo4"><a title="English website(open new window)"
+<td align="center" bgcolor="#FFFFFF" class="seo4"><a title="Chinese website(open new window)"
+<td bgcolor="#FFFFFF" class="seo4"><a
+href="Offices_3.php" title="International Affairs Center" class="seo3"><strong>International
+<td align="center" bgcolor="#FFFFFF" class="seo4"><a title="English website(open new window)"
+<td align="center" bgcolor="#FFFFFF" class="seo4"><a title="Chinese website(open new window)"
+<td bgcolor="#FFFFFF" class="seo4"><a
+href="Offices_4.php" title="Library" class="seo3"><strong>Library</strong></a></td>
+<td align="center" bgcolor="#FFFFFF" class="seo4"><img
+<td align="center" bgcolor="#FFFFFF" class="seo4"><a title="Chinese website(open new window)"
+<td bgcolor="#FFFFFF" class="seo4"><a
+href="Offices_5.php" title="Office of Academic Affairs" class="seo3"><strong>Office
+<td align="center" bgcolor="#FFFFFF" class="seo4"><img
+<td align="center" bgcolor="#FFFFFF" class="seo4"><a title="Chinese website(open new window)"
+<td bgcolor="#FFFFFF" class="seo4"><a
+href="Offices_6.php" title="Office of President" class="seo3"><strong>Office
+<td align="center" bgcolor="#FFFFFF" class="seo4"><img
+<td align="center" bgcolor="#FFFFFF" class="seo4"><a title="Chinese website(open new window)"
+<td bgcolor="#FFFFFF" class="seo4"><a
+href="Offices_7.php" title="Office of Vice-President" class="seo3"><strong>Office
+<td align="center" bgcolor="#FFFFFF" class="seo4"><img
+<td align="center" bgcolor="#FFFFFF" class="seo4"><a title="Chinese website(open new window)"
+<td bgcolor="#FFFFFF" class="seo4"><a
+href="Offices_8.php" title="Secretariat" class="seo3"><strong>Secretariat</strong></a></td>
+<td align="center" bgcolor="#FFFFFF" class="seo4"><img
+<td align="center" bgcolor="#FFFFFF" class="seo4"><a title="Chinese website(open new window)"
+<td bgcolor="#FFFFFF" class="seo4"><a
+href="Offices_9.php" title="Student Affairs Office" class="seo3"><strong>Student
+<td align="left">&nbsp;</td>
+<td align="right"><a href="#top" class="seo3">TOP</a></td>
+<td align="right" class="li04">&nbsp;</td>
+<td align="left"><p class="wword03"><br />
+

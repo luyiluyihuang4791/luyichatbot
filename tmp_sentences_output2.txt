@@ -1,0 +1,2794 @@
+FILE: Academic_Projects.php.html
+Welcome to Ling Tung University 
+ 
+ 
+ 
+ 
+  
+ 
+
+  
+ 
+   
+      
+       
+          
+           
+                 
+              
+                 
+                     Home  
+                       Contact  
+                       Site Map  
+                       Chinese  
+                 
+              
+           
+           
+              
+                         
+            
+              
+                            
+                            
+                              
+                              
+           
+              
+           
+          
+       
+       
+          
+       
+       
+          
+       
+       
+          
+AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0','width','780','height','150','src','image/flashtop','quality','high','pluginspage','http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash','movie','image/flashtop' ); //end AC code
+   
+           
+           
+            
+           
+       
+       
+         &nbsp; 
+       
+      
+   
+   
+      
+       
+          
+           
+              
+                 
+                     
+                    Introduction  
+                 
+                 
+                    
+                 
+                 
+                     
+                    Academics  
+                 
+                 
+                    
+                 
+                  
+                     
+                    Administration    
+                 
+                 
+                    
+                 
+                  
+                     
+                    Admission   
+                 
+                 
+                    
+                 
+                   
+                     
+                    Scholarships    
+                 
+                 
+                    
+                 
+                                   
+                     
+                    Exchange Program    
+                 
+                 
+                    
+                 
+                 
+                    
+                       
+                           
+                          Academic Projects   
+                       
+                       
+                          
+                       
+                       
+                         &nbsp; 
+                             Research Programs   
+                       
+                     
+                          
+                     
+                       
+                         &nbsp; 
+                             Theses & Dissertations   
+                       
+                       
+                          
+                       
+                          
+                         &nbsp; 
+                             Statistics   
+                       
+                       
+                          
+                       
+                    
+                 
+
+
+
+                 
+                     
+                    Sister School  
+                 
+                 
+                    
+                 
+                
+              
+           
+           
+             &nbsp; 
+           
+           
+             &nbsp; 
+           
+          
+          
+           
+              Home   &gt;   Academic Projects   &gt;   Research Programs  
+           
+           
+              
+               
+                     
+                  Previous  
+               
+              
+           
+           
+               Research Programs  
+           
+           
+              
+               
+                 
+                   EN 
+                   CH 
+                   Laboratories 
+                 
+                 
+                   &nbsp; 
+                       
+                     Department 
+                    of Digital Content Design(B.Des.)   
+                 
+                 
+                   &nbsp; 
+                   &nbsp; 
+                    3D 
+                    Animation Classroom  
+                 
+                 
+                   &nbsp; 
+                   &nbsp; 
+                    Center 
+                    for Educational Multimedia Resources  
+                 
+                 
+                   &nbsp; 
+                   &nbsp; 
+                    Center 
+                    for Multimedia Networking and Post Production  
+                 
+                 
+                   &nbsp; 
+                   &nbsp; 
+                    Class 
+                    for Modern Technology and Information Networking  
+                 
+                 
+                   &nbsp; 
+                   &nbsp; 
+                    Computer 
+                    Game Industry-Academic Collaboration Center  
+                 
+                 
+                   &nbsp; 
+                   &nbsp; 
+                    Digital 
+                    Art Gallery  
+                 
+                 
+                   &nbsp; 
+                   &nbsp; 
+                    Digital 
+                    Audio Lab  
+                 
+                 
+                   &nbsp; 
+                   &nbsp; 
+                    Digital 
+                    Power Creativity Studio  
+                 
+                 
+                   &nbsp; 
+                   &nbsp; 
+                    Linear 
+                    Editing Room  
+                 
+                 
+                   &nbsp; 
+                   &nbsp; 
+                    Non-linear 
+                    Editing Room  
+                 
+                 
+                   &nbsp; 
+                   &nbsp; 
+                    Puppet 
+                    Animation Lab  
+                 
+                 
+                   &nbsp; 
+                   &nbsp; 
+                    Video 
+                    Networking and Post Production Classroom  
+                 
+                 
+                   &nbsp; 
+                   &nbsp; 
+                    Virtual 
+                    Film Studio  
+                 
+                 
+                   &nbsp; 
+                   &nbsp; 
+                    Virtual 
+                    Reality Gallery  
+                 
+               
+              
+           
+
+           
+             &nbsp; 
+           
+           
+              TOP  
+           
+            
+             &nbsp; 
+           
+           
+               
+              Copyright   2013 Ling Tung University 
+              1, Ling tung Rd., Taichung, 
+              Taiwan, R.O.C.
+===
+FILE: Admission_Admission.php.html
+Welcome to Ling Tung University 
+ 
+ 
+ 
+ 
+  
+ 
+
+ 
+ 
+ 
+   
+      
+       
+          
+           
+                 
+              
+                 
+                     Home  
+                       Contact  
+                       Site Map  
+                       Chinese  
+                 
+              
+           
+           
+              
+           
+            
+              
+                            
+                           
+                           
+                              
+                              
+           
+              
+           
+          
+       
+       
+          
+       
+       
+          
+       
+       
+           
+       
+       
+         &nbsp; 
+       
+      
+   
+   
+      
+       
+          
+           
+              
+                 
+                    
+                 
+                 
+                     
+                    Introduction  
+                 
+                 
+                    
+                 
+                 
+                     
+                    Academics  
+                 
+                 
+                    
+                 
+                   
+                     
+                    Administration  
+                 
+                 
+                    
+                 
+                 
+                    
+                       
+                           
+                          Admission   
+                       
+                       
+                          
+                       
+                       
+                         &nbsp; 
+                             International Applicants    
+                       
+                     
+                          
+                     
+                       
+                         &nbsp; 
+                             International Admission    
+                       
+                        
+                          
+                     
+
+                       
+                         &nbsp; 
+                             Fee Info   
+                       
+                       
+                          
+                       
+                    
+                 
+                 
+                     
+                    Scholarships  
+                 
+                 
+                    
+                 
+                 
+                     
+                    Exchange Program  
+                 
+                 
+                    
+                 
+                 
+                     
+                    Academic Projects   
+                 
+                 
+                    
+                 
+                 
+                     
+                    Sister School  
+                    
+                 
+                     
+                 
+                 
+                    
+                 
+
+              
+           
+           
+             &nbsp; 
+           
+           
+             &nbsp; 
+           
+          
+          
+           
+              Home   &gt;   Admission   &gt;   International Admission  
+           
+           
+              
+               
+                     
+                  Previous  
+               
+                                  
+              
+           
+           
+               International Admission  
+           
+           
+              
+               
+                International Admission
+                 
+               
+                 
+                   EN 
+                   CH 
+                   Title 
+                   Degree 
+                   Non-degree 
+                   
+                 
+                   Bachelor 
+                   Master  
+                   Ph, D.
+&nbsp; 
+                       
+                    Department 
+                    of Information Management(B.B.A.)  
+                   v 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                   
+                 
+                   &nbsp; 
+                       
+                    Department 
+                    of Information Technology(B.S.)  
+                   v 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                   
+                 
+                   &nbsp; 
+                       
+                    Department 
+                    of Visual Communication Design(B.Des.)  
+                   v 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                 
+                 
+                   &nbsp; 
+                       
+                    Department 
+                    of Business Administration(B.B.A.)  
+                   v 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                   
+                 
+                   &nbsp; 
+                       
+                    Department 
+                    of Digital Content Design(B.Des.)  
+                   v 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                   
+                 
+                   &nbsp; 
+                       
+                    Department 
+                    of Fashion Design(B.Des.)  
+                   v 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                   
+                 
+                   &nbsp; 
+                       
+                    Department 
+                    of Marketing and Logistics Management(B.B.A.)  
+                   v 
+                   v 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                   
+                 
+                   &nbsp; 
+                       
+                    Department of Creative Product Design(B.Des.)  
+                   v 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                   
+                 
+                   &nbsp; 
+                       
+                    Department 
+                    of Tourism and Leisure Management(B.B.A.)  
+                   v 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                   
+                 
+                   &nbsp; 
+                       
+                    Department 
+                    of International Business(B.B.A.)  
+                   v 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                   
+                 
+                   &nbsp; 
+                       
+                    Department 
+                    of Applied Foreign Languages(B.B.A.)  
+                   v 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                   
+                 
+                   &nbsp; 
+                       
+                    Department 
+                    of Finance(B.B.A.)  
+                   v 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                   
+                 
+                   &nbsp; 
+                       
+                    Department 
+                    of Accounting and Information Technology(B.B.A.)  
+                   v 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                 
+                 
+              
+           
+           
+              TOP  
+           
+            
+             &nbsp; 
+           
+           
+              Copyright    Ling Tung University 
+              1, Ling tung Rd., Taichung, 
+              Taiwan, R.O.C.
+===
+FILE: Applicants.php.html
+Welcome to Ling Tung University 
+ 
+ 
+ 
+ 
+  
+ 
+
+  
+ 
+   
+      
+       
+          
+           
+                 
+              
+                 
+                     Home  
+                       Contact  
+                       Site Map  
+                       Chinese  
+                 
+              
+           
+           
+              
+                          
+            
+              
+                            
+                            
+                              
+                              
+           
+              
+           
+          
+       
+       
+          
+       
+       
+          
+       
+       
+          
+AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0','width','780','height','150','src','image/flashtop','quality','high','pluginspage','http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash','movie','image/flashtop' ); //end AC code
+   
+           
+           
+            
+           
+       
+       
+         &nbsp; 
+       
+      
+   
+   
+      
+       
+          
+           
+              
+                 
+                     
+                    Introduction  
+                 
+                 
+                    
+                 
+                 
+                     
+                    Academics  
+                 
+                 
+                    
+                 
+                   
+                     
+                    Administration  
+                 
+                 
+                    
+                 
+                 
+                    
+                     
+                          
+                            Admission    
+                     
+                     
+                        
+                     
+                     
+                       &nbsp; 
+                          International Applicants      
+                     
+                     
+                        
+                     
+                     
+                       &nbsp; 
+                          International Admission        
+                     
+                     
+                        
+                     
+                      
+                       &nbsp; 
+                         Mandarin Program   
+                     
+                     
+                        
+                     
+                     
+                       &nbsp; 
+                           Program Taught in English    
+                     
+                     
+                        
+                     
+                     
+                       &nbsp; 
+                         Fee Info  
+                     
+                     
+                        
+                     
+
+                    
+                 
+                 
+                     
+                    Scholarships  
+                 
+                 
+                    
+                 
+                 
+                     
+                    Exchange Program  
+                 
+                 
+                    
+                 
+                 
+                     
+                    Academic Projects   
+                 
+                 
+                    
+                 
+                 
+                     
+                    Sister School  
+                 
+                 
+                   
+                 
+                
+              
+           
+           
+             &nbsp; 
+           
+           
+             &nbsp; 
+           
+          
+          
+           
+              Home   &gt;   Admission   &gt;   International Applicants  
+           
+           
+              
+               
+                     
+                  Previous  
+               
+              
+           
+           
+               International Applicants  
+           
+           
+              
+                Application Form  
+                Laws and Rules  
+                2009~2010 ACADEMIC CALENDAR FOR INTERNATIONAL 
+                STUDENTS  
+                International 
+                Affairs Center  
+                Office 
+                of Academic Affairs  
+                Student 
+                Affairs Office  
+             
+               Estimated cost for 1 Year of Study : 
+                Tuition and fees: 2700 
+                USD/Year 
+                Housing and living Costs: 670 USD/Year 
+                Health Insurance: 10 
+                USD/Year 
+                Total: 3380 USD/Year 
+                 
+                To encourage those excellent 
+                students and to help students in financial straits, LTU offers more than 
+                NT$30,000,000 scholarships each year.
+Of all scholarships, &quot;Excellent 
+                Student Scholarship in Entrance Examination&quot; is offered to LTU freshmen 
+                who are with excellent academic merits in entrance examination, &quot;Excellent 
+                Foreign Students Scholarship&quot; is founded especially for foreign students’ 
+                tuition fee which is totally deducted for foreign students with excellent 
+                academic records.
+*For undergraduate program: high school graduates; 
+                *For graduate 
+                programs: college graduate with B.A.
+===
+FILE: Departments_Departments.php.html
+Welcome to Ling Tung University 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+
+ 
+ 
+   
+     
+        
+         
+            
+             
+                   
+                
+                 
+                     Home  
+                       Contact  
+                       Site Map  
+                       Chinese  
+                 
+                
+             
+             
+                
+                          
+            
+              
+                            
+                           
+                           
+                              
+                              
+           
+                
+             
+            
+         
+         
+            
+         
+         
+            
+         
+         
+             
+         
+         
+           &nbsp; 
+         
+        
+     
+     
+        
+         
+            
+             
+                
+                 
+                    
+                 
+                 
+                     
+                    Introduction  
+                 
+                 
+                    
+                 
+                 
+                     
+                    Academics  
+                 
+                 
+                    
+                 
+                 
+                   &nbsp; 
+                       Departments   
+                 
+                 
+                    
+                 
+                
+             
+             
+                
+                 
+                     
+                    Administration  
+                 
+                 
+                     
+                 
+                 
+                     
+                    Admission  
+                 
+                 
+                     
+                 
+                 
+                     
+                    Scholarships  
+                 
+                 
+                     
+                 
+                 
+                     
+                    Exchange Program  
+                 
+                 
+                     
+                 
+                 
+                     
+                    Academic Projects   
+                 
+                 
+                     
+                 
+                 
+                     
+                    Sister School  
+                    
+                 
+                     
+                 
+                 
+                    
+                 
+                
+             
+             
+               &nbsp; 
+             
+             
+               &nbsp; 
+             
+            
+            
+             
+                Home   &gt;   Academics   &gt;   Departments  
+             
+             
+                
+                 
+                       
+                    Previous  
+                 
+                
+             
+             
+                 Departments  
+             
+             
+                
+                 
+                   
+                     EN 
+                     CH 
+                     Departments 
+                   
+                   
+                         
+                         
+                      College of Fashion  
+                   
+                   
+                         
+                         
+                     Graduate 
+                      Institute of Fashion Stylist Design(M.Des.) 
+                   
+                   
+                         
+                         
+                     Department of Fashion Business and Merchandising 
+                   
+                   
+                         
+                         
+                     Department of Fashion and Accessories Design 
+                   
+                   
+                         
+                         
+                     Department 
+                      of Fashion Stylist Design(B.Des.) 
+                   
+                   
+                         
+                         
+                      College 
+                      of Design  
+                   
+                   
+                         
+                         
+                     Graduate 
+                      Institute of Digital Content Design(M.Des.) 
+                     
+                   
+                         
+                         
+                     Graduate 
+                      Institute of Visual Communication Design(M.Des.) 
+                     
+                   
+                         
+                         
+                      Graduate Institute of  Creative Product Design  
+                   
+                   
+                         
+                         
+                     Department 
+                      of Visual Communication Design(B.Des.) 
+                     
+                   
+                         
+                         
+                     Department 
+                      of Digital Content Design(B.Des.) 
+                     
+                   
+                         
+                         
+                      Department of Creative  Product Design  
+                   
+                  
+                   
+                         
+                         
+                      College 
+                      of Information Science  
+                   
+                  
+                  
+                  
+                  
+                   
+                         
+                         
+                     Graduate 
+                      Institute of Applied Information Technology(M.S.) 
+                     
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                   
+                         
+                         
+                    
+                     Graduate 
+                      Institute of Information Management  and Applications  
+                     
+                  
+                   
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                         
+                         
+                     Department 
+                      of Information Management(B.B.A.) 
+                     
+                   
+                         
+                         
+                     Department 
+                      of Information Technology(B.S.) 
+                     
+                   
+                         
+                         
+                      College of Business and Management  
+                   
+                   
+                         
+                         
+                     Executive 
+                      Master of Business Administration(EMBA) 
+                     
+                   
+                         
+                         
+                     Graduate 
+                      Institute of Business Administration(M.B.A.) 
+                     
+                   
+                       
+                         
+                     Graduate 
+                      Institute of Marketing and Logistics Management(M.B.A.) 
+                     
+                   
+                         
+                         
+                     Graduate 
+                      Institute of International Business(M.B.A.) 
+                     
+                   
+                         
+                         
+                     Graduate 
+                      Institute of Tourism and Leisure Management(M.B.A.) 
+                     
+                   
+                         
+                         
+                     Department 
+                      of Business Administration(B.B.A.) 
+                     
+                   
+                         
+                         
+                     Department 
+                      of Marketing and Logistics Management(B.B.A.) 
+                     
+                   
+                         
+                         
+                     Department 
+                      of Tourism and Leisure Management(B.B.A.) 
+                     
+                   
+                         
+                         
+                     Department 
+                      of International Business(B.B.A.) 
+                     
+                   
+                         
+                         
+                     Department 
+                      of Applied Foreign Languages(B.B.A.) 
+                   
+                   
+                         
+                         
+                     Graduate 
+                      Institute of Finance(M.B.A.) 
+                   
+                   
+                         
+                         
+                     Graduate Institute of Accounting and Information Technology(M.B.A.) 
+                   
+                   
+                         
+                         
+                     Graduate 
+                      Institute of Financial and Economic Law(LL.M.) 
+                   
+                   
+                         
+                         
+                     Department of Finance(M.B.A.) 
+                   
+                   
+                           
+                           
+                     Department 
+                      of Accounting and Information Technology(B.B.A.) 
+                   
+                   
+                
+             
+             
+                TOP  
+             
+             
+               &nbsp; 
+             
+             
+                 
+                Copyright    Ling Tung University 
+                1, Ling tung Rd., Taichung, 
+                Taiwan, R.O.C.
+===
+FILE: Exchange_Program.php.html
+Welcome to Ling Tung University 
+ 
+ 
+ 
+ 
+  
+ 
+
+  
+ 
+   
+      
+       
+          
+           
+                 
+              
+                 
+                     Home  
+                       Contact  
+                       Site Map  
+                       Chinese  
+                 
+              
+           
+           
+              
+                         
+            
+              
+                            
+                            
+                              
+                              
+           
+              
+           
+          
+       
+       
+          
+       
+       
+          
+       
+       
+          
+AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0','width','780','height','150','src','image/flashtop','quality','high','pluginspage','http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash','movie','image/flashtop' ); //end AC code
+   
+           
+           
+            
+           
+       
+       
+         &nbsp; 
+       
+      
+   
+   
+      
+       
+          
+           
+              
+                 
+                     
+                    Introduction  
+                 
+                 
+                    
+                 
+                 
+                     
+                    Academics  
+                 
+                 
+                    
+                 
+                  
+                     
+                    Administration    
+                 
+                 
+                    
+                 
+                  
+                     
+                    Admission   
+                 
+                 
+                    
+                 
+                   
+                     
+                    Scholarships    
+                 
+                 
+                    
+                 
+                 
+                    
+                       
+                           
+                          Exchange Program    
+                       
+                       
+                          
+                       
+                       
+                         &nbsp; 
+                             Exchange Students   
+                       
+                     
+                          
+                     
+                       
+                         &nbsp; 
+                             Exchange Scholars    
+                       
+                       
+                          
+                       
+                          
+                         &nbsp; 
+                             Statistics   
+                       
+                       
+                          
+                       
+                    
+                 
+
+
+                 
+                     
+                    Academic Projects   
+                 
+                 
+                    
+                 
+                 
+                     
+                    Sister School  
+                 
+                 
+                    
+                 
+                
+              
+           
+           
+             &nbsp; 
+           
+           
+             &nbsp; 
+           
+          
+          
+           
+              Home   &gt;   Exchange Program   &gt;   Exchange Students  
+           
+           
+              
+               
+                     
+                  Previous  
+               
+              
+           
+           
+               Exchange Students  
+           
+           
+              
+                Application Form  
+                Laws and Rules  
+                International 
+                Affairs Center  
+                Office 
+                of Academic Affairs  
+                Secretariat  
+                Student 
+                Affairs Office  
+             
+               1.International students are defined as those who are neither citizens 
+                of the Republic of China(*), nor Overseas Chinese.
+2.International students who graduated from a high school, 
+                college or university recognized by the Ministry of Education in the 
+                R.O.C.
+can apply for the admission (please refer to the website 
+                http://www.edu.te/).
+International students with a high school diploma are 
+                eligible to apply for undergraduate programs; bachelor's degree holders 
+                for Master's programs; Master's degree holders for doctoral 
+                programs.
+===
+FILE: Fee_Info.php.html
+Welcome to Ling Tung University 
+ 
+ 
+ 
+ 
+  
+ 
+
+  
+ 
+   
+      
+       
+          
+           
+                 
+              
+                 
+                     Home  
+                       Contact  
+                       Site Map  
+                       Chinese  
+                 
+              
+           
+           
+              
+                         
+            
+              
+                            
+                            
+                              
+                              
+           
+              
+           
+          
+       
+       
+          
+       
+       
+          
+       
+       
+          
+AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0','width','780','height','150','src','image/flashtop','quality','high','pluginspage','http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash','movie','image/flashtop' ); //end AC code
+   
+           
+           
+            
+           
+       
+       
+         &nbsp; 
+       
+      
+   
+   
+      
+       
+          
+           
+              
+               
+                   
+                  Introduction  
+               
+               
+                  
+               
+               
+                   
+                  Academics  
+               
+               
+                  
+               
+               
+                   
+                  Administration  
+               
+               
+                  
+               
+               
+                  
+                     
+                         
+                        Admission   
+                     
+                     
+                        
+                     
+                     
+                       &nbsp; 
+                           International Applicants    
+                     
+                     
+                        
+                     
+                     
+                       &nbsp; 
+                           International Admission    
+                     
+                     
+                        
+                     
+                     
+                       &nbsp; 
+                           Mandarin Program    
+                     
+                     
+                        
+                     
+                     
+                       &nbsp; 
+                           Program Taught in English    
+                     
+                     
+                        
+                     
+                     
+                       &nbsp; 
+                           Fee Info   
+                     
+                     
+                        
+                     
+                  
+               
+               
+                   
+                  Scholarships  
+               
+               
+                  
+               
+               
+                   
+                  Exchange Program  
+               
+               
+                  
+               
+               
+                   
+                  Academic Projects   
+               
+               
+                  
+               
+               
+                   
+                  Sister School  
+               
+               
+                  
+               
+              
+              
+           
+           
+             &nbsp; 
+           
+           
+             &nbsp; 
+           
+          
+          
+           
+              Home   &gt;   Administration   &gt;   Fee Info  
+           
+           
+              
+               
+                     
+                  Previous  
+               
+              
+           
+           
+               Fee Info  
+           
+           
+              
+               
+                  
+                    International 
+                    Affairs Center  
+                    Office 
+                    of Academic Affairs  
+                    Student 
+                    Affairs Office  
+                 
+                 
+               
+               
+                  
+                   
+                    Cost of Study Per Semester
+                     
+                   
+                     
+                       Item 
+                       Undergraduate 
+                       Graduate 
+                     
+                     
+                       Tuition &amp; Miscellaneous Fees 
+                       US $ 2700/yr ~ US $ 3000/yr 
+                       US $ 2700/yr ~ US $ 3000/yr 
+                     
+                     
+                       On-campus Accommodation 
+                       US $ 670/yr ~ US $ 700/yr 
+                       US $ 670/yr ~ US $ 700/yr 
+                     
+                     
+                       Remark 
+                       For detailed information, please contact General Affairs 
+                        Office-Cashier Division:886-4-23892088, ext.1841 
+                       For detailed information, please contact General Affairs 
+                        Office-Cashier Division:886-4-23892088, ext.1841 
+                     
+                   
+                  
+               
+              
+           
+
+           
+              TOP  
+           
+            
+             &nbsp; 
+           
+           
+               
+              Copyright   2009 Ling Tung University 
+              1, Ling tung Rd., Taichung, 
+              Taiwan, R.O.C.
+===
+FILE: Offices_Offices.php.html
+Welcome to Ling Tung University 
+
+ 
+ 
+ 
+ 
+
+  
+ 
+
+  
+ 
+   
+      
+       
+          
+           
+                 
+              
+                 
+                     Home  
+                       Contact  
+                       Site Map  
+                       Chinese  
+                 
+              
+           
+           
+              
+                          
+            
+              
+                            
+                           
+                           
+                              
+                              
+           
+              
+           
+          
+       
+       
+          
+       
+       
+          
+       
+       
+          
+AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0','width','780','height','150','src','../image/flashtop','quality','high','pluginspage','http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash','movie','../image/flashtop' ); //end AC code
+   
+           
+           
+            
+           
+       
+       
+         &nbsp; 
+       
+      
+   
+   
+      
+       
+         
+          
+           
+
+             
+                
+                   
+                     
+                    Introduction  
+                 
+                  
+                    
+                 
+                 
+                     
+                    Academics  
+                 
+                 
+                    
+                 
+                   
+                    
+                     
+                         
+                        Administration   
+                     
+                     
+                        
+                     
+                     
+                       &nbsp; 
+                              Offices    
+                      
+    
+                      
+                         
+                     
+                      
+                    
+                    
+                   
+
+                    
+                     
+                    Admission  
+                 
+                 
+                    
+                 
+                    
+                     
+                    Scholarships  
+                 
+                 
+                    
+                 
+                    
+                     
+                    Exchange Program  
+                 
+                 
+                    
+                 
+                    
+                     
+                    Academic Projects   
+                 
+                 
+                    
+                 
+                    
+                     
+                    Sister School  
+                 
+                 
+                    
+                 
+                
+                
+             
+             
+               &nbsp; 
+             
+             
+               &nbsp; 
+             
+           
+          
+          
+           
+              Home   &gt;   Administration   &gt;   Offices  
+           
+           
+              
+               
+                     
+                  Previous  
+               
+              
+           
+           
+               Offices  
+           
+           
+             
+               
+                 
+                   
+                     EN 
+                     CH 
+                     Administration 
+                   
+                   
+                         
+                         
+                       Continuing 
+                      Education Office   
+                   
+                   
+                         
+                           
+                       General 
+                      Affairs Office   
+                   
+                   
+                           
+                           
+                       International 
+                      Affairs Center   
+                   
+                   
+                           
+                           
+                       Library   
+                   
+                   
+                         
+                           
+                       Office 
+                      of Academic Affairs   
+                   
+                   
+                         
+                           
+                       Office 
+                      of President   
+                   
+                   
+                         
+                           
+                       Office 
+                      of Vice-President   
+                   
+                   
+                         
+                           
+                       Secretariat   
+                   
+                   
+                         
+                           
+                       Student 
+                      Affairs Office   
+                   
+                 
+               
+             
+           
+
+           
+             &nbsp; 
+           
+           
+              TOP  
+           
+            
+             &nbsp; 
+           
+           
+               
+              Copyright   2009 Ling Tung University 
+              1, Ling tung Rd., Taichung, 
+              Taiwan, R.O.C.
+===
+FILE: Overview.php.html
+Welcome to Ling Tung University 
+ 
+ 
+ 
+ 
+  
+ 
+
+  
+ 
+   
+      
+       
+          
+           
+                 
+              
+                 
+                     Home  
+                       Contact  
+                       Site Map  
+                       Chinese  
+                 
+              
+           
+           
+              
+                          
+            
+              
+                            
+                            
+                              
+                              
+           
+              
+           
+          
+       
+       
+          
+       
+       
+          
+       
+       
+          
+AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0','width','780','height','150','src','image/flashtop','quality','high','pluginspage','http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash','movie','image/flashtop' ); //end AC code
+   
+           
+           
+            
+           
+       
+       
+         &nbsp; 
+       
+      
+   
+   
+      
+       
+         
+          
+           
+             
+                
+                 
+                     
+                    Introduction  
+                 
+                 
+                     
+                 
+                 
+                   &nbsp; 
+                       Overview   
+                 
+                 
+                    
+                 
+                
+             
+             
+                
+                 
+                     
+                    Academics  
+                 
+                 
+                     
+                 
+                   
+                     
+                    Administration  
+                 
+                 
+                    
+                 
+                    
+                     
+                    Admission  
+                 
+                 
+                     
+                 
+                    
+                     
+                    Scholarships  
+                 
+                 
+                     
+                 
+                    
+                     
+                    Exchange Program  
+                 
+                 
+                     
+                 
+                    
+                     
+                    Academic Projects   
+                 
+                 
+                     
+                 
+                    
+                     
+                    Sister School  
+                 
+                 
+                     
+                 
+                    
+                
+                
+                
+             
+             
+               &nbsp; 
+             
+             
+               &nbsp; 
+             
+           
+          
+          
+           
+              Home   &gt;   Introduction   &gt;   Overview  
+           
+           
+              
+               
+                     
+                  Previous  
+               
+              
+           
+           
+               Overview  
+           
+           
+              
+               
+                 Contact Info 
+               
+               
+                  1, Ling tung Rd., Taichung, Taiwan, R.O.C.
+The University was then founded in 1963 as Ling Tung Junior College of Accounting, providing five-year programs in business areas for junior high school graduates.
+After 2005, Ling Tung University was promoted to a university, which provides four-year undergraduate programs.
+Ling Tung University has four schools, offering 16 undergraduate programs, 11 graduate programs, and 11 two-year and five-year programs.
+Undergraduate programs are in the areas of business, finance, design, and information technology.
+Graduate programs focus on the fields of international business, finance and economics, management and visual communication.
+Five-year programs focus on training students with basic skills in the business field.
+Ling Tung also provides night programs and weekend programs for students pursuing lifelong learning.
+In order to facilitate international academic exchange, Ling Tung University has established sister-relationships with colleges and universities in America, Korea, P.R.O.C., Japan, Chile, Vietnam, Australia and so on.
+Many graduates have gone to these partner universities to further their studies.
+For 10 consecutive years, since the 1991 school year, Ling Tung has been graded as “A+” among colleges providing business related programs.
+In 1995, nine undergraduate programs were graded “A+.” In 1999’s national evaluation, 11 undergraduate programs were evaluated as “A+.” 
+               With these accomplishments, Ling Tung University has advanced by continuing its belief in providing high learning quality.
+===
+FILE: Scholarships.php.html
+Welcome to Ling Tung University 
+ 
+ 
+ 
+ 
+  
+ 
+
+  
+ 
+   
+      
+       
+          
+           
+                 
+              
+                 
+                     Home  
+                       Contact  
+                       Site Map  
+                       Chinese  
+                 
+              
+           
+           
+              
+                         
+            
+              
+                            
+                            
+                              
+                              
+           
+              
+           
+          
+       
+       
+          
+       
+       
+          
+       
+       
+          
+AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0','width','780','height','150','src','image/flashtop','quality','high','pluginspage','http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash','movie','image/flashtop' ); //end AC code
+   
+           
+           
+            
+           
+       
+       
+         &nbsp; 
+       
+      
+   
+   
+      
+       
+          
+           
+              
+                 
+                     
+                    Introduction  
+                 
+                 
+                    
+                 
+                 
+                     
+                    Academics  
+                 
+                 
+                    
+                 
+                  
+                     
+                    Administration    
+                 
+                 
+                    
+                 
+                  
+                     
+                    Admission   
+                 
+                 
+                    
+                 
+                 
+                    
+                       
+                           
+                          Scholarships  
+                       
+                       
+                          
+                       
+                       
+                         &nbsp; 
+                             Scholarships   
+                       
+                     
+                          
+                     
+                       
+                         &nbsp; 
+                             nternational Programs    
+                       
+                       
+                          
+                       
+                    
+                 
+
+                 
+                     
+                    Exchange Program  
+                 
+                 
+                   
+                 
+                 
+                     
+                    Academic Projects   
+                 
+                 
+                    
+                 
+                 
+                     
+                    Sister School  
+                 
+                 
+                    
+                 
+                
+              
+           
+           
+             &nbsp; 
+           
+           
+             &nbsp; 
+           
+          
+          
+           
+              Home   &gt;   Scholarships   &gt;   Scholarships  
+           
+           
+              
+               
+                     
+                  Previous  
+               
+              
+           
+           
+               Scholarships   
+           
+           
+              
+                International 
+                Affairs Center  
+                Office 
+                of Academic Affairs  
+                Student 
+                Affairs Office  
+             
+             
+           
+
+           
+             &nbsp; 
+           
+           
+              TOP  
+           
+            
+             &nbsp; 
+           
+           
+               
+              Copyright   2013 Ling Tung University 
+              1, Ling tung Rd., Taichung, 
+              Taiwan, R.O.C.
+===
+FILE: Sister_School.php.html
+Welcome to Ling Tung University 
+ 
+ 
+ 
+ 
+  
+ 
+
+ 
+ 
+ 
+ 
+   
+      
+       
+          
+           
+                 
+              
+                 
+                     Home  
+                       Contact  
+                       Site Map  
+                       Chinese  
+                 
+              
+           
+           
+              
+                         
+            
+              
+                            
+                            
+                              
+                              
+           
+              
+           
+          
+       
+       
+          
+       
+       
+          
+       
+       
+          
+AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0','width','780','height','150','src','image/flashtop','quality','high','pluginspage','http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash','movie','image/flashtop' ); //end AC code
+   
+           
+           
+            
+           
+       
+       
+         &nbsp; 
+       
+      
+   
+   
+      
+       
+          
+           
+              
+                 
+                     
+                    Introduction  
+                 
+                 
+                    
+                 
+                 
+                     
+                    Academics  
+                 
+                 
+                    
+                 
+                  
+                     
+                    Administration    
+                 
+                 
+                    
+                 
+                  
+                     
+                    Admission   
+                 
+                 
+                    
+                 
+                   
+                     
+                    Scholarships    
+                 
+                 
+                    
+                 
+                    
+                     
+                    Exchange Program    
+                 
+                 
+                    
+                 
+                    
+                     
+                    Academic Projects   
+                 
+                 
+                    
+                 
+                 
+                    
+                       
+                           
+                          Sister School    
+                       
+                       
+                          
+                       
+                       
+                         &nbsp; 
+                             Sister School   
+                       
+                     
+                          
+                     
+                      
+
+                    
+                 
+
+              
+           
+           
+             &nbsp; 
+           
+           
+             &nbsp; 
+           
+          
+          
+           
+              Home   &gt;   Sister School   &gt;   Sister School  
+           
+           
+              
+               
+                     
+                  Previous  
+               
+              
+           
+           
+               Statistics  
+           
+           
+              
+               
+                 
+                   中國大陸 
+                 
+                 
+                    蘇州大學 
+                     Soochow University, P.R.O.C.
+北京林業大學信息學院
+                         
+                        School of Information Science and Technology,Beijing Forestry University   
+                    嶺南職業技術學院
+Guangdong Lingnan Institute of Technology  
+                 
+                
+                     青島職業技術學院 
+                    Qingdao Technical College   
+                     湖州職業技術學院 
+                    Huzhou Vocational & Technical College    
+                     華中師範大學漢口分校 
+Hankou Branch of Central China Normal University   
+                    廣州工商職業技術學院 
+                       
+                      Guangzhou Vocational &Technical Institute of Industry &Commerce  
+                 
+                  
+                     惠州學院 
+Huizhou University   
+                     長春師範學院 
+Changchun Normal University   
+                     北京科技職業學院 
+University for Science& Technology Beijing   
+                    昆明藝術職業學院
+                       
+                      Kunming Professional College of Arts  
+                 
+                  
+                     安徽工商職業學院 
+Anhui Business Vocational College   
+                     雲南愛因森軟件職業學院 
+                        Yunnan Einsun Software College   
+                     華南理工大學廣州學院 
+Guangzhou Auto College South China University of Technology   
+                    塔里木大學 
+Tarim University  
+                 
+                  
+                     常州紡職服裝職業技術學院 
+                    Changzhou Textile Garment Institute   
+                     三明學院
+                         
+                        Sanming University   
+                     寧德師範學院 
+Ningde Normal University   
+                    廈門華天涉外職業技術學院
+                       
+                      Xiamen Huatian International Vocation Institute  
+                 
+                 
+                     華僑大學 
+Huaqiao University   
+                     肇慶工商職業技術學院
+                         
+                        Zhaoqing Business And Technology College   
+                     首都經濟貿易大學
+                         
+                        Capital University of Economics and Business, P.R.O.C.
+科羅拉多基督教大學 
+                    Colorado Christian 
+                    University, U.S.A  
+                    西北理工大學 
+                    Northwestern 
+                    Polytechnic University, U.S.A  
+                    加州國際管理大學 
+  California 
+                    International Business Universit y 
+                 
+                 
+                    麥戴爾大學 
+Medaille College  
+                    美國聖多瑪斯大學 
+St.
+===
+FILE: nternational.php.html
+Welcome to Ling Tung University 
+ 
+ 
+ 
+ 
+  
+ 
+
+  
+ 
+   
+      
+       
+          
+           
+                 
+              
+                 
+                     Home  
+                       Contact  
+                       Site Map  
+                       Chinese  
+                 
+              
+           
+           
+              
+                          
+            
+              
+                            
+                            
+                              
+                              
+           
+              
+           
+          
+       
+       
+          
+       
+       
+          
+       
+       
+          
+AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0','width','780','height','150','src','image/flashtop','quality','high','pluginspage','http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash','movie','image/flashtop' ); //end AC code
+   
+           
+           
+            
+           
+       
+       
+         &nbsp; 
+       
+      
+   
+   
+      
+       
+          
+           
+              
+                 
+                     
+                    Introduction  
+                 
+                 
+                    
+                 
+                 
+                     
+                    Academics  
+                 
+                 
+                    
+                 
+                  
+                     
+                    Administration    
+                 
+                 
+                    
+                 
+                  
+                     
+                    Admission   
+                 
+                 
+                    
+                 
+                 
+                    
+                       
+                           
+                          Scholarships  
+                       
+                       
+                          
+                       
+                       
+                         &nbsp; 
+                             Scholarships   
+                       
+                     
+                          
+                     
+                       
+                         &nbsp; 
+                             nternational Programs    
+                       
+                       
+                          
+                       
+                    
+                 
+
+                 
+                     
+                    Exchange Program  
+                 
+                 
+                   
+                 
+                 
+                     
+                    Academic Projects   
+                 
+                 
+                    
+                 
+                 
+                     
+                    Sister School  
+                 
+                 
+                    
+                 
+                
+              
+           
+           
+             &nbsp; 
+           
+           
+             &nbsp; 
+           
+          
+          
+           
+              Home   &gt;   Scholarships   &gt;   International Programs  
+           
+           
+              
+               
+                     
+                  Previous  
+               
+              
+           
+           
+               International Programs   
+           
+           
+              
+                International 
+                Affairs Center  
+                Office 
+                of Academic Affairs  
+                Student 
+                Affairs Office  
+               
+             
+           
+
+           
+             &nbsp; 
+           
+           
+              TOP  
+           
+            
+             &nbsp; 
+           
+           
+               
+              Copyright   2009 Ling Tung University 
+              1, Ling tung Rd., Taichung, 
+              Taiwan, R.O.C.
+===

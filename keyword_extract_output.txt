@@ -1,0 +1,3177 @@
+FILE: Academic_Projects.php.html
+PATTERN: Admission
+  
+                     
+                    Administration    
+                 
+                 
+                    
+                 
+                  
+                     
+                    Admission   
+                 
+                 
+                    
+                 
+                   
+                     
+                    Scholarships    
+                 
+                 
+                    
+                 
+                                   
+                     
+                    Exchange Program    
+                 
+                 
+                    
+  
+---
+PATTERN: Scholarship
+       
+                     
+                    Admission   
+                 
+                 
+                    
+                 
+                   
+                     
+                    Scholarships    
+                 
+                 
+                    
+                 
+                                   
+                     
+                    Exchange Program    
+                 
+                 
+                    
+                 
+                 
+                    
+                       
+                           
+                          Academic Projects
+---
+PATTERN: Exchange
+         
+                    Scholarships    
+                 
+                 
+                    
+                 
+                                   
+                     
+                    Exchange Program    
+                 
+                 
+                    
+                 
+                 
+                    
+                       
+                           
+                          Academic Projects   
+                       
+                       
+                          
+                       
+                       
+                         &nbsp; 
+          
+---
+PATTERN: Department
+            
+                   EN 
+                   CH 
+                   Laboratories 
+                 
+                 
+                   &nbsp; 
+                       
+                     Department 
+                    of Digital Content Design(B.Des.)   
+                 
+                 
+                   &nbsp; 
+                   &nbsp; 
+                    3D 
+                    Animation Classroom  
+                 
+                 
+                   &nbsp; 
+                   &nbsp; 
+                    Center 
+                    for Educational Multimedia Resources 
+---
+PATTERN: Program
+
+                    Scholarships    
+                 
+                 
+                    
+                 
+                                   
+                     
+                    Exchange Program    
+                 
+                 
+                    
+                 
+                 
+                    
+                       
+                           
+                          Academic Projects   
+                       
+                       
+                          
+                       
+                       
+                         &nbsp; 
+                   
+---
+PATTERN: Contact
+Welcome to Ling Tung University 
+ 
+ 
+ 
+ 
+  
+ 
+
+  
+ 
+   
+      
+       
+          
+           
+                 
+              
+                 
+                     Home  
+                       Contact  
+                       Site Map  
+                       Chinese  
+                 
+              
+           
+           
+              
+                         
+            
+              
+                            
+                            
+                              
+                              
+           
+              
+           
+          
+       
+       
+          
+
+---
+PATTERN: Tel
+
+            
+             &nbsp; 
+           
+           
+               
+              Copyright   2013 Ling Tung University 
+              1, Ling tung Rd., Taichung, 
+              Taiwan, R.O.C. Tel:886-4-2389-2088
+---
+===
+FILE: Admission_Admission.php.html
+PATTERN: Admission
+ation  
+                 
+                 
+                    
+                 
+                 
+                    
+                       
+                           
+                          Admission   
+                       
+                       
+                          
+                       
+                       
+                         &nbsp; 
+                             International Applicants    
+                       
+                     
+                          
+                     
+                       
+                         &nbsp; 
+                     
+---
+PATTERN: Scholarship
+ 
+                       
+                       
+                          
+                       
+                    
+                 
+                 
+                     
+                    Scholarships  
+                 
+                 
+                    
+                 
+                 
+                     
+                    Exchange Program  
+                 
+                 
+                    
+                 
+                 
+                     
+                    Academic Projects   
+                 
+                 
+                    
+                 
+
+---
+PATTERN: Fee
+ Admission    
+                       
+                        
+                          
+                     
+
+                       
+                         &nbsp; 
+                             Fee Info   
+                       
+                       
+                          
+                       
+                    
+                 
+                 
+                     
+                    Scholarships  
+                 
+                 
+                    
+                 
+                 
+                     
+                    Exchange Program  
+                 
+   
+---
+PATTERN: Exchange
+       
+                     
+                    Scholarships  
+                 
+                 
+                    
+                 
+                 
+                     
+                    Exchange Program  
+                 
+                 
+                    
+                 
+                 
+                     
+                    Academic Projects   
+                 
+                 
+                    
+                 
+                 
+                     
+                    Sister School  
+                    
+                 
+                     
+             
+---
+PATTERN: Department
+h, D. 
+                   Bachelor 
+                   Master  
+                   Ph, D. 
+                   
+                 
+                   &nbsp; 
+                       
+                    Department 
+                    of Information Management(B.B.A.)  
+                   v 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                   &nbsp; 
+                   
+                 
+                   &nbsp; 
+                       
+                    Department 
+                    of Information Technology(B.S.)  
+
+---
+PATTERN: International
+  Admission   
+                       
+                       
+                          
+                       
+                       
+                         &nbsp; 
+                             International Applicants    
+                       
+                     
+                          
+                     
+                       
+                         &nbsp; 
+                             International Admission    
+                       
+                        
+                          
+                     
+
+                       
+                         &nbsp; 
+      
+---
+PATTERN: Program
+                    
+                    Scholarships  
+                 
+                 
+                    
+                 
+                 
+                     
+                    Exchange Program  
+                 
+                 
+                    
+                 
+                 
+                     
+                    Academic Projects   
+                 
+                 
+                    
+                 
+                 
+                     
+                    Sister School  
+                    
+                 
+                     
+                 
+    
+---
+PATTERN: Contact
+Welcome to Ling Tung University 
+ 
+ 
+ 
+ 
+  
+ 
+
+ 
+ 
+ 
+   
+      
+       
+          
+           
+                 
+              
+                 
+                     Home  
+                       Contact  
+                       Site Map  
+                       Chinese  
+                 
+              
+           
+           
+              
+           
+            
+              
+                            
+                           
+                           
+                              
+                              
+           
+              
+           
+          
+       
+      
+---
+PATTERN: Tel
+   TOP  
+           
+            
+             &nbsp; 
+           
+           
+              Copyright    Ling Tung University 
+              1, Ling tung Rd., Taichung, 
+              Taiwan, R.O.C. Tel:886-4-2389-2088
+---
+PATTERN: Title
+           
+              
+               
+                International Admission
+                 
+               
+                 
+                   EN 
+                   CH 
+                   Title 
+                   Degree 
+                   Non-degree 
+                   
+                 
+                   Bachelor 
+                   Master  
+                   Ph, D. 
+                   Bachelor 
+                   Master  
+                   Ph, D. 
+                   
+                 
+                   &nbsp; 
+                       
+                    Department 
+        
+---
+PATTERN: Degree
+
+               
+                International Admission
+                 
+               
+                 
+                   EN 
+                   CH 
+                   Title 
+                   Degree 
+                   Non-degree 
+                   
+                 
+                   Bachelor 
+                   Master  
+                   Ph, D. 
+                   Bachelor 
+                   Master  
+                   Ph, D. 
+                   
+                 
+                   &nbsp; 
+                       
+                    Department 
+                    of Information
+---
+===
+FILE: Applicants.php.html
+PATTERN: Application
+                  
+                  Previous  
+               
+              
+           
+           
+               International Applicants  
+           
+           
+              
+                Application Form  
+                Laws and Rules  
+                2009~2010 ACADEMIC CALENDAR FOR INTERNATIONAL 
+                STUDENTS  
+                International 
+                Affairs Center  
+                Office 
+                of Academic Affairs  
+                Student 
+                Affairs Office  
+             
+               Estimated cost for 1 Year of Study : 
+       
+---
+PATTERN: Admission
+ration  
+                 
+                 
+                    
+                 
+                 
+                    
+                     
+                          
+                            Admission    
+                     
+                     
+                        
+                     
+                     
+                       &nbsp; 
+                          International Applicants      
+                     
+                     
+                        
+                     
+                     
+                       &nbsp; 
+                          International A
+---
+PATTERN: Scholarship
+e Info  
+                     
+                     
+                        
+                     
+
+                    
+                 
+                 
+                     
+                    Scholarships  
+                 
+                 
+                    
+                 
+                 
+                     
+                    Exchange Program  
+                 
+                 
+                    
+                 
+                 
+                     
+                    Academic Projects   
+                 
+                 
+                    
+                 
+
+---
+PATTERN: Fee
+ Program Taught in English    
+                     
+                     
+                        
+                     
+                     
+                       &nbsp; 
+                         Fee Info  
+                     
+                     
+                        
+                     
+
+                    
+                 
+                 
+                     
+                    Scholarships  
+                 
+                 
+                    
+                 
+                 
+                     
+                    Exchange Program  
+                 
+           
+---
+PATTERN: Tuition
+             Office 
+                of Academic Affairs  
+                Student 
+                Affairs Office  
+             
+               Estimated cost for 1 Year of Study : 
+                Tuition and fees: 2700 
+                USD/Year 
+                Housing and living Costs: 670 USD/Year 
+                Health Insurance: 10 
+                USD/Year 
+                Total: 3380 USD/Year 
+                 
+                To encourage those excellent 
+                students and to help students in financial straits, LTU offers more than 
+                NT$30,000,000 scholars
+---
+PATTERN: Exchange
+       
+                     
+                    Scholarships  
+                 
+                 
+                    
+                 
+                 
+                     
+                    Exchange Program  
+                 
+                 
+                    
+                 
+                 
+                     
+                    Academic Projects   
+                 
+                 
+                    
+                 
+                 
+                     
+                    Sister School  
+                 
+                 
+                   
+                 
+
+---
+PATTERN: Office
+             Laws and Rules  
+                2009~2010 ACADEMIC CALENDAR FOR INTERNATIONAL 
+                STUDENTS  
+                International 
+                Affairs Center  
+                Office 
+                of Academic Affairs  
+                Student 
+                Affairs Office  
+             
+               Estimated cost for 1 Year of Study : 
+                Tuition and fees: 2700 
+                USD/Year 
+                Housing and living Costs: 670 USD/Year 
+                Health Insurance: 10 
+                USD/Year 
+                Total: 3380 USD/Year 
+     
+---
+PATTERN: Academic Affairs
+  
+                2009~2010 ACADEMIC CALENDAR FOR INTERNATIONAL 
+                STUDENTS  
+                International 
+                Affairs Center  
+                Office 
+                of Academic Affairs  
+                Student 
+                Affairs Office  
+             
+               Estimated cost for 1 Year of Study : 
+                Tuition and fees: 2700 
+                USD/Year 
+                Housing and living Costs: 670 USD/Year 
+                Health Insurance: 10 
+                USD/Year 
+                Total: 3380 USD/Year 
+                 
+              
+---
+PATTERN: International
+                Admission    
+                     
+                     
+                        
+                     
+                     
+                       &nbsp; 
+                          International Applicants      
+                     
+                     
+                        
+                     
+                     
+                       &nbsp; 
+                          International Admission        
+                     
+                     
+                        
+                     
+                      
+                       &nbsp; 
+                      
+---
+PATTERN: Cost
+               Affairs Office  
+             
+               Estimated cost for 1 Year of Study : 
+                Tuition and fees: 2700 
+                USD/Year 
+                Housing and living Costs: 670 USD/Year 
+                Health Insurance: 10 
+                USD/Year 
+                Total: 3380 USD/Year 
+                 
+                To encourage those excellent 
+                students and to help students in financial straits, LTU offers more than 
+                NT$30,000,000 scholarships each year. Of all scholarships, &quot;Excellent 
+                Student Scholar
+---
+PATTERN: Study
+     Affairs Center  
+                Office 
+                of Academic Affairs  
+                Student 
+                Affairs Office  
+             
+               Estimated cost for 1 Year of Study : 
+                Tuition and fees: 2700 
+                USD/Year 
+                Housing and living Costs: 670 USD/Year 
+                Health Insurance: 10 
+                USD/Year 
+                Total: 3380 USD/Year 
+                 
+                To encourage those excellent 
+                students and to help students in financial straits, LTU offers more than 
+             
+---
+PATTERN: Insurance
+ 
+               Estimated cost for 1 Year of Study : 
+                Tuition and fees: 2700 
+                USD/Year 
+                Housing and living Costs: 670 USD/Year 
+                Health Insurance: 10 
+                USD/Year 
+                Total: 3380 USD/Year 
+                 
+                To encourage those excellent 
+                students and to help students in financial straits, LTU offers more than 
+                NT$30,000,000 scholarships each year. Of all scholarships, &quot;Excellent 
+                Student Scholarship in Entrance Examination&quot; is offere
+---
+PATTERN: Program
+al Admission        
+                     
+                     
+                        
+                     
+                      
+                       &nbsp; 
+                         Mandarin Program   
+                     
+                     
+                        
+                     
+                     
+                       &nbsp; 
+                           Program Taught in English    
+                     
+                     
+                        
+                     
+                     
+                       &nbsp; 
+                         Fee Info  
+        
+---
+PATTERN: Contact
+Welcome to Ling Tung University 
+ 
+ 
+ 
+ 
+  
+ 
+
+  
+ 
+   
+      
+       
+          
+           
+                 
+              
+                 
+                     Home  
+                       Contact  
+                       Site Map  
+                       Chinese  
+                 
+              
+           
+           
+              
+                          
+            
+              
+                            
+                            
+                              
+                              
+           
+              
+           
+          
+       
+       
+          
+---
+PATTERN: Tel
+
+            
+             &nbsp; 
+           
+           
+               
+              Copyright   2009 Ling Tung University 
+              1, Ling tung Rd., Taichung, 
+              Taiwan, R.O.C. Tel:886-4-2389-2088
+---
+PATTERN: Mandarin Program
+ternational Admission        
+                     
+                     
+                        
+                     
+                      
+                       &nbsp; 
+                         Mandarin Program   
+                     
+                     
+                        
+                     
+                     
+                       &nbsp; 
+                           Program Taught in English    
+                     
+                     
+                        
+                     
+                     
+                       &nbsp; 
+                         Fee Info  
+---
+PATTERN: Program Taught in English
+         Mandarin Program   
+                     
+                     
+                        
+                     
+                     
+                       &nbsp; 
+                           Program Taught in English    
+                     
+                     
+                        
+                     
+                     
+                       &nbsp; 
+                         Fee Info  
+                     
+                     
+                        
+                     
+
+                    
+                 
+                 
+                     
+                   
+---
+===
+FILE: Departments_Departments.php.html
+PATTERN: Application
+            
+                   
+                         
+                         
+                    
+                     Graduate 
+                      Institute of Information Management  and Applications  
+                     
+                  
+                   
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                         
+                         
+                     Department 
+                      of Info
+---
+PATTERN: Admission
+    
+                     
+                    Administration  
+                 
+                 
+                     
+                 
+                 
+                     
+                    Admission  
+                 
+                 
+                     
+                 
+                 
+                     
+                    Scholarships  
+                 
+                 
+                     
+                 
+                 
+                     
+                    Exchange Program  
+                 
+                 
+                     
+                 
+      
+---
+PATTERN: Scholarship
+         
+                     
+                    Admission  
+                 
+                 
+                     
+                 
+                 
+                     
+                    Scholarships  
+                 
+                 
+                     
+                 
+                 
+                     
+                    Exchange Program  
+                 
+                 
+                     
+                 
+                 
+                     
+                    Academic Projects   
+                 
+                 
+                     
+               
+---
+PATTERN: Exchange
+      
+                     
+                    Scholarships  
+                 
+                 
+                     
+                 
+                 
+                     
+                    Exchange Program  
+                 
+                 
+                     
+                 
+                 
+                     
+                    Academic Projects   
+                 
+                 
+                     
+                 
+                 
+                     
+                    Sister School  
+                    
+                 
+                     
+           
+---
+PATTERN: Department
+  
+                     
+                    Academics  
+                 
+                 
+                    
+                 
+                 
+                   &nbsp; 
+                       Departments   
+                 
+                 
+                    
+                 
+                
+             
+             
+                
+                 
+                     
+                    Administration  
+                 
+                 
+                     
+                 
+                 
+                     
+                    Admission  
+                 
+     
+---
+PATTERN: International
+eting and Logistics Management(M.B.A.) 
+                     
+                   
+                         
+                         
+                     Graduate 
+                      Institute of International Business(M.B.A.) 
+                     
+                   
+                         
+                         
+                     Graduate 
+                      Institute of Tourism and Leisure Management(M.B.A.) 
+                     
+                   
+                         
+                         
+                     Department 
+                      of Business Adminis
+---
+PATTERN: Program
+                   
+                    Scholarships  
+                 
+                 
+                     
+                 
+                 
+                     
+                    Exchange Program  
+                 
+                 
+                     
+                 
+                 
+                     
+                    Academic Projects   
+                 
+                 
+                     
+                 
+                 
+                     
+                    Sister School  
+                    
+                 
+                     
+                 
+  
+---
+PATTERN: Contact
+g University 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+
+ 
+ 
+   
+     
+        
+         
+            
+             
+                   
+                
+                 
+                     Home  
+                       Contact  
+                       Site Map  
+                       Chinese  
+                 
+                
+             
+             
+                
+                          
+            
+              
+                            
+                           
+                           
+                              
+                              
+           
+                
+            
+---
+PATTERN: Tel
+   
+               &nbsp; 
+             
+             
+                 
+                Copyright    Ling Tung University 
+                1, Ling tung Rd., Taichung, 
+                Taiwan, R.O.C. Tel:886-4-2389-2088
+---
+PATTERN: Graduate
+                 
+                         
+                      College of Fashion  
+                   
+                   
+                         
+                         
+                     Graduate 
+                      Institute of Fashion Stylist Design(M.Des.) 
+                   
+                   
+                         
+                         
+                     Department of Fashion Business and Merchandising 
+                   
+                   
+                         
+                         
+                     Department of Fashion and Accessories Design 
+ 
+---
+===
+FILE: Exchange_Program.php.html
+PATTERN: Application
+   
+                     
+                  Previous  
+               
+              
+           
+           
+               Exchange Students  
+           
+           
+              
+                Application Form  
+                Laws and Rules  
+                International 
+                Affairs Center  
+                Office 
+                of Academic Affairs  
+                Secretariat  
+                Student 
+                Affairs Office  
+             
+               1.International students are defined as those who are neither citizens 
+                of the Republic o
+---
+PATTERN: Admission
+  
+                     
+                    Administration    
+                 
+                 
+                    
+                 
+                  
+                     
+                    Admission   
+                 
+                 
+                    
+                 
+                   
+                     
+                    Scholarships    
+                 
+                 
+                    
+                 
+                 
+                    
+                       
+                           
+                          Exchange Program    
+                    
+---
+PATTERN: Scholarship
+       
+                     
+                    Admission   
+                 
+                 
+                    
+                 
+                   
+                     
+                    Scholarships    
+                 
+                 
+                    
+                 
+                 
+                    
+                       
+                           
+                          Exchange Program    
+                       
+                       
+                          
+                       
+                       
+                         &nbsp; 
+              
+---
+PATTERN: Exchange
+ips    
+                 
+                 
+                    
+                 
+                 
+                    
+                       
+                           
+                          Exchange Program    
+                       
+                       
+                          
+                       
+                       
+                         &nbsp; 
+                             Exchange Students   
+                       
+                     
+                          
+                     
+                       
+                         &nbsp; 
+                     
+---
+PATTERN: Office
+e Students  
+           
+           
+              
+                Application Form  
+                Laws and Rules  
+                International 
+                Affairs Center  
+                Office 
+                of Academic Affairs  
+                Secretariat  
+                Student 
+                Affairs Office  
+             
+               1.International students are defined as those who are neither citizens 
+                of the Republic of China(*), nor Overseas Chinese. Those who have had 
+                their R.O.C. nationality annulled for 8 years or more are elig
+---
+PATTERN: Academic Affairs
+         
+              
+                Application Form  
+                Laws and Rules  
+                International 
+                Affairs Center  
+                Office 
+                of Academic Affairs  
+                Secretariat  
+                Student 
+                Affairs Office  
+             
+               1.International students are defined as those who are neither citizens 
+                of the Republic of China(*), nor Overseas Chinese. Those who have had 
+                their R.O.C. nationality annulled for 8 years or more are eligible to 
+                ap
+---
+PATTERN: International
+  
+              
+           
+           
+               Exchange Students  
+           
+           
+              
+                Application Form  
+                Laws and Rules  
+                International 
+                Affairs Center  
+                Office 
+                of Academic Affairs  
+                Secretariat  
+                Student 
+                Affairs Office  
+             
+               1.International students are defined as those who are neither citizens 
+                of the Republic of China(*), nor Overseas Chinese. Those who have had 
+              
+---
+PATTERN: Program
+                
+                 
+                    
+                 
+                 
+                    
+                       
+                           
+                          Exchange Program    
+                       
+                       
+                          
+                       
+                       
+                         &nbsp; 
+                             Exchange Students   
+                       
+                     
+                          
+                     
+                       
+                         &nbsp; 
+                             E
+---
+PATTERN: Contact
+Welcome to Ling Tung University 
+ 
+ 
+ 
+ 
+  
+ 
+
+  
+ 
+   
+      
+       
+          
+           
+                 
+              
+                 
+                     Home  
+                       Contact  
+                       Site Map  
+                       Chinese  
+                 
+              
+           
+           
+              
+                         
+            
+              
+                            
+                            
+                              
+                              
+           
+              
+           
+          
+       
+       
+          
+
+---
+PATTERN: Tel
+
+            
+             &nbsp; 
+           
+           
+               
+              Copyright   2009 Ling Tung University 
+              1, Ling tung Rd., Taichung, 
+              Taiwan, R.O.C. Tel:886-4-2389-2088
+---
+===
+FILE: Fee_Info.php.html
+PATTERN: Admission
+         Administration  
+               
+               
+                  
+               
+               
+                  
+                     
+                         
+                        Admission   
+                     
+                     
+                        
+                     
+                     
+                       &nbsp; 
+                           International Applicants    
+                     
+                     
+                        
+                     
+                     
+                       &nbsp; 
+                           International Ad
+---
+PATTERN: Scholarship
+        Fee Info   
+                     
+                     
+                        
+                     
+                  
+               
+               
+                   
+                  Scholarships  
+               
+               
+                  
+               
+               
+                   
+                  Exchange Program  
+               
+               
+                  
+               
+               
+                   
+                  Academic Projects   
+               
+               
+                  
+               
+               
+                   
+
+---
+PATTERN: Fee
+rogram Taught in English    
+                     
+                     
+                        
+                     
+                     
+                       &nbsp; 
+                           Fee Info   
+                     
+                     
+                        
+                     
+                  
+               
+               
+                   
+                  Scholarships  
+               
+               
+                  
+               
+               
+                   
+                  Exchange Program  
+               
+               
+                  
+  
+---
+PATTERN: Tuition
+          
+                     
+                       Item 
+                       Undergraduate 
+                       Graduate 
+                     
+                     
+                       Tuition &amp; Miscellaneous Fees 
+                       US $ 2700/yr ~ US $ 3000/yr 
+                       US $ 2700/yr ~ US $ 3000/yr 
+                     
+                     
+                       On-campus Accommodation 
+                       US $ 670/yr ~ US $ 700/yr 
+                       US $ 670/yr ~ US $ 700/yr 
+                     
+                     
+                       Rem
+---
+PATTERN: Exchange
+         
+               
+                   
+                  Scholarships  
+               
+               
+                  
+               
+               
+                   
+                  Exchange Program  
+               
+               
+                  
+               
+               
+                   
+                  Academic Projects   
+               
+               
+                  
+               
+               
+                   
+                  Sister School  
+               
+               
+                  
+               
+              
+              
+     
+---
+PATTERN: Office
+       
+               Fee Info  
+           
+           
+              
+               
+                  
+                    International 
+                    Affairs Center  
+                    Office 
+                    of Academic Affairs  
+                    Student 
+                    Affairs Office  
+                 
+                 
+               
+               
+                  
+                   
+                    Cost of Study Per Semester
+                     
+                   
+                     
+                       Item 
+                       Undergraduate 
+---
+PATTERN: Academic Affairs
+  
+           
+           
+              
+               
+                  
+                    International 
+                    Affairs Center  
+                    Office 
+                    of Academic Affairs  
+                    Student 
+                    Affairs Office  
+                 
+                 
+               
+               
+                  
+                   
+                    Cost of Study Per Semester
+                     
+                   
+                     
+                       Item 
+                       Undergraduate 
+                       Graduat
+---
+PATTERN: International
+                Admission   
+                     
+                     
+                        
+                     
+                     
+                       &nbsp; 
+                           International Applicants    
+                     
+                     
+                        
+                     
+                     
+                       &nbsp; 
+                           International Admission    
+                     
+                     
+                        
+                     
+                     
+                       &nbsp; 
+                           M
+---
+PATTERN: Cost
+airs  
+                    Student 
+                    Affairs Office  
+                 
+                 
+               
+               
+                  
+                   
+                    Cost of Study Per Semester
+                     
+                   
+                     
+                       Item 
+                       Undergraduate 
+                       Graduate 
+                     
+                     
+                       Tuition &amp; Miscellaneous Fees 
+                       US $ 2700/yr ~ US $ 3000/yr 
+                       US $ 2700/yr ~ US $ 3000/yr 
+    
+---
+PATTERN: Study
+                   Student 
+                    Affairs Office  
+                 
+                 
+               
+               
+                  
+                   
+                    Cost of Study Per Semester
+                     
+                   
+                     
+                       Item 
+                       Undergraduate 
+                       Graduate 
+                     
+                     
+                       Tuition &amp; Miscellaneous Fees 
+                       US $ 2700/yr ~ US $ 3000/yr 
+                       US $ 2700/yr ~ US $ 3000/yr 
+            
+---
+PATTERN: Program
+ional Admission    
+                     
+                     
+                        
+                     
+                     
+                       &nbsp; 
+                           Mandarin Program    
+                     
+                     
+                        
+                     
+                     
+                       &nbsp; 
+                           Program Taught in English    
+                     
+                     
+                        
+                     
+                     
+                       &nbsp; 
+                           Fee Info   
+    
+---
+PATTERN: Contact
+Welcome to Ling Tung University 
+ 
+ 
+ 
+ 
+  
+ 
+
+  
+ 
+   
+      
+       
+          
+           
+                 
+              
+                 
+                     Home  
+                       Contact  
+                       Site Map  
+                       Chinese  
+                 
+              
+           
+           
+              
+                         
+            
+              
+                            
+                            
+                              
+                              
+           
+              
+           
+          
+       
+       
+          
+
+---
+PATTERN: Tel
+
+            
+             &nbsp; 
+           
+           
+               
+              Copyright   2009 Ling Tung University 
+              1, Ling tung Rd., Taichung, 
+              Taiwan, R.O.C. Tel:886-4-2389-2088
+---
+PATTERN: Mandarin Program
+ International Admission    
+                     
+                     
+                        
+                     
+                     
+                       &nbsp; 
+                           Mandarin Program    
+                     
+                     
+                        
+                     
+                     
+                       &nbsp; 
+                           Program Taught in English    
+                     
+                     
+                        
+                     
+                     
+                       &nbsp; 
+                           Fee Inf
+---
+PATTERN: Program Taught in English
+        Mandarin Program    
+                     
+                     
+                        
+                     
+                     
+                       &nbsp; 
+                           Program Taught in English    
+                     
+                     
+                        
+                     
+                     
+                       &nbsp; 
+                           Fee Info   
+                     
+                     
+                        
+                     
+                  
+               
+               
+                   
+                  Scholar
+---
+PATTERN: Undergraduate
+                
+                   
+                    Cost of Study Per Semester
+                     
+                   
+                     
+                       Item 
+                       Undergraduate 
+                       Graduate 
+                     
+                     
+                       Tuition &amp; Miscellaneous Fees 
+                       US $ 2700/yr ~ US $ 3000/yr 
+                       US $ 2700/yr ~ US $ 3000/yr 
+                     
+                     
+                       On-campus Accommodation 
+                       US $ 670/yr ~ US $ 700/yr 
+     
+---
+PATTERN: Graduate
+                   Cost of Study Per Semester
+                     
+                   
+                     
+                       Item 
+                       Undergraduate 
+                       Graduate 
+                     
+                     
+                       Tuition &amp; Miscellaneous Fees 
+                       US $ 2700/yr ~ US $ 3000/yr 
+                       US $ 2700/yr ~ US $ 3000/yr 
+                     
+                     
+                       On-campus Accommodation 
+                       US $ 670/yr ~ US $ 700/yr 
+                       US $ 670/yr ~ US $ 7
+---
+===
+FILE: Offices_Offices.php.html
+PATTERN: Admission
+  
+                         
+                     
+                      
+                    
+                    
+                   
+
+                    
+                     
+                    Admission  
+                 
+                 
+                    
+                 
+                    
+                     
+                    Scholarships  
+                 
+                 
+                    
+                 
+                    
+                     
+                    Exchange Program  
+                 
+                 
+                    
+                 
+   
+---
+PATTERN: Scholarship
+       
+                     
+                    Admission  
+                 
+                 
+                    
+                 
+                    
+                     
+                    Scholarships  
+                 
+                 
+                    
+                 
+                    
+                     
+                    Exchange Program  
+                 
+                 
+                    
+                 
+                    
+                     
+                    Academic Projects   
+                 
+                 
+                    
+            
+---
+PATTERN: Exchange
+    
+                     
+                    Scholarships  
+                 
+                 
+                    
+                 
+                    
+                     
+                    Exchange Program  
+                 
+                 
+                    
+                 
+                    
+                     
+                    Academic Projects   
+                 
+                 
+                    
+                 
+                    
+                     
+                    Sister School  
+                 
+                 
+                    
+           
+---
+PATTERN: Office
+        Administration   
+                     
+                     
+                        
+                     
+                     
+                       &nbsp; 
+                              Offices    
+                      
+    
+                      
+                         
+                     
+                      
+                    
+                    
+                   
+
+                    
+                     
+                    Admission  
+                 
+                 
+                    
+                 
+                    
+                     
+          
+---
+PATTERN: Academic Affairs
+               
+                       Library   
+                   
+                   
+                         
+                           
+                       Office 
+                      of Academic Affairs   
+                   
+                   
+                         
+                           
+                       Office 
+                      of President   
+                   
+                   
+                         
+                           
+                       Office 
+                      of Vice-President   
+                   
+                   
+         
+---
+PATTERN: International
+        
+                       General 
+                      Affairs Office   
+                   
+                   
+                           
+                           
+                       International 
+                      Affairs Center   
+                   
+                   
+                           
+                           
+                       Library   
+                   
+                   
+                         
+                           
+                       Office 
+                      of Academic Affairs   
+                   
+                   
+     
+---
+PATTERN: Program
+                 
+                    Scholarships  
+                 
+                 
+                    
+                 
+                    
+                     
+                    Exchange Program  
+                 
+                 
+                    
+                 
+                    
+                     
+                    Academic Projects   
+                 
+                 
+                    
+                 
+                    
+                     
+                    Sister School  
+                 
+                 
+                    
+                 
+  
+---
+PATTERN: Contact
+Welcome to Ling Tung University 
+
+ 
+ 
+ 
+ 
+
+  
+ 
+
+  
+ 
+   
+      
+       
+          
+           
+                 
+              
+                 
+                     Home  
+                       Contact  
+                       Site Map  
+                       Chinese  
+                 
+              
+           
+           
+              
+                          
+            
+              
+                            
+                           
+                           
+                              
+                              
+           
+              
+           
+          
+---
+PATTERN: Tel
+
+            
+             &nbsp; 
+           
+           
+               
+              Copyright   2009 Ling Tung University 
+              1, Ling tung Rd., Taichung, 
+              Taiwan, R.O.C. Tel:886-4-2389-2088
+---
+===
+FILE: Overview.php.html
+PATTERN: Admission
+  
+                     
+                    Administration  
+                 
+                 
+                    
+                 
+                    
+                     
+                    Admission  
+                 
+                 
+                     
+                 
+                    
+                     
+                    Scholarships  
+                 
+                 
+                     
+                 
+                    
+                     
+                    Exchange Program  
+                 
+                 
+                     
+                 
+
+---
+PATTERN: Scholarship
+      
+                     
+                    Admission  
+                 
+                 
+                     
+                 
+                    
+                     
+                    Scholarships  
+                 
+                 
+                     
+                 
+                    
+                     
+                    Exchange Program  
+                 
+                 
+                     
+                 
+                    
+                     
+                    Academic Projects   
+                 
+                 
+                     
+         
+---
+PATTERN: Exchange
+   
+                     
+                    Scholarships  
+                 
+                 
+                     
+                 
+                    
+                     
+                    Exchange Program  
+                 
+                 
+                     
+                 
+                    
+                     
+                    Academic Projects   
+                 
+                 
+                     
+                 
+                    
+                     
+                    Sister School  
+                 
+                 
+                     
+        
+---
+PATTERN: Overview
+                    
+                    Introduction  
+                 
+                 
+                     
+                 
+                 
+                   &nbsp; 
+                       Overview   
+                 
+                 
+                    
+                 
+                
+             
+             
+                
+                 
+                     
+                    Academics  
+                 
+                 
+                     
+                 
+                   
+                     
+                    Administration  
+                 
+      
+---
+PATTERN: Program
+                
+                    Scholarships  
+                 
+                 
+                     
+                 
+                    
+                     
+                    Exchange Program  
+                 
+                 
+                     
+                 
+                    
+                     
+                    Academic Projects   
+                 
+                 
+                     
+                 
+                    
+                     
+                    Sister School  
+                 
+                 
+                     
+                 
+---
+PATTERN: Contact
+Welcome to Ling Tung University 
+ 
+ 
+ 
+ 
+  
+ 
+
+  
+ 
+   
+      
+       
+          
+           
+                 
+              
+                 
+                     Home  
+                       Contact  
+                       Site Map  
+                       Chinese  
+                 
+              
+           
+           
+              
+                          
+            
+              
+                            
+                            
+                              
+                              
+           
+              
+           
+          
+       
+       
+          
+---
+PATTERN: Tel
+ 
+           
+           
+              
+               
+                 Contact Info 
+               
+               
+                  1, Ling tung Rd., Taichung, Taiwan, R.O.C. 
+                  Tel: 
+            886-4-23892088 
+            Fax: 886-4-36015202 
+            E-Mail:   ltu1211@teamail.ltu.edu.tw  
+              English 
+            Site   |   Chinese 
+            Site   
+               
+              
+           
+            
+              
+           
+           
+               The roots of Ling Tung University go back to the early 1960’s when the former congressman, Dr. Ya
+---
+PATTERN: Fax
+          
+                 Contact Info 
+               
+               
+                  1, Ling tung Rd., Taichung, Taiwan, R.O.C. 
+                  Tel: 
+            886-4-23892088 
+            Fax: 886-4-36015202 
+            E-Mail:   ltu1211@teamail.ltu.edu.tw  
+              English 
+            Site   |   Chinese 
+            Site   
+               
+              
+           
+            
+              
+           
+           
+               The roots of Ling Tung University go back to the early 1960’s when the former congressman, Dr. Ya-ping Tsai, and his wife, Dr. Min Lee, located
+---
+PATTERN: E-Mail
+ct Info 
+               
+               
+                  1, Ling tung Rd., Taichung, Taiwan, R.O.C. 
+                  Tel: 
+            886-4-23892088 
+            Fax: 886-4-36015202 
+            E-Mail:   ltu1211@teamail.ltu.edu.tw  
+              English 
+            Site   |   Chinese 
+            Site   
+               
+              
+           
+            
+              
+           
+           
+               The roots of Ling Tung University go back to the early 1960’s when the former congressman, Dr. Ya-ping Tsai, and his wife, Dr. Min Lee, located the school site at Nantun, Taich
+---
+PATTERN: Undergraduate
+ch provides four-year undergraduate programs.  
+               Ling Tung University has four schools, offering 16 undergraduate programs, 11 graduate programs, and 11 two-year and five-year programs. Undergraduate programs are in the areas of business, finance, design, and information technology. Graduate programs focus on the fields of international business, finance and economics, management and visual communication. Five-year programs focus on training students with basic skills in the business field. Ling Tung also provides night programs and weekend programs for students pursuing lifelong
+---
+PATTERN: Graduate
+ls, offering 16 undergraduate programs, 11 graduate programs, and 11 two-year and five-year programs. Undergraduate programs are in the areas of business, finance, design, and information technology. Graduate programs focus on the fields of international business, finance and economics, management and visual communication. Five-year programs focus on training students with basic skills in the business field. Ling Tung also provides night programs and weekend programs for students pursuing lifelong learning. 
+               In order to facilitate international academic exchange, Ling Tung Unive
+---
+===
+FILE: Scholarships.php.html
+PATTERN: Admission
+  
+                     
+                    Administration    
+                 
+                 
+                    
+                 
+                  
+                     
+                    Admission   
+                 
+                 
+                    
+                 
+                 
+                    
+                       
+                           
+                          Scholarships  
+                       
+                       
+                          
+                       
+                       
+                         &nbsp; 
+                        
+---
+PATTERN: Scholarship
+sion   
+                 
+                 
+                    
+                 
+                 
+                    
+                       
+                           
+                          Scholarships  
+                       
+                       
+                          
+                       
+                       
+                         &nbsp; 
+                             Scholarships   
+                       
+                     
+                          
+                     
+                       
+                         &nbsp; 
+                             nte
+---
+PATTERN: Exchange
+
+                       
+                       
+                          
+                       
+                    
+                 
+
+                 
+                     
+                    Exchange Program  
+                 
+                 
+                   
+                 
+                 
+                     
+                    Academic Projects   
+                 
+                 
+                    
+                 
+                 
+                     
+                    Sister School  
+                 
+                 
+                    
+                 
+
+---
+PATTERN: Office
+          
+              
+           
+           
+               Scholarships   
+           
+           
+              
+                International 
+                Affairs Center  
+                Office 
+                of Academic Affairs  
+                Student 
+                Affairs Office  
+             
+             
+           
+
+           
+             &nbsp; 
+           
+           
+              TOP  
+           
+            
+             &nbsp; 
+           
+           
+               
+              Copyright   2013 Ling Tung University 
+              1, Ling tung Rd., Taichun
+---
+PATTERN: Academic Affairs
+          
+           
+               Scholarships   
+           
+           
+              
+                International 
+                Affairs Center  
+                Office 
+                of Academic Affairs  
+                Student 
+                Affairs Office  
+             
+             
+           
+
+           
+             &nbsp; 
+           
+           
+              TOP  
+           
+            
+             &nbsp; 
+           
+           
+               
+              Copyright   2013 Ling Tung University 
+              1, Ling tung Rd., Taichung, 
+              Taiwan, R
+---
+PATTERN: International
+       
+                     
+                  Previous  
+               
+              
+           
+           
+               Scholarships   
+           
+           
+              
+                International 
+                Affairs Center  
+                Office 
+                of Academic Affairs  
+                Student 
+                Affairs Office  
+             
+             
+           
+
+           
+             &nbsp; 
+           
+           
+              TOP  
+           
+            
+             &nbsp; 
+           
+           
+               
+              Copyright   20
+---
+PATTERN: Program
+ps   
+                       
+                     
+                          
+                     
+                       
+                         &nbsp; 
+                             nternational Programs    
+                       
+                       
+                          
+                       
+                    
+                 
+
+                 
+                     
+                    Exchange Program  
+                 
+                 
+                   
+                 
+                 
+                     
+                    Academic Projects   
+              
+---
+PATTERN: Contact
+Welcome to Ling Tung University 
+ 
+ 
+ 
+ 
+  
+ 
+
+  
+ 
+   
+      
+       
+          
+           
+                 
+              
+                 
+                     Home  
+                       Contact  
+                       Site Map  
+                       Chinese  
+                 
+              
+           
+           
+              
+                         
+            
+              
+                            
+                            
+                              
+                              
+           
+              
+           
+          
+       
+       
+          
+
+---
+PATTERN: Tel
+
+            
+             &nbsp; 
+           
+           
+               
+              Copyright   2013 Ling Tung University 
+              1, Ling tung Rd., Taichung, 
+              Taiwan, R.O.C. Tel:886-4-2389-2088
+---
+===
+FILE: Sister_School.php.html
+PATTERN: Admission
+  
+                     
+                    Administration    
+                 
+                 
+                    
+                 
+                  
+                     
+                    Admission   
+                 
+                 
+                    
+                 
+                   
+                     
+                    Scholarships    
+                 
+                 
+                    
+                 
+                    
+                     
+                    Exchange Program    
+                 
+                 
+                    
+                 
+---
+PATTERN: Scholarship
+       
+                     
+                    Admission   
+                 
+                 
+                    
+                 
+                   
+                     
+                    Scholarships    
+                 
+                 
+                    
+                 
+                    
+                     
+                    Exchange Program    
+                 
+                 
+                    
+                 
+                    
+                     
+                    Academic Projects   
+                 
+                 
+                    
+        
+---
+PATTERN: Exchange
+  
+                     
+                    Scholarships    
+                 
+                 
+                    
+                 
+                    
+                     
+                    Exchange Program    
+                 
+                 
+                    
+                 
+                    
+                     
+                    Academic Projects   
+                 
+                 
+                    
+                 
+                 
+                    
+                       
+                           
+                          Sister School    
+          
+---
+PATTERN: International
+  
+                        Sanming University   
+                     寧德師範學院 
+Ningde Normal University   
+                    廈門華天涉外職業技術學院
+                       
+                      Xiamen Huatian International Vocation Institute  
+                 
+                 
+                     華僑大學 
+Huaqiao University   
+                     肇慶工商職業技術學院
+                         
+                        Zhaoqing Business And Technology College   
+                     首都經濟貿易大學
+                         
+                        Capital University of Economics and Business, P.R.O.C.   
+                
+---
+PATTERN: Program
+               
+                    Scholarships    
+                 
+                 
+                    
+                 
+                    
+                     
+                    Exchange Program    
+                 
+                 
+                    
+                 
+                    
+                     
+                    Academic Projects   
+                 
+                 
+                    
+                 
+                 
+                    
+                       
+                           
+                          Sister School    
+                   
+---
+PATTERN: Contact
+Welcome to Ling Tung University 
+ 
+ 
+ 
+ 
+  
+ 
+
+ 
+ 
+ 
+ 
+   
+      
+       
+          
+           
+                 
+              
+                 
+                     Home  
+                       Contact  
+                       Site Map  
+                       Chinese  
+                 
+              
+           
+           
+              
+                         
+            
+              
+                            
+                            
+                              
+                              
+           
+              
+           
+          
+       
+       
+          
+
+---
+PATTERN: Tel
+    
+                        Shenzhen Polytechnic, P.R.O.C.   
+                    河南大學 
+Henan University  
+                 
+                 
+                     橫店影視職業學院 
+Hengdian College of Film Television   
+                     福建中華職業技術學校
+                         
+                        Fujian vocational and technical schools   
+                   &nbsp; 
+                   &nbsp; 
+                 
+                 
+                   美國 
+                 
+                 
+                    美國賓州大學教育學院 
+                    College of 
+                    Education, the Pennsylvania 
+---
+PATTERN: Graduate
+        
+                   韓國 
+                 
+                 
+                    韓國祥明大學 
+                    Sangmyung University, Korea  
+                    東亞大學東北亞國際大學院 
+                    Graduate School of Northeast 
+                    Asian Studies,Dong-A University  
+                    韓國龍仁松潭大學
+                       
+                      Yong in Songdam Gollege  
+                    晉州實業大學
+                       
+                      Jinju University, Korea   
+                 
+                   
+                    國民大學 
+Kookmin University, Korea  
+                   &nbs
+---
+===
+FILE: nternational.php.html
+PATTERN: Admission
+  
+                     
+                    Administration    
+                 
+                 
+                    
+                 
+                  
+                     
+                    Admission   
+                 
+                 
+                    
+                 
+                 
+                    
+                       
+                           
+                          Scholarships  
+                       
+                       
+                          
+                       
+                       
+                         &nbsp; 
+                        
+---
+PATTERN: Scholarship
+sion   
+                 
+                 
+                    
+                 
+                 
+                    
+                       
+                           
+                          Scholarships  
+                       
+                       
+                          
+                       
+                       
+                         &nbsp; 
+                             Scholarships   
+                       
+                     
+                          
+                     
+                       
+                         &nbsp; 
+                             nte
+---
+PATTERN: Exchange
+
+                       
+                       
+                          
+                       
+                    
+                 
+
+                 
+                     
+                    Exchange Program  
+                 
+                 
+                   
+                 
+                 
+                     
+                    Academic Projects   
+                 
+                 
+                    
+                 
+                 
+                     
+                    Sister School  
+                 
+                 
+                    
+                 
+
+---
+PATTERN: Office
+
+              
+           
+           
+               International Programs   
+           
+           
+              
+                International 
+                Affairs Center  
+                Office 
+                of Academic Affairs  
+                Student 
+                Affairs Office  
+               
+             
+           
+
+           
+             &nbsp; 
+           
+           
+              TOP  
+           
+            
+             &nbsp; 
+           
+           
+               
+              Copyright   2009 Ling Tung University 
+              1, Ling tung Rd., Taich
+---
+PATTERN: Academic Affairs
+
+           
+               International Programs   
+           
+           
+              
+                International 
+                Affairs Center  
+                Office 
+                of Academic Affairs  
+                Student 
+                Affairs Office  
+               
+             
+           
+
+           
+             &nbsp; 
+           
+           
+              TOP  
+           
+            
+             &nbsp; 
+           
+           
+               
+              Copyright   2009 Ling Tung University 
+              1, Ling tung Rd., Taichung, 
+              Taiwan,
+---
+PATTERN: International
+             
+           
+           
+             &nbsp; 
+           
+           
+             &nbsp; 
+           
+          
+          
+           
+              Home   &gt;   Scholarships   &gt;   International Programs  
+           
+           
+              
+               
+                     
+                  Previous  
+               
+              
+           
+           
+               International Programs   
+           
+           
+              
+                International 
+                Affairs Center  
+                Office 
+                of Academic Affairs  
+        
+---
+PATTERN: Program
+ps   
+                       
+                     
+                          
+                     
+                       
+                         &nbsp; 
+                             nternational Programs    
+                       
+                       
+                          
+                       
+                    
+                 
+
+                 
+                     
+                    Exchange Program  
+                 
+                 
+                   
+                 
+                 
+                     
+                    Academic Projects   
+              
+---
+PATTERN: Contact
+Welcome to Ling Tung University 
+ 
+ 
+ 
+ 
+  
+ 
+
+  
+ 
+   
+      
+       
+          
+           
+                 
+              
+                 
+                     Home  
+                       Contact  
+                       Site Map  
+                       Chinese  
+                 
+              
+           
+           
+              
+                          
+            
+              
+                            
+                            
+                              
+                              
+           
+              
+           
+          
+       
+       
+          
+---
+PATTERN: Tel
+
+            
+             &nbsp; 
+           
+           
+               
+              Copyright   2009 Ling Tung University 
+              1, Ling tung Rd., Taichung, 
+              Taiwan, R.O.C. Tel:886-4-2389-2088
+---
+===

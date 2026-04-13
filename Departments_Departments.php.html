@@ -1,0 +1,576 @@
+<?php 
+header("Content-Type:text/html; charset=utf-8"); 
+?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Welcome to Ling Tung University</title>
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #F30;
+}
+-->
+</style>
+<link href="../CSS/Eng_Ltu.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+body {
+	background-color: #A6B588;
+}
+-->
+</style>
+<script src="../Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div align="center">
+  <table width="820" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+    <tr>
+      <td align="center"><table width="780" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><table width="780" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td rowspan="2" align="left"><a href="http://www.ltu.edu.tw/" target="_blank"><img src="../image/logo.jpg" width="215" height="76" border="0" /></a></td>
+              <td align="right"><table width="250" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td><a 
+  href="../index.php" title="Home" class="seo"><img src="../image/icon03.gif" width="12" height="9" border="0" />Home</a></td>
+                  <td><a 
+  href="http://www.ltu.edu.tw/Eng_Ltu" title="Home" class="seo"><img src="../image/icon03.gif" width="12" height="9" border="0" /></a><a 
+  href="mailto:ltc226@teamail.ltu.edu.tw" title="Contact" class="seo">Contact</a></td>
+                  <td><a 
+  href="http://www.ltu.edu.tw/Eng_Ltu" title="Home" class="seo"><img src="../image/icon03.gif" width="12" height="9" border="0" /></a><a 
+  href="SiteMap.htm" title="Site Map" class="seo">Site Map</a></td>
+                  <td><a 
+  href="http://www.ltu.edu.tw/Eng_Ltu" title="Home" class="seo"><img src="../image/icon03.gif" width="12" height="9" border="0" /></a><a href="http://www.ltu.edu.tw/" title="Chinese" class="seo">Chinese</a></td>
+                </tr>
+              </table></td>
+            </tr>
+            <tr>
+              <td align="right"><table border="0" cellspacing="0" cellpadding="0">
+                         <tr>
+            
+            <td valign="bottom"><form  method="get" name="searchform" action="http://www.google.com/search" target="_blank">
+                           <input type="hidden" name="sitesearch" value="english.ltu.edu.tw"/>
+                          <img src="../image/search_icon.gif" alt="Search" width="55" height="20" />
+                          <input alt="search" type="text"  name="as_q" size="20" />
+                            <input type="submit" class="btn" value="Go"/> 
+                            </form></td>
+          </tr>
+              </table></td>
+            </tr>
+          </table></td>
+        </tr>
+        <tr>
+          <td height="5" bgcolor="#AE8560"></td>
+        </tr>
+        <tr>
+          <td height="2" bgcolor="#FFFFFF"></td>
+        </tr>
+        <tr>
+          <td><img src="../image/005.jpg" width="780" height="250" alt=""/></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+      </table></td>
+    </tr>
+    <tr>
+      <td align="center"><table width="780" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="180" valign="top" class="li"><table width="175" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+                </tr>
+                <tr>
+                  <td width="15"><img src="../image/icon.gif" width="10" height="9" /></td>
+                  <td align="left" class="wword"><a href="../Overview.php" class="seo2">Introduction</a></td>
+                </tr>
+                <tr>
+                  <td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+                </tr>
+                <tr>
+                  <td width="15"><img src="../image/icon.gif" width="10" height="9" /></td>
+                  <td align="left" class="wword"><a href="Departments.php" class="seo2">Academics</a></td>
+                </tr>
+                <tr>
+                  <td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+                </tr>
+                <tr>
+                  <td bgcolor="#EFFFB0">&nbsp;</td>
+                  <td align="left" bgcolor="#EFFFB0" class="wword02"><img src="../image/icon04.gif" width="4" height="7" /><span class="wword"><a href="Departments.php" class="seo6"> Departments</a></span></td>
+                </tr>
+                <tr>
+                  <td height="1" colspan="2" background="../image/li_icon.gif"></td>
+                </tr>
+              </table></td>
+            </tr>
+            <tr>
+              <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="15"><img src="../image/icon.gif" width="10" height="9" /></td>
+                  <td align="left" class="wword"><a href="../Offices/Offices.php" class="seo2">Administration</a></td>
+                </tr>
+                <tr>
+                   <td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+                </tr>
+                <tr>
+                  <td width="15"><img src="../image/icon.gif" width="10" height="9" /></td>
+                  <td align="left" class="wword"><a href="../Applicants.php" class="seo2">Admission</a></td>
+                </tr>
+                <tr>
+                   <td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+                </tr>
+                <tr>
+                  <td width="15"><img src="../image/icon.gif" width="10" height="9" /></td>
+                  <td align="left" class="wword"><a href="../Scholarships.php" class="seo2">Scholarships</a></td>
+                </tr>
+                <tr>
+                   <td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+                </tr>
+                <tr>
+                  <td width="15"><img src="../image/icon.gif" width="10" height="9" /></td>
+                  <td align="left" class="wword"><a href="../Exchange_Program.php" class="seo2">Exchange Program</a></td>
+                </tr>
+                <tr>
+                   <td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+                </tr>
+                <tr>
+                  <td width="15"><img src="../image/icon.gif" width="10" height="9" /></td>
+                  <td align="left" class="wword"><a href="../Academic_Projects.php" class="seo2">Academic Projects </a></td>
+                </tr>
+                <tr>
+                   <td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+                </tr>
+                <tr>
+                  <td width="15"><img src="../image/icon.gif" width="10" height="9" /></td>
+                  <td align="left" class="wword"><a href="../Sister_School.php" class="seo2">Sister School</a></td>
+                   </tr>
+                <tr>
+                   <td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+                </tr>
+                <tr>
+                  <td height="1" colspan="2" bgcolor="#b9a38c" ></td>
+                </tr>
+              </table></td>
+            </tr>
+            <tr>
+              <td align="left">&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+          </table></td>
+          <td valign="top" style="padding-left:20px"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="left"><a href="../index.php" title="Home" class="seo3">Home</a> <span class="wword03">&gt;</span> <a href="Departments.htm" title="Introduction" class="seo3">Academics</a> <span class="wword03">&gt;</span> <a href="Departments.htm" title="Overview" class="seo3">Departments</a></td>
+            </tr>
+            <tr>
+              <td align="right"><table width="80" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="20" valign="middle"><a 
+      href="javascript:history.back();" title="Previous" class="seo3"><img src="../image/Previous_icon.gif" width="16" height="12" border="0" /></a></td>
+                  <td width="50"><a 
+      href="javascript:history.back();" title="Previous" class="seo3">Previous</a></td>
+                </tr>
+              </table></td>
+            </tr>
+            <tr>
+              <td align="left"><img src="../image/icon02.gif" width="24" height="21" /><span class="wword04">Departments</span></td>
+            </tr>
+            <tr>
+              <td align="left"><table width="100%" cellpadding="1" cellspacing="1" bgcolor="#A4CC00" class="webformtable" summary="Departments">
+                <tbody>
+                  <tr>
+                    <th width="10%" bgcolor="#EFFFB0" class="wword06">EN</th>
+                    <th bgcolor="#EFFFB0" class="wword06">CH</th>
+                    <th width="80%" bgcolor="#EFFFB0" class="wword05">Departments</th>
+                  </tr>
+                  <tr>
+                    <td align="center" bgcolor="#FFFFFF"><a href="image/1000/Fashion.pdf" target="new"><img border="0" 
+            src="../image/en1.gif" /></a></td>
+                    <td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)" 
+            href="http://www.admin.ltu.edu.tw/Home/Index?gpid=181" target="new"><img border="0" 
+            src="../image/ch1.gif" /></a></td>
+                    <td bgcolor="#FFFFFF" class="wword05"><strong class="fromwword">College of Fashion</strong></td>
+                  </tr>
+                  <tr class="fromwword">
+                    <td align="center" bgcolor="#FFFFFF"><a title="English website(open new window)" 
+            href="../download/Fashion-Stylist-Design.pdf" target="new"><img 
+            border="0" 
+            src="../image/en2.gif" /></a></td>
+                    <td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)" 
+            href="http://www.teach.ltu.edu.tw/Home/Index?gpid=24" target="new"><img border="0" 
+            src="../image/ch2.gif" /></a></td>
+                    <td bgcolor="#FFFFFF" class="wword05">Graduate 
+                      Institute of Fashion Stylist Design(M.Des.)</td>
+                  </tr>
+                  <tr>
+                    <td align="center" bgcolor="#FFFFFF"><a title="English website(open new window)" 
+            href="../download/Fashion-Business-&amp;-Merchandising.pdf" target="new"><img 
+            border="0" 
+            src="../image/en2.gif" /></a></td>
+                    <td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)" 
+            href="http://www.admin.ltu.edu.tw/Home/Welcome?gpid=174" target="new"><img border="0" 
+            src="../image/ch2.gif" /></a></td>
+                    <td bgcolor="#FFFFFF" class="wword05">Department of Fashion Business and Merchandising</td>
+                  </tr>
+                  <tr>
+                    <td align="center" bgcolor="#FFFFFF"><a title="English website(open new window)" 
+            href="../download/Fashion-&amp;-Accessories-Design.pdf" target="new"><img 
+            border="0" 
+            src="../image/en2.gif" /></a></td>
+                    <td align="center" bgcolor="#FFFFFF"><a href="http://www.admin.ltu.edu.tw/Home/Index?gpid=173" target="new"><img border="0" 
+            src="../image/ch2.gif" /></a></td>
+                    <td bgcolor="#FFFFFF" class="wword05">Department of Fashion and Accessories Design</td>
+                  </tr>
+                  <tr class="sub">
+                    <td align="center" bgcolor="#FFFFFF"><a title="English website(open new window)" 
+            href="../download/Fashion-Stylist-Design.pdf" target="new"><img 
+            border="0" 
+            src="../image/en2.gif" /></a></td>
+                    <td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)" 
+            href="http://www.teach.ltu.edu.tw/Home/Index?gpid=24" target="new"><img border="0" 
+            src="../image/ch2.gif" /></a></td>
+                    <td bgcolor="#FFFFFF" class="wword05">Department 
+                      of Fashion Stylist Design(B.Des.)</td>
+                  </tr>
+                  <tr>
+                    <td align="center" bgcolor="#FFFFFF"><a href="image/1000/Design.pdf" target="new"><img border="0" 
+            src="../image/en1.gif" /></a></td>
+                    <td width="10%" align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)" 
+            href="http://www.teach.ltu.edu.tw/Home/Welcome?gpid=21" target="new"><img border="0" 
+            src="../image/ch1.gif" /></a></td>
+                    <td bgcolor="#FFFFFF" class="wword05"><strong class="fromwword">College 
+                      of Design</strong></td>
+                  </tr>
+                  <tr class="sub">
+                    <td align="center" bgcolor="#FFFFFF"><a href="../download/Graduate Institute of Digital Content Design.pdf" target="new"><img src="../image/en2.gif" width="15" height="17" border="0" /></a></td>
+                    <td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)" 
+            href="http://www.teach.ltu.edu.tw/Home/Index?gpid=22" target="new"><img border="0" 
+            src="../image/ch2.gif" /></a></td>
+                    <td bgcolor="#FFFFFF" class="wword05">Graduate 
+                      Institute of Digital Content Design(M.Des.)</td>
+                    </tr>
+                  <tr class="sub">
+                    <td align="center" bgcolor="#FFFFFF"><a title="English website(open new window)" 
+            href="../download/Graduate Institute of Visual Communication Design.pdf" target="new"><img 
+            border="0" 
+            src="../image/en2.gif" /></a></td>
+                    <td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)" 
+            href="http://www.teach.ltu.edu.tw/Home/Index?gpid=23" target="new"><img border="0" 
+            src="../image/ch2.gif" /></a></td>
+                    <td bgcolor="#FFFFFF" class="wword05">Graduate 
+                      Institute of Visual Communication Design(M.Des.)</td>
+                    </tr>
+                  <tr class="sub">
+                    <td align="center" bgcolor="#FFFFFF"><a href="../download/Departments0331/Department of Creative Product Design.pdf"><img src="../image/en2.gif" width="15" height="17" /></a></td>
+                    <td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)" 
+            href="http://www.teach.ltu.edu.tw/Home/Index?gpid=25" target="new"><img border="0" 
+            src="../image/ch2.gif" /></a></td>
+                    <td bgcolor="#FFFFFF" class="wword05"><strong>Graduate Institute of  Creative Product Design</strong></td>
+                  </tr>
+                  <tr class="sub">
+                    <td align="center" bgcolor="#FFFFFF"><a title="English website(open new window)" 
+            href="../download/Department of Visual Communication Design.pdf" target="new"><img 
+            border="0" 
+            src="../image/en2.gif" /></a></td>
+                    <td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)" 
+            href="http://www.teach.ltu.edu.tw/Home/Index?gpid=23" target="new"><img border="0" 
+            src="../image/ch2.gif" /></a></td>
+                    <td bgcolor="#FFFFFF" class="wword05">Department 
+                      of Visual Communication Design(B.Des.)</td>
+                    </tr>
+                  <tr class="sub">
+                    <td align="center" bgcolor="#FFFFFF"><a href="../download/Department of Digital Content Design.pdf" target="new"><img src="../image/en2.gif" width="15" height="17" border="0" /></a></td>
+                    <td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)" 
+            href="http://www.teach.ltu.edu.tw/Home/Welcome?gpid=22" target="new"><img border="0" 
+            src="../image/ch2.gif" /></a></td>
+                    <td bgcolor="#FFFFFF" class="wword05">Department 
+                      of Digital Content Design(B.Des.)</td>
+                    </tr>
+                  <tr class="sub">
+                    <td align="center" bgcolor="#FFFFFF"><a href="../download/Departments0331/Department of Creative Product Design.pdf"><img src="../image/en2.gif" width="15" height="17" /></a></td>
+                    <td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)" 
+            href="http://www.teach.ltu.edu.tw/Home/Index?gpid=25" target="new"><img border="0" 
+            src="../image/ch2.gif" /></a></td>
+                    <td bgcolor="#FFFFFF" class="wword05"><strong>Department of Creative  Product Design</strong></td>
+                  </tr>
+                  
+                  <tr>
+                    <td align="center" bgcolor="#FFFFFF"><a title="English website(open new window)" 
+            href="image/1000/Information.pdf" target="new"><img border="0" 
+            src="../image/en2.gif" /></a></td>
+                    <td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)" 
+            href="http://www.teach.ltu.edu.tw/Home/Index?gpid=28" target="new"><img border="0" 
+            src="../image/ch1.gif" /></a></td>
+                    <td bgcolor="#FFFFFF" class="wword05"><strong class="fromwword">College 
+                      of Information Science</strong></td>
+                  </tr>
+                  
+                  
+                  
+                  
+                  <tr>
+                    <td align="center" bgcolor="#FFFFFF"><a title="English website(open new window)" 
+            href="../download/Graduate Institute of Applied Information Technology.pdf" target="new"><img border="0" 
+            src="../image/en2.gif" /></a></td>
+                    <td align="center" bgcolor="#FFFFFF"><a href="http://www.teach.ltu.edu.tw/Home/Index?gpid=29"><img src="../image/ch2.gif" width="15" height="17" border="0" /></a></td>
+                    <td bgcolor="#FFFFFF" class="wword05">Graduate 
+                      Institute of Applied Information Technology(M.S.)</td>
+                    </tr>
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  <tr class="sub">
+                    <td align="center" bgcolor="#FFFFFF"><a title="English website(open new window)" 
+            href="../download/Graduate Institute of Information Management and Applications.pdf" target="new"><img 
+            border="0" 
+            src="../image/en2.gif" /></a></td>
+                    <td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)" 
+            href="http://www.teach.ltu.edu.tw/Home/Index?gpid=30" 
+            target="new"><img border="0" 
+            src="../image/ch2.gif" /></a></td>
+                    
+                    <td bgcolor="#FFFFFF" class="wword05">Graduate 
+                      Institute of Information Management <strong>and Applications</strong></td>
+                    </tr>
+                  
+                  <tr class="sub">
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <td align="center" bgcolor="#FFFFFF"><a title="English website(open new window)" 
+            href="../download/Department of Information Management.pdf" target="new"><img 
+            border="0" 
+            src="../image/en2.gif" /></a></td>
+                    <td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)" 
+            href="http://www.teach.ltu.edu.tw/Home/Index?gpid=30" target="new"><img border="0" 
+            src="../image/ch2.gif" /></a></td>
+                    <td bgcolor="#FFFFFF" class="wword05">Department 
+                      of Information Management(B.B.A.)</td>
+                    </tr>
+                  <tr class="sub">
+                    <td align="center" bgcolor="#FFFFFF"><a title="English website(open new window)" 
+            href="../download/Department of Information Technology.pdf" target="new"><img 
+            border="0" 
+            src="../image/en2.gif" /></a></td>
+                    <td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)" 
+            href="http://www.teach.ltu.edu.tw/Home/Welcome?gpid=29" target="new"><img border="0" 
+            src="../image/ch2.gif" /></a></td>
+                    <td bgcolor="#FFFFFF" class="wword05">Department 
+                      of Information Technology(B.S.)</td>
+                    </tr>
+                  <tr>
+                    <td align="center" bgcolor="#FFFFFF"><a title="English website(open new window)" 
+            href="image/1000/Management.pdf" target="new"><img 
+            border="0" 
+            src="../image/en1.gif" /></a></td>
+                    <td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)" 
+            href="http://www.teach.ltu.edu.tw/Home/Index?gpid=14" target="new"><img border="0" 
+            src="../image/ch1.gif" /></a></td>
+                    <td bgcolor="#FFFFFF" class="fromwword"><strong>College of Business and Management</strong></td>
+                  </tr>
+                  <tr class="sub">
+                    <td align="center" bgcolor="#FFFFFF"><a href="../download/Departments0331/Executive Master of Business Administration.pdf" target="new"><img src="../image/en2.gif" width="15" height="17" border="0" /></a></td>
+                    <td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)" 
+            href="http://www.teach.ltu.edu.tw/Home/Index?gpid=8" target="new"><img border="0" 
+            src="../image/ch2.gif" /></a></td>
+                    <td bgcolor="#FFFFFF" class="wword05">Executive 
+                      Master of Business Administration(EMBA)</td>
+                    </tr>
+                  <tr class="sub">
+                    <td align="center" bgcolor="#FFFFFF"><a href="../download/Departments0331/Department of Business Administration.pdf" target="new"><img 
+            border="0" 
+            src="../image/en2.gif" /></a></td>
+                    <td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)" 
+            href="http://www.teach.ltu.edu.tw/Home/Index?gpid=11" target="new"><img 
+            border="0" 
+            src="../image/ch2.gif" /></a></td>
+                    <td bgcolor="#FFFFFF" class="wword05">Graduate 
+                      Institute of Business Administration(M.B.A.)</td>
+                    </tr>
+                  <tr class="sub">
+                    <td align="center" bgcolor="#FFFFFF"><img 
+            border="0" 
+            src="../image/en2.gif" /></td>
+                    <td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)" 
+            href="http://www.teach.ltu.edu.tw/Home/Index?gpid=9" target="new"><img border="0" 
+            src="../image/ch2.gif" /></a></td>
+                    <td bgcolor="#FFFFFF" class="wword05">Graduate 
+                      Institute of Marketing and Logistics Management(M.B.A.)</td>
+                    </tr>
+                  <tr class="sub">
+                    <td align="center" bgcolor="#FFFFFF"><a href="../download/Departments0331/Department of International Business.pdf" target="new"><img src="../image/en2.gif" width="15" height="17" border="0" /></a></td>
+                    <td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)" 
+            href="http://www.teach.ltu.edu.tw/Home/Welcome?gpid=6" target="new"><img border="0" 
+            src="../image/ch2.gif" /></a></td>
+                    <td bgcolor="#FFFFFF" class="wword05">Graduate 
+                      Institute of International Business(M.B.A.)</td>
+                    </tr>
+                  <tr class="sub">
+                    <td align="center" bgcolor="#FFFFFF"><a title="English website(open new window)" 
+            href="../download/Graduate Institute of Tourism and Leisure Management.pdf" target="new"><img border="0" 
+            src="../image/en2.gif" /></a></td>
+                    <td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)" 
+            href="http://www.teach.ltu.edu.tw/Home/Index?gpid=7" target="new"><img border="0" 
+            src="../image/ch2.gif" /></a></td>
+                    <td bgcolor="#FFFFFF" class="wword05">Graduate 
+                      Institute of Tourism and Leisure Management(M.B.A.)</td>
+                    </tr>
+                  <tr class="sub">
+                    <td align="center" bgcolor="#FFFFFF"><a title="English website(open new window)" 
+            href="../download/Departments0331/Department of Business Administration.pdf" target="new"><img 
+            border="0" 
+            src="../image/en2.gif" /></a></td>
+                    <td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)" 
+            href="http://www.teach.ltu.edu.tw/Home/Index?gpid=11" target="new"><img border="0" 
+            src="../image/ch2.gif" /></a></td>
+                    <td bgcolor="#FFFFFF" class="wword05">Department 
+                      of Business Administration(B.B.A.)</td>
+                    </tr>
+                  <tr class="sub">
+                    <td align="center" bgcolor="#FFFFFF"><a title="English website(open new window)" 
+            href="../download/Department of Marketing &amp; Logistics Management.pdf" target="new"><img 
+            border="0" 
+            src="../image/en2.gif" /></a></td>
+                    <td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)" 
+            href="http://www.teach.ltu.edu.tw/Home/Index?gpid=9" target="new"><img border="0" 
+            src="../image/ch2.gif" /></a></td>
+                    <td bgcolor="#FFFFFF" class="wword05">Department 
+                      of Marketing and Logistics Management(B.B.A.)</td>
+                    </tr>
+                  <tr class="sub">
+                    <td align="center" bgcolor="#FFFFFF"><a title="English website(open new window)" 
+            href="../download/Department of Tourism and Leisure Management.pdf" target="new"><img border="0" 
+            src="../image/en2.gif" /></a></td>
+                    <td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)" 
+            href="http://www.teach.ltu.edu.tw/Home/Index?gpid=7" target="new"><img border="0" 
+            src="../image/ch2.gif" /></a></td>
+                    <td bgcolor="#FFFFFF" class="wword05">Department 
+                      of Tourism and Leisure Management(B.B.A.)</td>
+                    </tr>
+                  <tr class="sub">
+                    <td align="center" bgcolor="#FFFFFF"><a href="../download/Departments0331/Department of International Business.pdf" target="new"><img src="../image/en2.gif" width="15" height="17" border="0" /></a></td>
+                    <td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)" 
+            href="http://www.teach.ltu.edu.tw/Home/Welcome?gpid=6" target="new"><img border="0" 
+            src="../image/ch2.gif" /></a></td>
+                    <td bgcolor="#FFFFFF" class="wword05">Department 
+                      of International Business(B.B.A.)</td>
+                    </tr>
+                  <tr class="sub">
+                    <td align="center" bgcolor="#FFFFFF"><a title="English website(open new window)" 
+            href="../download/Department of Applied Foreign Languages.pdf" 
+            target="new"><img border="0" 
+            src="../image/en2.gif" /></a></td>
+                    <td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)" 
+            href="http://www.teach.ltu.edu.tw/Home/Index?gpid=12" target="new"><img border="0" 
+            src="../image/ch2.gif" /></a></td>
+                    <td bgcolor="#FFFFFF" class="wword05">Department 
+                      of Applied Foreign Languages(B.B.A.)</td>
+                  </tr>
+                  <tr class="sub">
+                    <td align="center" bgcolor="#FFFFFF"><a title="English website(open new window)" 
+            href="../download/Departments0331/Graduate Institute of Finance.pdf" target="new"><img 
+            border="0" 
+            src="../image/en2.gif" /></a></td>
+                    <td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)" 
+            href="http://www.teach.ltu.edu.tw/Home/Index?gpid=15" target="new"><img border="0" 
+            src="../image/ch2.gif" /></a></td>
+                    <td bgcolor="#FFFFFF" class="wword05">Graduate 
+                      Institute of Finance(M.B.A.)</td>
+                  </tr>
+                  <tr class="sub">
+                    <td align="center" bgcolor="#FFFFFF"><a title="English website(open new window)" 
+            href="../download/Departments0331/Department of Accounting and Information Technology.pdf" target="new"><img 
+            border="0" 
+            src="../image/en2.gif" /></a></td>
+                    <td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)" 
+            href="http://www.teach.ltu.edu.tw/Home/Index?gpid=19" target="new"><img border="0" 
+            src="../image/ch2.gif" /></a></td>
+                    <td bgcolor="#FFFFFF" class="wword05">Graduate Institute of Accounting and Information Technology(M.B.A.)</td>
+                  </tr>
+                  <tr class="sub">
+                    <td align="center" bgcolor="#FFFFFF"><a title="English website(open new window)" 
+            href="../download/Graduate Institute of Financial and Economic Law.pdf" target="new"><img 
+            border="0" 
+            src="../image/en2.gif" /></a></td>
+                    <td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)" 
+            href="http://www.teach.ltu.edu.tw/Home/Index?gpid=16" target="new"><img border="0" 
+            src="../image/ch2.gif" /></a></td>
+                    <td bgcolor="#FFFFFF" class="wword05">Graduate 
+                      Institute of Financial and Economic Law(LL.M.)</td>
+                  </tr>
+                  <tr class="sub">
+                    <td align="center" bgcolor="#FFFFFF"><a href="../download/Departments0331/Graduate Institute of Finance.pdf" target="new"><img border="0" src="../image/en2.gif" width="15" height="17" /></a></td>
+                    <td align="center" bgcolor="#FFFFFF"><a href="http://www.teach.ltu.edu.tw/Home/Index?gpid=15" target="new"><img
+ border="0" src="../image/ch2.gif" width="15" height="17" /></a></td>
+                    <td bgcolor="#FFFFFF" class="wword05">Department of Finance(M.B.A.)</td>
+                  </tr>
+                  <tr class="sub">
+                    <td align="center" bgcolor="#FFFFFF"><a title="English website(open new window)" 
+            href="../download/Departments0331/Department of Accounting and Information Technology.pdf" target="new"><img 
+            border="0" 
+            src="../image/en2.gif" /></a><a title="English website(open new window)" 
+            href="../download/Department of Applied Foreign Languages.pdf" 
+            target="new"></a></td>
+                    <td align="center" bgcolor="#FFFFFF"><a title="Chinese website(open new window)" 
+            href="http://www.teach.ltu.edu.tw/Home/Index?gpid=19" target="new"><img border="0" 
+            src="../image/ch2.gif" /></a><a title="Chinese website(open new window)" 
+            href="http://www.teach.ltu.edu.tw/Home/Index?gpid=12" target="new"></a></td>
+                    <td bgcolor="#FFFFFF" class="wword05">Department 
+                      of Accounting and Information Technology(B.B.A.)</td>
+                  </tr>
+                  </tbody>
+              </table></td>
+            </tr>
+            <tr>
+              <td align="right"><a href="#top" class="seo3">TOP</a></td>
+            </tr>
+            <tr>
+              <td align="right" class="li04">&nbsp;</td>
+            </tr>
+            <tr>
+              <td align="left"><p class="wword03"><br />
+                Copyright <img src="../image/c.gif" width="9" height="9" />  Ling Tung University<br />
+                1, Ling tung Rd., Taichung, 
+                Taiwan, R.O.C. Tel:886-4-2389-2088</p></td>
+            </tr>
+          </table></td>
+        </tr>
+      </table></td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>
