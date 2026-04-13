@@ -471,7 +471,7 @@ class OllamaError extends Error {
 function getOllamaErrorHelp(err) {
   const helps = {
     connection: `⚠️ Ollama tidak berjalan.\n\n**Cara memulai Ollama:**\n1. Buka terminal\n2. Jalankan: \`ollama serve\`\n3. Pastikan berjalan di port 11434`,
-    model_not_found: `⚠️ ${err.message}\n\n**Download model:**\n\`ollama pull llama3.2:3b\``,
+    model_not_found: `⚠️ ${err.message}\n\n**Download model:**\n\`ollama pull qwen2.5-coder:7b\``,
     timeout: `⏱️ ${err.message}\n\nModel mungkin sedang loading ke VRAM. Coba kirim ulang pertanyaan.`,
     server_error: `🔴 ${err.message}`,
     parse_error: `⚠️ ${err.message}`,

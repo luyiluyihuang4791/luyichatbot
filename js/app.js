@@ -46,26 +46,30 @@ const AppState = {
   // Getter: bahasa jawaban yang dipilih pengguna
   get responseLanguage() {
     return (
-      document.getElementById("cfg-language")?.value || "english"
+      document.getElementById("cfg-language")?.value || "auto"
     ).toString();
   },
 };
 
 function getEffectiveSystemPrompt() {
   const basePrompt = AppState.systemPrompt;
-  const langLabels = {
-    english: "English",
-    traditional_chinese: "Traditional Chinese (Taiwan)",
-    vietnamese: "Vietnamese",
-    indonesian: "Indonesian",
-    thai: "Thai",
-  };
   const lang = AppState.responseLanguage;
-  const selectedLabel = langLabels[lang] || "English";
+
+  // Peta bahasa → instruksi eksplisit untuk AI
+  const langInstructions = {
+    auto: `LANGUAGE RULE: Detect the language from the user's message and reply in EXACTLY that same language. Do not mix languages.`,
+    english: `LANGUAGE RULE: You MUST reply in English only. Every word of your response must be in English, regardless of what language the user writes in.`,
+    traditional_chinese: `LANGUAGE RULE: You MUST reply in Traditional Chinese (繁體中文) only. Every word of your response must be in Traditional Chinese. Do not use Simplified Chinese. Regardless of what language the user writes in.`,
+    vietnamese: `LANGUAGE RULE: You MUST reply in Vietnamese (Ti\u1ebfng Vi\u1ec7t) only. Every word of your response must be in Vietnamese, regardless of what language the user writes in.`,
+    indonesian: `LANGUAGE RULE: You MUST reply in Bahasa Indonesia only. Every word of your response must be in Indonesian, regardless of what language the user writes in.`,
+    thai: `LANGUAGE RULE: You MUST reply in Thai (\u0e20\u0e32\u0e29\u0e32\u0e44\u0e17\u0e22) only. Every word of your response must be in Thai script, regardless of what language the user writes in.`,
+  };
+
+  const instruction = langInstructions[lang] || langInstructions.auto;
 
   return `${basePrompt.trim()}
 
-Answer in ${selectedLabel}. If the user asks in another one of the supported languages, keep responding in the selected language.`;
+${instruction}`;
 }
 
 function loadSavedSettings() {
@@ -95,7 +99,7 @@ function saveSettings() {
       DEFAULT_MODEL_CONFIG.options.num_ctx,
     useMemory:
       document.getElementById("cfg-use-memory")?.checked ?? AppState.useMemory,
-    language: document.getElementById("cfg-language")?.value || "english",
+    language: document.getElementById("cfg-language")?.value || "auto",
   };
   localStorage.setItem("ltuBotSettings", JSON.stringify(settings));
 }
@@ -114,7 +118,15 @@ function applySavedSettings() {
 
   if (endpointInput)
     endpointInput.value = saved.endpoint || AppState.ollamaBaseUrl;
-  if (modelInput) modelInput.value = saved.model || DEFAULT_MODEL_CONFIG.model;
+  if (modelInput) {
+    // Otomatis pindah ke qwen2.5-coder:7b jika user masih menggunakan model lama
+    if (saved.model === "llama3.2:3b") {
+      modelInput.value = DEFAULT_MODEL_CONFIG.model;
+      saveSettings();
+    } else {
+      modelInput.value = saved.model || DEFAULT_MODEL_CONFIG.model;
+    }
+  }
   if (tempInput)
     tempInput.value =
       saved.temperature ?? DEFAULT_MODEL_CONFIG.options.temperature;
@@ -124,7 +136,7 @@ function applySavedSettings() {
     numCtxInput.value = saved.num_ctx ?? DEFAULT_MODEL_CONFIG.options.num_ctx;
   if (useMemoryInput)
     useMemoryInput.checked = saved.useMemory ?? AppState.useMemory;
-  if (languageInput) languageInput.value = saved.language || "english";
+  if (languageInput) languageInput.value = saved.language || "auto";
 }
 
 // ─── Inisialisasi aplikasi ─────────────────────────────────
@@ -166,7 +178,7 @@ function initUI() {
     DEFAULT_MODEL_CONFIG.options.num_ctx;
   document.getElementById("cfg-endpoint").value = AppState.ollamaBaseUrl;
   document.getElementById("cfg-use-memory").checked = AppState.useMemory;
-  document.getElementById("cfg-language").value = "english";
+  document.getElementById("cfg-language").value = "auto";
 
   // Muat konfigurasi tersimpan jika ada
   applySavedSettings();
