@@ -90,6 +90,7 @@ http://localhost:8080.
 - `docker-compose.yml` sudah mengatur service `web` dan `ollama`.
 - Service `web` melayani static site lewat Nginx.
 - Service `ollama` membuka port `11434`.
+- Jika kamu sudah memiliki container `chatbot-ollama-1`, cukup gunakan endpoint `http://localhost:11434` dan jangan jalankan Docker Compose lagi.
 - Jika laptop tidak punya GPU, sesuaikan pengaturan Docker Compose dengan menghapus atau mengomentari bagian `deploy.resources.reservations.devices`.
 
 ## 5. Struktur file penting

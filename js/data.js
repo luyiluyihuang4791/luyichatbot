@@ -737,5 +737,5 @@ const DEFAULT_MODEL_CONFIG = {
 /**
  * Endpoint Ollama default
  */
-// Port 11435 sesuai docker-compose.yml (host:11435 → container:11434)
+// Gunakan container Ollama yang sudah berjalan pada localhost:11434
 const OLLAMA_ENDPOINT = "http://localhost:11434/api/chat";

@@ -20,10 +20,14 @@ const AppState = {
       stream: true, // Selalu gunakan streaming
       options: {
         temperature:
-          parseFloat(document.getElementById("cfg-temperature")?.value) || 0.1,
-        top_p: parseFloat(document.getElementById("cfg-top-p")?.value) || 0.9,
+          parseFloat(document.getElementById("cfg-temperature")?.value) ||
+          DEFAULT_MODEL_CONFIG.options.temperature,
+        top_p:
+          parseFloat(document.getElementById("cfg-top-p")?.value) ||
+          DEFAULT_MODEL_CONFIG.options.top_p,
         num_ctx:
-          parseInt(document.getElementById("cfg-num-ctx")?.value) || 4096,
+          parseInt(document.getElementById("cfg-num-ctx")?.value) ||
+          DEFAULT_MODEL_CONFIG.options.num_ctx,
       },
     };
   },
@@ -119,8 +123,8 @@ function applySavedSettings() {
   if (endpointInput)
     endpointInput.value = saved.endpoint || AppState.ollamaBaseUrl;
   if (modelInput) {
-    // Otomatis pindah ke qwen2.5-coder:7b jika user masih menggunakan model lama
-    if (saved.model === "llama3.2:3b") {
+    // Selalu gunakan qwen2.5-coder:7b sebagai model utama
+    if (saved.model && saved.model !== DEFAULT_MODEL_CONFIG.model) {
       modelInput.value = DEFAULT_MODEL_CONFIG.model;
       saveSettings();
     } else {

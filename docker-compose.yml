@@ -13,7 +13,8 @@ services:
       interval: 30s
       timeout: 10s
       retries: 3
-    # Aplikasi web hanya serves static files; set endpoint Ollama di UI ke http://localhost:11435
+    # Aplikasi web hanya serves static files.
+    # Jika memakai container Ollama yang sudah berjalan, gunakan endpoint UI: http://localhost:11434
 
   ollama:
     image: ollama/ollama:latest
