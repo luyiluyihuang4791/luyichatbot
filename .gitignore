@@ -1,4 +1,65 @@
-js/config.js
+# ============================================
+# Environment & Credentials (NEVER commit)
+# ============================================
+.env
+.env.local
+.env.production
+*.local
+
+# ============================================
+# Claude Code files
+# ============================================
 .claude/settings.local.json
+.claude/settings.json
 .claude
 claude.md
+claude-*.log
+claude-*.log.*
+
+# ============================================
+# Dependencies
+# ============================================
+node_modules/
+
+# ============================================
+# Build artifacts
+# ============================================
+dist/
+build/
+*.tgz
+
+# ============================================
+# Logs
+# ============================================
+logs/
+*.log
+npm-debug.log*
+
+# ============================================
+# OS files
+# ============================================
+.DS_Store
+Thumbs.db
+
+# ============================================
+# IDE files
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ============================================
+# Temporary files (from data extraction)
+# ============================================
+tmp_*.py
+tmp_*.txt
+*.php.html
+page.html
+taglines_extraction.txt
+keyword_extract_output.txt
+tmp_search_output.txt
+tmp_sentences_output.txt
+tmp_sentences_output2.txt
+scholarships_context.txt
+nternational.php.html
