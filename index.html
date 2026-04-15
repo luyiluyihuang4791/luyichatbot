@@ -144,14 +144,14 @@
                   d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"
                 />
               </svg>
-              <span id="active-model-badge">qwen2.5-coder:7b</span>
+              <span id="active-model-badge">MiniMax-M2.7</span>
             </div>
 
-            <!-- Status Ollama -->
+            <!-- Status MiniMax -->
             <div
               class="status-badge"
               id="ollama-status"
-              title="Status koneksi Ollama"
+              title="Status koneksi MiniMax"
             >
               <div class="status-dot offline" id="status-indicator"></div>
               <span id="status-text">Memeriksa...</span>
@@ -255,12 +255,10 @@
               stroke="currentColor"
               stroke-width="2"
             >
-              <circle cx="12" cy="12" r="3" />
-              <path
-                d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"
-              />
+              <path d="M12 2L2 7l10 5 10-5-10-5z" />
+              <path d="M2 17l10 5 10-5M2 12l10 5 10-5" />
             </svg>
-            Model
+            API
           </button>
         </nav>
 
@@ -416,7 +414,7 @@
             </div>
           </div>
 
-          <!-- ── TAB: Konfigurasi Model ── -->
+          <!-- ── TAB: Konfigurasi API MiniMax ── -->
           <div
             class="tab-panel"
             id="tab-config"
@@ -424,31 +422,30 @@
             aria-labelledby="btn-tab-config"
           >
             <div class="section-header">
-              <span class="section-title">Konfigurasi Model</span>
+              <span class="section-title">Konfigurasi API</span>
             </div>
 
             <div class="info-box">
-              💡 Konfigurasi ini menentukan perilaku model AI. Perubahan
-              langsung berpengaruh pada permintaan berikutnya.
+              💡 Masukkan API key MiniMax untuk connects ke model AI.
+              API key disimpan lokal di browser Anda.
             </div>
 
-            <!-- Endpoint Ollama -->
+            <!-- API Key -->
             <div class="form-group">
-              <label class="form-label" for="cfg-endpoint">
-                Ollama Base URL
-                <span class="hint">(tanpa /api/chat)</span>
+              <label class="form-label" for="cfg-api-key">
+                API Key MiniMax
               </label>
               <input
-                type="url"
-                id="cfg-endpoint"
+                type="password"
+                id="cfg-api-key"
                 class="form-input"
-                placeholder="http://localhost:11434"
-                aria-label="Endpoint Ollama"
+                placeholder="sk-cp-..."
+                aria-label="API Key MiniMax"
               />
               <button
                 class="btn btn-secondary btn-full"
                 style="margin-top: 8px"
-                onclick="checkOllamaConnection()"
+                onclick="checkApiConnection()"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -468,6 +465,21 @@
 
             <div class="divider"></div>
 
+            <!-- Endpoint -->
+            <div class="form-group">
+              <label class="form-label" for="cfg-endpoint">
+                API Endpoint
+                <span class="hint">(biasanya tidak perlu diubah)</span>
+              </label>
+              <input
+                type="url"
+                id="cfg-endpoint"
+                class="form-input"
+                placeholder="https://api.minimax.chat/v1/text/chatcompletion_pro"
+                aria-label="API Endpoint MiniMax"
+              />
+            </div>
+
             <!-- Nama model -->
             <div class="form-group">
               <label class="form-label" for="cfg-model">Nama Model</label>
@@ -475,27 +487,9 @@
                 type="text"
                 id="cfg-model"
                 class="form-input"
-                placeholder="qwen2.5-coder:7b"
-                aria-label="Nama model Ollama"
+                placeholder="abab6.5s-chat"
+                aria-label="Nama model MiniMax"
               />
-              <p
-                style="
-                  font-size: 0.7rem;
-                  color: var(--text-muted);
-                  margin-top: 5px;
-                "
-              >
-                Harus sudah ter-install di Ollama. Jalankan:
-                <code
-                  style="
-                    background: var(--surface-3);
-                    padding: 1px 5px;
-                    border-radius: 3px;
-                    font-family: monospace;
-                  "
-                  >ollama pull qwen2.5-coder:7b</code
-                >
-              </p>
             </div>
 
             <!-- Bahasa Jawaban -->
@@ -571,23 +565,6 @@
               />
             </div>
 
-            <!-- Context length -->
-            <div class="form-group">
-              <label class="form-label" for="cfg-num-ctx"
-                >Context Length (num_ctx)
-                <span class="hint">— panjang konteks</span></label
-              >
-              <input
-                type="number"
-                id="cfg-num-ctx"
-                class="form-input"
-                min="1024"
-                max="32768"
-                step="1024"
-                aria-label="Context length"
-              />
-            </div>
-
             <!-- Toggle Memory Kampus -->
             <div
               class="form-group"
@@ -622,16 +599,14 @@
               style="background: var(--surface-3); border-color: var(--border)"
             >
               ⚡ Stream mode <strong>aktif</strong> — jawaban muncul bertahap
-              secara real-time, seperti efek mengetik. Timeout diperpanjang ke
-              <strong>5 menit</strong>.
+              secara real-time, seperti efek mengetik.
             </div>
             <p class="section-desc" style="margin-top: 10px">
-              Pengaturan model disimpan otomatis di browser dan dapat diubah
-              kapan saja lewat tab <strong>Model</strong>.
+              Pengaturan disimpan otomatis di browser dan dapat diubah
+              kapan saja lewat tab <strong>API</strong>.
             </p>
           </div>
         </div>
-        <!-- .sidebar-content -->
         <!-- .sidebar-content -->
       </aside>
     </div>
@@ -639,12 +614,13 @@
 
     <!-- =====================================================
      SCRIPTS — Urutan penting!
-     1. data.js  → konstanta & default data
-     2. ollama.js → fungsi API
-     3. app.js   → logic UI & state
+     1. data.js   → konstanta & default data
+     2. minimax.js → fungsi API MiniMax
+     3. app.js    → logic UI & state
 ====================================================== -->
+    <script src="js/config.js"></script>
     <script src="js/data.js"></script>
-    <script src="js/ollama.js"></script>
+    <script src="js/minimax.js"></script>
     <script src="js/app.js"></script>
 
     <!-- Helper function tambahan yang dipanggil inline dari HTML -->

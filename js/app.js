@@ -6,10 +6,14 @@
 const AppState = {
   chatHistory: [], // Riwayat percakapan [{role, content}]
   isLoading: false, // Status loading saat menunggu response
-  mockMode: false, // True jika Ollama tidak aktif
-  modelReady: false, // True jika model sudah loaded di VRAM
+  apiReady: false, // True jika API key sudah diset dan valid
   useMemory: true, // Apakah menggunakan memory kampus
-  ollamaBaseUrl: "http://localhost:11434",
+
+  // Getter: API key dari form (fallback ke default API key)
+  get apiKey() {
+    const formKey = document.getElementById("cfg-api-key")?.value;
+    return formKey && formKey.trim() ? formKey : MINIMAX_API_KEY;
+  },
 
   // Getter: konfigurasi model dari form
   get modelConfig() {
@@ -17,7 +21,7 @@ const AppState = {
       model:
         document.getElementById("cfg-model")?.value ||
         DEFAULT_MODEL_CONFIG.model,
-      stream: true, // Selalu gunakan streaming
+      stream: true,
       options: {
         temperature:
           parseFloat(document.getElementById("cfg-temperature")?.value) ||
@@ -25,19 +29,13 @@ const AppState = {
         top_p:
           parseFloat(document.getElementById("cfg-top-p")?.value) ||
           DEFAULT_MODEL_CONFIG.options.top_p,
-        num_ctx:
-          parseInt(document.getElementById("cfg-num-ctx")?.value) ||
-          DEFAULT_MODEL_CONFIG.options.num_ctx,
       },
     };
   },
 
-  // Getter: endpoint Ollama dari form
+  // Getter: endpoint MiniMax dari form
   get endpoint() {
-    return (
-      (document.getElementById("cfg-endpoint")?.value || this.ollamaBaseUrl) +
-      "/api/chat"
-    );
+    return document.getElementById("cfg-endpoint")?.value || MINIMAX_ENDPOINT;
   },
 
   // Getter: system prompt dari textarea
@@ -89,7 +87,7 @@ function loadSavedSettings() {
 function saveSettings() {
   const settings = {
     endpoint:
-      document.getElementById("cfg-endpoint")?.value || AppState.ollamaBaseUrl,
+      document.getElementById("cfg-endpoint")?.value || MINIMAX_ENDPOINT,
     model:
       document.getElementById("cfg-model")?.value || DEFAULT_MODEL_CONFIG.model,
     temperature:
@@ -98,12 +96,10 @@ function saveSettings() {
     top_p:
       parseFloat(document.getElementById("cfg-top-p")?.value) ||
       DEFAULT_MODEL_CONFIG.options.top_p,
-    num_ctx:
-      parseInt(document.getElementById("cfg-num-ctx")?.value) ||
-      DEFAULT_MODEL_CONFIG.options.num_ctx,
     useMemory:
       document.getElementById("cfg-use-memory")?.checked ?? AppState.useMemory,
     language: document.getElementById("cfg-language")?.value || "auto",
+    apiKey: AppState.apiKey,
   };
   localStorage.setItem("ltuBotSettings", JSON.stringify(settings));
 }
@@ -116,41 +112,39 @@ function applySavedSettings() {
   const modelInput = document.getElementById("cfg-model");
   const tempInput = document.getElementById("cfg-temperature");
   const topPInput = document.getElementById("cfg-top-p");
-  const numCtxInput = document.getElementById("cfg-num-ctx");
   const useMemoryInput = document.getElementById("cfg-use-memory");
   const languageInput = document.getElementById("cfg-language");
+  const apiKeyInput = document.getElementById("cfg-api-key");
 
-  if (endpointInput)
-    endpointInput.value = saved.endpoint || AppState.ollamaBaseUrl;
+  // Auto-fix: override wrong old endpoint with correct one
+  if (endpointInput) {
+    endpointInput.value = (saved.endpoint && !saved.endpoint.includes("minimax.chat"))
+      ? saved.endpoint
+      : MINIMAX_ENDPOINT;
+  }
   if (modelInput) {
-    // Selalu gunakan qwen2.5-coder:7b sebagai model utama
-    if (saved.model && saved.model !== DEFAULT_MODEL_CONFIG.model) {
-      modelInput.value = DEFAULT_MODEL_CONFIG.model;
-      saveSettings();
-    } else {
-      modelInput.value = saved.model || DEFAULT_MODEL_CONFIG.model;
-    }
+    modelInput.value = saved.model || DEFAULT_MODEL_CONFIG.model;
   }
   if (tempInput)
     tempInput.value =
       saved.temperature ?? DEFAULT_MODEL_CONFIG.options.temperature;
   if (topPInput)
     topPInput.value = saved.top_p ?? DEFAULT_MODEL_CONFIG.options.top_p;
-  if (numCtxInput)
-    numCtxInput.value = saved.num_ctx ?? DEFAULT_MODEL_CONFIG.options.num_ctx;
   if (useMemoryInput)
     useMemoryInput.checked = saved.useMemory ?? AppState.useMemory;
   if (languageInput) languageInput.value = saved.language || "auto";
+  if (apiKeyInput && saved.apiKey) {
+    apiKeyInput.value = saved.apiKey;
+    AppState.apiReady = true;
+  }
 }
 
 // ─── Inisialisasi aplikasi ─────────────────────────────────
 async function startApp() {
   initUI();
   renderWelcomeMessage();
-  await checkOllamaConnection();
-  // Cek koneksi tiap 30 detik, cek readiness model tiap 15 detik
-  setInterval(checkOllamaConnection, 30000);
-  setInterval(refreshModelStatus, 15000);
+  await checkApiConnection();
+  setInterval(checkApiConnection, 30000);
 }
 
 if (document.readyState === "loading") {
@@ -166,7 +160,6 @@ function initUI() {
   console.log("initUI started");
 
   // Isi nilai default di panel konfigurasi
-  // Isi nilai default di panel konfigurasi
   document.getElementById("system-prompt").value = DEFAULT_SYSTEM_PROMPT;
   document.getElementById("campus-memory").value = JSON.stringify(
     DEFAULT_CAMPUS_MEMORY,
@@ -178,10 +171,9 @@ function initUI() {
     DEFAULT_MODEL_CONFIG.options.temperature;
   document.getElementById("cfg-top-p").value =
     DEFAULT_MODEL_CONFIG.options.top_p;
-  document.getElementById("cfg-num-ctx").value =
-    DEFAULT_MODEL_CONFIG.options.num_ctx;
-  document.getElementById("cfg-endpoint").value = AppState.ollamaBaseUrl;
-  document.getElementById("cfg-use-memory").checked = AppState.useMemory;
+  document.getElementById("cfg-endpoint").value = MINIMAX_ENDPOINT;
+  document.getElementById("cfg-api-key").value = MINIMAX_API_KEY;
+  AppState.apiReady = true;
   document.getElementById("cfg-language").value = "auto";
 
   // Muat konfigurasi tersimpan jika ada
@@ -205,19 +197,17 @@ function initUI() {
   updateModelBadge();
   document.getElementById("cfg-model").addEventListener("input", () => {
     updateModelBadge();
-    // Reset model ready state saat nama model berubah
-    AppState.modelReady = false;
-    refreshModelStatus();
     saveSettings();
   });
 
   document.getElementById("cfg-top-p").addEventListener("change", saveSettings);
-  document
-    .getElementById("cfg-num-ctx")
-    .addEventListener("change", saveSettings);
-  document
-    .getElementById("cfg-endpoint")
-    .addEventListener("change", saveSettings);
+  document.getElementById("cfg-endpoint").addEventListener("change", saveSettings);
+
+  // API Key input - trigger connection check on change
+  document.getElementById("cfg-api-key").addEventListener("change", async () => {
+    saveSettings();
+    await checkApiConnection();
+  });
 
   // Update useMemory state
   document.getElementById("cfg-use-memory").addEventListener("change", (e) => {
@@ -297,50 +287,34 @@ function initUI() {
   console.log("initUI finished");
 }
 
-// ─── Cek status koneksi Ollama ─────────────────────────────
-async function checkOllamaConnection() {
-  const baseUrl =
-    document.getElementById("cfg-endpoint")?.value || AppState.ollamaBaseUrl;
-  const status = await checkOllamaStatus(baseUrl);
+// ─── Cek status koneksi MiniMax API ────────────────────────
+async function checkApiConnection() {
+  const apiKey = AppState.apiKey;
+  const endpoint = AppState.endpoint;
+
+  if (!apiKey) {
+    AppState.apiReady = false;
+    updateStatusBadge("no-key");
+    return;
+  }
+
+  const status = await checkMiniMaxStatus(apiKey, endpoint);
 
   if (status.ok) {
-    AppState.mockMode = false;
-    // Cek model readiness setelah connection OK
-    await refreshModelStatus();
-  } else {
-    AppState.mockMode = true;
-    AppState.modelReady = false;
-    updateStatusBadge("offline");
-  }
-}
-
-/**
- * Refresh status model (apakah sudah di-load ke VRAM).
- * Dipanggil secara berkala dan setelah connection check.
- */
-async function refreshModelStatus() {
-  if (AppState.mockMode) return;
-
-  const baseUrl =
-    document.getElementById("cfg-endpoint")?.value || AppState.ollamaBaseUrl;
-  const modelName =
-    document.getElementById("cfg-model")?.value || DEFAULT_MODEL_CONFIG.model;
-
-  const isReady = await checkModelReady(baseUrl, modelName);
-  AppState.modelReady = isReady;
-
-  if (isReady) {
+    AppState.apiReady = true;
     updateStatusBadge("ready");
   } else {
-    updateStatusBadge("online");
+    AppState.apiReady = false;
+    updateStatusBadge("error", status.error);
   }
 }
 
 /**
  * Update tampilan status badge di header.
- * @param {"offline"|"online"|"ready"} state
+ * @param {"no-key"|"ready"|"error"} state
+ * @param {string} errorMessage
  */
-function updateStatusBadge(state) {
+function updateStatusBadge(state, errorMessage = "") {
   const indicator = document.getElementById("status-indicator");
   const statusText = document.getElementById("status-text");
   if (!indicator || !statusText) return;
@@ -348,18 +322,22 @@ function updateStatusBadge(state) {
   switch (state) {
     case "ready":
       indicator.className = "status-dot ready";
-      statusText.textContent = "Model Siap";
-      statusText.title = "Model sudah loaded di VRAM — siap menjawab!";
+      statusText.textContent = "MiniMax Ready";
+      statusText.title = "API terhubung dan siap";
       break;
-    case "online":
-      indicator.className = "status-dot online";
-      statusText.textContent = "Ollama Online";
-      statusText.title = "Ollama aktif, model belum dimuat ke memori";
+    case "no-key":
+      indicator.className = "status-dot offline";
+      statusText.textContent = "API Key Needed";
+      statusText.title = "Masukkan API key di panel konfigurasi";
       break;
-    case "offline":
+    case "error":
+      indicator.className = "status-dot offline";
+      statusText.textContent = "API Error";
+      statusText.title = errorMessage || "Gagal terhubung ke MiniMax";
+      break;
     default:
       indicator.className = "status-dot offline";
-      statusText.textContent = "Ollama Offline (Demo Mode)";
+      statusText.textContent = "MiniMax Offline";
       statusText.title = "Jalankan: ollama serve";
       break;
   }
@@ -377,6 +355,13 @@ async function sendMessage() {
   // Validasi input kosong
   if (!userMessage) {
     shakeInput(input);
+    return;
+  }
+
+  // Validasi API key
+  if (!AppState.apiKey) {
+    shakeInput(input);
+    appendMessage("error", "⚠️ API key belum diset.\n\nMasukkan API key MiniMax di panel konfigurasi tab \"API\".");
     return;
   }
 
@@ -408,26 +393,25 @@ async function sendMessage() {
   try {
     let responseText;
 
-    if (AppState.mockMode) {
-      // ── MOCK MODE: Ollama tidak aktif ──
+    if (!AppState.apiReady) {
+      // ── Demo Mode: API belum ready ──
       await simulateDelay(1000);
       responseText = getMockResponse(userMessage, campusMemory);
       removeLoadingBubble(loadingId);
       appendMessage("assistant", responseText);
     } else {
-      // ── REAL MODE: Kirim ke Ollama dengan STREAMING ──
+      // ── REAL MODE: Kirim ke MiniMax dengan STREAMING ──
       const messages = buildMessages(
         getEffectiveSystemPrompt(),
-        AppState.useMemory ? campusMemory : null, // Kirim null jika memory dimatikan
-        AppState.chatHistory.slice(0, -1), // Exclude pesan user yang baru saja ditambah
+        AppState.useMemory ? campusMemory : null,
+        AppState.chatHistory.slice(0, -1),
         userMessage,
       );
 
       const config = AppState.modelConfig;
-      const requestBody = buildRequestBody(
+      const requestBody = buildMiniMaxRequestBody(
         config.model,
         config.options,
-        true, // stream: true
         messages,
       );
 
@@ -444,7 +428,8 @@ async function sendMessage() {
       }, 3000);
 
       try {
-        responseText = await sendToOllamaStream(
+        responseText = await sendToMiniMaxStream(
+          AppState.apiKey,
           AppState.endpoint,
           requestBody,
           // onToken: update bubble secara live
@@ -460,18 +445,13 @@ async function sendMessage() {
           (fullContent) => {
             clearInterval(thinkingTimer);
             finalizeStreamingBubble(streamBubble, fullContent);
-            // Update model ready status karena model sudah merespons
-            if (!AppState.modelReady) {
-              AppState.modelReady = true;
-              updateStatusBadge("ready");
-            }
           },
         );
       } catch (streamErr) {
         clearInterval(thinkingTimer);
         // Hapus streaming bubble yang tertinggal
         streamBubble.wrapper?.remove();
-        throw streamErr; // Re-throw agar di-catch oleh outer catch
+        throw streamErr;
       }
     }
 
@@ -487,8 +467,8 @@ async function sendMessage() {
 
     // Tampilkan error di chat
     const helpMsg =
-      err instanceof OllamaError
-        ? getOllamaErrorHelp(err)
+      err instanceof MiniMaxError
+        ? getMiniMaxErrorHelp(err)
         : `❌ Error tak terduga: ${err.message}`;
 
     appendMessage("error", helpMsg);
@@ -496,11 +476,10 @@ async function sendMessage() {
     // Hapus pesan user dari history jika gagal
     AppState.chatHistory.pop();
 
-    // Tandai sebagai offline jika connection error
-    if (err.type === "connection") {
-      AppState.mockMode = true;
-      AppState.modelReady = false;
-      updateStatusBadge("offline");
+    // Tandai sebagai error jika connection/API error
+    if (err.type === "connection" || err.type === "invalid_api_key") {
+      AppState.apiReady = false;
+      updateStatusBadge("error", err.message);
     }
   } finally {
     setLoading(false);
@@ -719,7 +698,7 @@ function renderWelcomeMessage() {
   chatPanel.innerHTML = `
     <div class="welcome-state">
       <div class="welcome-icon">🎓</div>
-      <h2 class="welcome-title">Selamat Datang di LTU Botsss</h2>
+      <h2 class="welcome-title">Selamat Datang di LTU Bot</h2>
       <p class="welcome-subtitle">Asisten virtual FAQ 嶺東科技大學. Tanyakan apa saja seputar kampus!</p>
     </div>
   `;

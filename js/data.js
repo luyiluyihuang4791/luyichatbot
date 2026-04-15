@@ -725,17 +725,11 @@ const QUICK_QUESTIONS = [
  * Konfigurasi model default
  */
 const DEFAULT_MODEL_CONFIG = {
-  model: "qwen2.5-coder:7b",
+  model: "MiniMax-M2.7",
   stream: true,
   options: {
     temperature: 0.1,
     top_p: 0.9,
-    num_ctx: 8192, // 8192 diperlukan agar campus memory muat dalam context window
   },
 };
 
-/**
- * Endpoint Ollama default
- */
-// Gunakan container Ollama yang sudah berjalan pada localhost:11434
-const OLLAMA_ENDPOINT = "http://localhost:11434/api/chat";

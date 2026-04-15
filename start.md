@@ -8,119 +8,70 @@ Proyek ini adalah aplikasi web statis:
 
 - `index.html` sebagai entry point
 - `css/style.css` untuk styling
-- `js/app.js`, `js/ollama.js`, dan `js/data.js` untuk logic dan integrasi Ollama
+- `js/app.js`, `js/minimax.js`, dan `js/data.js` untuk logic dan integrasi MiniMax API
 
-Aplikasi dapat dijalankan dengan:
-
-- `Ollama` lokal + browser
-- Atau `Docker Compose` jika ingin menjalankan web dan Ollama dalam container
+Aplikasi menggunakan **MiniMax API** untuk kemampuan AI. Tidak ada Ollama atau Docker.
 
 > Tidak ada dependensi Node.js atau `npm install` yang dibutuhkan untuk aplikasi front-end ini.
 
 ## 2. Prasyarat
 
-Laptop lain harus memiliki salah satu dari berikut:
+Laptop lain harus memiliki:
 
 - Browser modern (Chrome, Edge, Firefox)
-- Ollama terpasang dan model tersedia
-- Atau Docker Desktop jika ingin menggunakan Docker Compose
+- Koneksi internet (untuk mengakses MiniMax API)
+- API key MiniMax (daftar di https://api.minimax.chat)
 
-### 2.1. Ollama
+## 3. Cara menjalankan
 
-Jika Anda ingin menggunakan kemampuan AI sesungguhnya, install Ollama:
-
-- Download dari: https://ollama.ai
-
-Kemudian download model default yang digunakan proyek:
-
-```bash
-ollama pull qwen3:4b-instruct
-```
-
-## 3. Cara menjalankan (Metode A): Local browser + Ollama
+### Method A: Live Server (Direkomendasikan)
 
 1. Buka folder proyek `ChatBot`.
-2. Jalankan Ollama:
+2. Jalankan Live Server:
 
 ```bash
-ollama serve
+npx serve . -p 3000
 ```
 
-3. Buka `index.html` di browser:
+3. Buka browser ke `http://localhost:3000`
 
-- Klik dua kali file `index.html`
-- Atau jalankan di Windows:
+4. Masukkan API key MiniMax di panel sidebar tab **"API"**
 
-```powershell
-start index.html
-```
+### Method B: Langsung buka file
 
-4. Pada panel `Model` di aplikasi, pastikan `Ollama Base URL` diatur ke:
+1. Klik dua kali file `index.html`
+2. Masukkan API key di panel sidebar tab **"API"**
 
-```
-http://localhost:11434
-```
+> Catatan: Untuk menghindari masalah CORS, gunakan Live Server.
 
-5. Mulai tanya dalam kotak chat.
-
-### Catatan
-
-- Jika Ollama tidak dapat dijangkau, aplikasi akan otomatis masuk `Demo Mode`.
-- Untuk menghindari masalah CORS, jalankan file lewat Live Server atau gunakan Docker.
-
-## 4. Cara menjalankan (Metode B): Docker Compose
-
-Jika laptop lain memiliki Docker Desktop, gunakan Docker Compose untuk menyalakan aplikasi web dan Ollama bersamaan.
-
-1. Buka folder proyek.
-2. Jalankan:
-
-```bash
-docker compose up --build
-```
-
-3. Akses aplikasi di browser:
-
-```
-http://localhost:8080.
-```
-
-### Catatan penting
-
-- `docker-compose.yml` sudah mengatur service `web` dan `ollama`.
-- Service `web` melayani static site lewat Nginx.
-- Service `ollama` membuka port `11434`.
-- Jika kamu sudah memiliki container `chatbot-ollama-1`, cukup gunakan endpoint `http://localhost:11434` dan jangan jalankan Docker Compose lagi.
-- Jika laptop tidak punya GPU, sesuaikan pengaturan Docker Compose dengan menghapus atau mengomentari bagian `deploy.resources.reservations.devices`.
-
-## 5. Struktur file penting
+## 4. Struktur file penting
 
 ```
 ChatBot/
 ├── index.html
 ├── css/style.css
 ├── js/data.js
-├── js/ollama.js
+├── js/minimax.js
 ├── js/app.js
-├── Dockerfile
-├── docker-compose.yml
+├── CLAUDE.md
+├── README.md
 └── start.md
 ```
 
-## 6. Troubleshooting umum
+## 5. Troubleshooting umum
 
-- `Model not found`: jalankan `ollama pull qwen3:4b-instruct`
-- `Cannot connect`: pastikan Ollama serve aktif di `localhost:11434`
-- `CORS error`: jalankan lewat Live Server atau gunakan Docker
-- `Demo Mode`: artinya aplikasi tidak menemukan Ollama, tetapi UI tetap bisa dilihat
+- `API Key Needed`: Masukkan API key di tab "API" di panel sidebar
+- `API Error`: Periksa apakah API key valid dan koneksi internet aktif
+- `CORS error`: Jalankan lewat Live Server (`npx serve . -p 3000`)
+- `Demo Mode`: Jika belum ada API key, chatbot akan gunakan mode demo
 
-## 7. Tips untuk laptop lain
+## 6. Tips untuk laptop lain
 
 - Copy seluruh folder `ChatBot` ke laptop yang baru
 - Pastikan browser sudah terpasang
-- Jika ingin menggunakan Ollama, install Ollama dan download model yang sama
-- Jika ingin cepat demo, buka `index.html` langsung dan gunakan mode offline jika Ollama belum tersedia
+- Daftar API key di https://api.minimax.chat jika belum punya
+- Masukkan API key di tab "API" sebelum menggunakan chatbot
 
 ---
 
-Selamat menjalankan proyek LTU Bot di laptop lain!
+Selamat menjalankan proyek LTU Bot!
